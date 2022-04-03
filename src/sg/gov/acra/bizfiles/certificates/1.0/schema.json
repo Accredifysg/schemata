@@ -1,0 +1,149 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://cdn.uat.accredify.io/schema/acra/bizfiles/certificates/1.0/schema.json",
+    "type": "object",
+    "properties": {
+        "entityType": {
+            "$ref": "../../common/definitions/1.0/schema.json#/definitions/entityType"
+        },
+        "entityName": {
+            "$ref": "../../common/definitions/1.0/schema.json#/definitions/entityName"
+        },
+        "changeOfNameDate": {
+            "$ref": "../../common/definitions/1.0/schema.json#/definitions/date",
+            "description": "The date at which the name was changed"
+        },
+        "incorporationDate": {
+            "$ref": "../../common/definitions/1.0/schema.json#/definitions/date",
+            "description": "The incorporation date of the company/business in YYYY-MM-DD format"
+        },
+        "registrationDate": {
+            "$ref": "../../common/definitions/1.0/schema.json#/definitions/date",
+            "description": "The registration date of the comapny/business in YYYY-MM-DD format"
+        },
+        "expiryDate": {
+            "$ref": "../../common/definitions/1.0/schema.json#/definitions/date",
+            "description": "The expiry date for this certificate in YYYY-MM-DD format"
+        },
+        "receiptDate": {
+            "$ref": "../../common/definitions/1.0/schema.json#/definitions/date",
+            "description": "The date at which this certificate was purchased in YYYY-MM-DD format"
+        },
+        "uen": {
+            "$ref": "../../common/definitions/1.0/schema.json#/definitions/uen"
+        },
+        "companyType": {
+            "$ref": "../../common/definitions/1.0/schema.json#/definitions/companyType"
+        },
+        "formerNames": {
+            "type": "array",
+            "description": "Former names that the company/business was known by and the date that the names were no longer used",
+            "items": {
+                "additionalProperties": false,
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "examples": [
+                            "CEITO PTE. LTD."
+                        ]
+                    },
+                    "effectiveFrom": {
+                        "type": "string",
+                        "format": "date",
+                        "examples": [
+                            "2019-07-24"
+                        ],
+                        "pattern": "(((19|20)([2468][048]|[13579][26]|0[48])|2000)[-]02[-]29|((19|20)[0-9]{2}[-](0[469]|11)[-](0[1-9]|[12][0-9]|30)|(19|20)[0-9]{2}[-](0[13578]|1[02])[-](0[1-9]|[12][0-9]|3[01])|(19|20)[0-9]{2}[-]02[-](0[1-9]|1[0-9]|2[0-8])))"
+                    }
+                },
+                "required": [
+                    "name",
+                    "effectiveFrom"
+                ]
+            }
+        },
+        "signatureName": {
+            "$ref": "../../common/definitions/1.0/schema.json#/definitions/signatureName"
+        },
+        "authenticationNumber": {
+            "$ref": "../../common/definitions/1.0/schema.json#/definitions/authenticationNumber"
+        },
+        "country": {
+            "$ref": "../../common/definitions/1.0/schema.json#/definitions/country"
+        },
+        "receiptNumber": {
+            "$ref": "../../common/definitions/1.0/schema.json#/definitions/receiptNumber"
+        },
+        "qrCode": {
+            "$ref": "../../common/definitions/1.0/schema.json#/definitions/qrCode"
+        }
+    },
+    "anyOf": [
+        {
+            "properties": {
+                "entityType": {
+                    "const": "foreignCompany"
+                }
+            },
+            "required": [
+                "country",
+                "incorporationDate"
+            ]
+        },
+        {
+            "properties": {
+                "entityType": {
+                    "const": "lp"
+                }
+            },
+            "required": [
+                "registrationDate"
+            ]
+        },
+        {
+            "properties": {
+                "entityType": {
+                    "const": "llp"
+                }
+            },
+            "required": [
+                "registrationDate"
+            ]
+        },
+        {
+            "properties": {
+                "entityType": {
+                    "const": "business"
+                }
+            },
+            "required": [
+                "registrationDate"
+            ]
+        },
+        {
+            "properties": {
+                "entityType": {
+                    "const": "company"
+                }
+            },
+            "required": [
+                "incorporationDate"
+            ]
+        }
+    ],
+    "dependentRequired": {
+        "formerNames": [
+            "changeOfNameDate"
+        ]
+    },
+    "required": [
+        "entityName",
+        "entityType",
+        "uen",
+        "receiptDate",
+        "receiptNumber",
+        "signatureName",
+        "authenticationNumber",
+        "qrCode"
+    ]
+}
