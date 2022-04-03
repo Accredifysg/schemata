@@ -1,0 +1,19 @@
+{
+	"entityType": "company",
+	"entityName": "Lucky Company Pte. LTD.",
+	"changeOfNameDate": "2016-10-01",
+	"uen": "201600008M",
+	"incorporationDate": "2016-08-08",
+	"companyType": "Limited exempt private company",
+	"formerNames": [
+		{
+			"name": "Unlucky Company Pte. ltd.",
+			"effectiveFrom": "2016-08-08"
+		}
+	],
+	"receiptNumber": "ACRAXXXXXXXXXX06",
+	"receiptDate": "2019-10-22",
+	"signatureName": "Tan Yong Tat",
+	"qrCode": "",
+	"authenticationNumber": "IXXXXXXX49"
+}

@@ -1,0 +1,19 @@
+{
+	"entityType": "foreignCompany",
+	"entityName": "Lucky Services Limited",
+	"changeOfNameDate": "2016-10-01",
+	"uen": "T16000008M",
+	"country": "FR",
+	"incorporationDate": "2016-08-08",
+	"formerNames": [
+		{
+			"name": "Unlucky Services Limited",
+			"effectiveFrom": "2016-08-08"
+		}
+	],
+	"receiptNumber": "ACRAXXXXXXXXXX06",
+	"receiptDate": "2019-10-22",
+	"signatureName": "Tan Yong Tat",
+	"qrCode": "",
+	"authenticationNumber": "IXXXXXXX49"
+}
