@@ -1,0 +1,333 @@
+{
+  "uen": "201900473R",
+  "entityName": "BP ALL SECTIONS PTE. LTD.",
+  "formerName": [
+    "asd"
+  ],
+  "companyType": "EXEMPT PRIVATE COMPANY LIMITED BY SHARES",
+  "status": "Live Company",
+  "statusDate": "2019-11-15",
+  "address": {
+    "type": "local",
+    "streetName": "SERANGOON AVENUE 4",
+    "postalCode": "550223",
+    "houseNumber": "223",
+    "buildingName": "BOUNDARY VILLE",
+    "invalidReason": "ACRA MAIL TO THIS ADDRESS WAS RETURNED UNDELIVERED ON 16/02/2017."
+  },
+  "changeOfAddressDate": "2019-11-15",
+  "activities": [
+    {
+      "name": "BANK/FINANCIAL HOLDING COMPANIES (64201)",
+      "description": "HOLDING COMPANIES"
+    },
+    {
+      "name": "REAL ESTATE ACTIVITIES WITH OWN OR LEASED PROPERTY N.E.C. (68109)",
+      "description": "INVESTMENT COMPANIES"
+    }
+  ],
+  "capitals": [
+    {
+      "type": "Issued Share Capital",
+      "shares": "200",
+      "currency": "Singapore, Dollars",
+      "sharesType": "Ordinary"
+    },
+    {
+      "type": "Issued Share Capital",
+      "shares": "100",
+      "currency": "UNITED STATES OF AMERICA, DOLLARS",
+      "sharesType": "Ordinary"
+    },
+    {
+      "type": "Paid-Up Capital",
+      "shares": "",
+      "currency": "Singapore, Dollars",
+      "sharesType": "Ordinary"
+    },
+    {
+      "type": "Paid-Up Capital",
+      "shares": "",
+      "currency": "UNITED STATES OF AMERICA, DOLLARS",
+      "sharesType": "Ordinary"
+    }
+  ],
+  "treasuryShares": [
+    {
+      "shares": "1000",
+      "currency": "AUSTRALIA, DOLLARS",
+      "sharesType": "Treasury",
+      "type": "Treasury Shares"
+    },
+    {
+      "shares": "100",
+      "currency": "Singapore, DOLLARS",
+      "sharesType": "Treasury",
+      "type": "Treasury Shares"
+    }
+  ],
+  "auditFirms": [
+    {
+      "name": "HTTIHXHU & THUJHH"
+    },
+    {
+      "name": "ASFDHSFH"
+    }
+  ],
+  "charges": [
+    {
+      "chargeNumber": "C201907131",
+      "dateRegistered": "15/11/2019",
+      "amountSecured": "All Monies",
+      "chargees": "YASH"
+    },
+    {
+      "chargeNumber": "C201907132",
+      "dateRegistered": "15/11/2019",
+      "currency": "SINGAPORE, DOLLARS",
+      "amountSecured": "1000000",
+      "chargees": "lee  JIAYING"
+    }
+  ],
+  "representatives": [
+    {
+      "name": "WALTER V. CAMPBELL",
+      "id": "S9741729F",
+      "nationality": "SINGAPORE CITIZEN",
+      "position": "Director",
+      "dqFrom": "21/03/2003",
+      "address": {
+        "type": "local",
+        "streetName": "SERANGOON AVENUE 4",
+        "postalCode": "550223",
+        "houseNumber": "223",
+        "buildingName": "BOUNDARY VILLE"
+      },
+      "addressSource": "ACRA",
+      "appointmentDate": "2019-11-15",
+      "alt": {
+        "name": "Edgar m. dean",
+        "id": "S8864282A",
+        "nationality": "SINGAPORE CITIZEN",
+        "appointmentDate": "15/11/2019",
+        "address": {
+          "type": "local",
+          "streetName": "SERANGOON AVENUE 4",
+          "postalCode": "550223",
+          "houseNumber": "223",
+          "buildingName": "BOUNDARY VILLE",
+          "invalidReason": "ACRA mail to this address was returned undelivered on 22/12/2017."
+        }
+      }
+    },
+    {
+      "name": "HHTI",
+      "id": "G4957416P",
+      "nationality": "AUSTRIAN",
+      "position": "Chief Executive Officer",
+      "address": {
+        "type": "local",
+        "streetName": "pasir pajang hill",
+        "floor": "532",
+        "unit": "w54",
+        "postalCode": "118890",
+        "houseNumber": "83"
+      },
+      "addressSource": "ACRA",
+      "appointmentDate": "2015-01-01"
+    },
+    {
+      "name": "SUSAN M. RUSSELL",
+      "id": "S8264828C",
+      "nationality": "SINGAPORE CITIZEN",
+      "position": "Secretary",
+      "address": {
+        "type": "local",
+        "streetName": "SERANGOON AVENUE 4",
+        "postalCode": "550223",
+        "houseNumber": "223",
+        "buildingName": "BOUNDARY VILLE",
+        "invalidReason": "ACRA mail to this address was returned undelivered on 14/04/2018."
+      },
+      "addressSource": "ACRA",
+      "appointmentDate": "2019-11-15"
+    }
+  ],
+  "shareholders": [
+    {
+      "name": "BP ALL sections PTE. LTD.",
+      "id": "201900473R",
+      "nationality": "SINGAPORE",
+      "addressChanged": "",
+      "address": {
+        "type": "local",
+        "streetName": "SERANGOON AVENUE 4",
+        "postalCode": "550223",
+        "houseNumber": "223",
+        "buildingName": "BOUNDARY VILLE",
+        "invalidReason": "ACRA mail to this address was returned undelivered on 17/12/2018."
+      },
+      "addressSource": "ACRA",
+      "shares": "100",
+      "sharesType": "Ordinary",
+      "currency": "Singapore, Dollars"
+    },
+    {
+      "name": "HOWARD K. RAYBURN",
+      "id": "S8149331F",
+      "nationality": "SINGAPORE CITIZEN",
+      "addressChanged": "",
+      "address": {
+        "type": "local",
+        "streetName": "SERANGOON AVENUE 4",
+        "postalCode": "550223",
+        "houseNumber": "223",
+        "buildingName": "BOUNDARY VILLE"
+      },
+      "addressSource": "ACRA",
+      "shares": "50",
+      "sharesType": "Ordinary",
+      "currency": "Singapore, Dollars"
+    },
+    {
+      "name": "MARY R. WARFORD",
+      "id": "S8222018F",
+      "nationality": "SINGAPORE CITIZEN",
+      "addressChanged": "",
+      "address": {
+        "type": "local",
+        "streetName": "SERANGOON AVENUE 4",
+        "postalCode": "550223",
+        "houseNumber": "223",
+        "buildingName": "BOUNDARY VILLE"
+      },
+      "addressSource": "ACRA",
+      "shares": "100",
+      "sharesType": "Ordinary",
+      "currency": "UNITED STATES OF AMERICA, DOLLARS"
+    }
+  ],
+  "shareholderGroups": [
+    {
+      "groupName": "A",
+      "shares": "50",
+      "sharesType": "Ordinary",
+      "currency": "SINGAPORE, DOLLARS",
+      "shareholders": [
+        {
+          "name": "HOWARD K. RAYBURN",
+          "id": "S8149331F",
+          "nationality": "SINGAPORE CITIZEN",
+          "addressChanged": "",
+          "address": {
+            "type": "local",
+            "streetName": "SERANGOON AVENUE 4",
+            "postalCode": "550223",
+            "houseNumber": "223",
+            "buildingName": "BOUNDARY VILLE",
+            "invalidReason": "ACRA mail to this address was returned undelivered on 28/01/2019."
+          },
+          "addressSource": "ACRA"
+        },
+        {
+          "name": "MARY R. WARFORD",
+          "id": "S8222018F",
+          "nationality": "SINGAPORE CITIZEN",
+          "addressChanged": "",
+          "address": {
+            "type": "local",
+            "streetName": "SERANGOON AVENUE 4",
+            "postalCode": "550223",
+            "houseNumber": "223",
+            "buildingName": "BOUNDARY VILLE"
+          },
+          "addressSource": "ACRA"
+        }
+      ]
+    }
+  ],
+  "judicialManagers": [
+    {
+      "name": "ivy",
+      "memberType": "Judicial Manager",
+      "address": {
+        "type": "local",
+        "streetName": "changi BUSINESS PARK CENTRAL 1",
+        "postalCode": "486038",
+        "floor": "10",
+        "unit": "22",
+        "houseNumber": "5",
+        "buildingName": "changi city point",
+        "invalidReason": "ACRA mail to this address was returned undelivered on 04/05/2019."
+      }
+    }
+  ],
+  "liquidators": [
+    {
+      "name": "The Insolvency and Public Trustee's office",
+      "memberType": "Liquidator",
+      "address": {
+        "type": "local",
+        "streetName": "maxwell road",
+        "postalCode": "069118",
+        "floor": "06",
+        "unit": "11",
+        "houseNumber": "45",
+        "buildingName": "the ura center",
+        "invalidReason": "ACRA mail to this address was returned undelivered on 06/10/2019."
+      }
+    }
+  ],
+  "provisionalLiquidators": [
+    {
+      "name": "HHYE HZUT)UHSZHJHU( eyhs",
+      "memberType": "Provisional Liquidator",
+      "address": {
+        "type": "local",
+        "streetName": "upper boon keng road",
+        "postalCode": "381003",
+        "floor": "11",
+        "unit": "1111",
+        "houseNumber": "3a",
+        "buildingName": "kallan heights",
+        "invalidReason": "ACRA mail to this address was returned undelivered on 22/11/2019."
+      }
+    }
+  ],
+  "receivers": [
+    {
+      "name": "The Insolvency and Public Trustee's office",
+      "memberType": "Receiver",
+      "address": {
+        "type": "local",
+        "streetName": "maxwell road",
+        "postalCode": "069118",
+        "floor": "06",
+        "unit": "11",
+        "houseNumber": "45",
+        "buildingName": "the ura center",
+        "invalidReason": "ACRA mail to this address was returned undelivered on 29/12/2019."
+      }
+    },
+    {
+      "name": "The Insolvency and Public Trustee's office",
+      "memberType": "Receiver",
+      "address": {
+        "type": "local",
+        "streetName": "maxwell road",
+        "postalCode": "069118",
+        "floor": "06",
+        "unit": "11",
+        "houseNumber": "45",
+        "buildingName": "the ura center"
+      }
+    }
+  ],
+  "receiptNumber": "ACRAXXXXXXXXXX06",
+  "receiptDate": "22/10/2019",
+  "signatureName": "Tan Yong Tat",
+  "signature": "tanYongTatSignature",
+  "stamp": "asd",
+  "qrCode": "asd",
+  "authenticationNumber": "IXXXXXXX49"
+}

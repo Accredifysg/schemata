@@ -21,6 +21,21 @@ if (fs.existsSync(quicktype) && process.env.npm_config_production !== "true") {
   generate({ path: "sg/gov/moh/pdt-healthcert/2.0", rootTypeName: "PDTHealthCertV2" });
   generate({ path: "sg/gov/moh/recovery-healthcert/2.0", rootTypeName: "RECHealthCertV2" });
   generate({ path: "sg/gov/moh/vaccination-healthcert/1.0", rootTypeName: "VaccinationHealthCert" });
+  generate({ path: "sg/gov/acra/bizfiles/certificates/1.0", rootTypeName: "AcraCertificate" });
+  generate({ path: "sg/gov/acra/bizfiles/profiles/business/1.0", rootTypeName: "AcraBusinessProfile" });
+  generate({ path: "sg/gov/acra/bizfiles/profiles/company/1.0", rootTypeName: "AcraCompanyProfile" });
+  generate({
+    path: "sg/gov/acra/bizfiles/profiles/limited-liability-partnership/1.0",
+    rootTypeName: "AcraLimitedLiabilityPartnershipProfile"
+  });
+  generate({
+    path: "sg/gov/acra/bizfiles/profiles/limited-partnership/1.0",
+    rootTypeName: "AcraLimitedPartnershipProfile"
+  });
+  generate({
+    path: "sg/gov/acra/bizfiles/profiles/public-accountant-firm/1.0",
+    rootTypeName: "AcraPublicAccountantFirmProfile"
+  });
 } else {
   console.log("Not running quicktype");
 }
