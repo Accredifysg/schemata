@@ -1,0 +1,34 @@
+{
+	"entityType": "lp",
+	"entityName": "Abcd lp",
+	"changeOfNameDate": "2009-11-01",
+	"uen": "T09LP8888Z",
+	"registrationDate": "2009-01-01",
+	"expiryDate": "2010-09-01",
+	"formerNames": [
+		{
+			"name": "Dcba lp",
+			"effectiveFrom": "2009-09-09"
+		}
+	],
+	"receiptDate": "2019-10-22",
+	"receiptNumber": "ACRAXXXXXXXXXX06",
+	"signatureName": "Lee Tze Ming",
+	"qrCode": "",
+	"authenticationNumber": "IXXXXXXX49",
+	"issuers": [
+		{
+			"name": "GovTech",
+			"documentStore": "0x8Fc57204c35fb9317D91285eF52D6b892EC08cD3",
+			"identityProof": {
+				"type": "DNS-TXT",
+				"location": "example.openattestation.com"
+			}
+		}
+	],
+	"$template": {
+		"name": "GEEK_OUT_2020",
+		"type": "EMBEDDED_RENDERER",
+		"url": "https://stoic-lumiere-531096.netlify.app"
+	}
+}
