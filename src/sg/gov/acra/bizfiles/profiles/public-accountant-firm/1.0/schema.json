@@ -1,0 +1,105 @@
+﻿{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://cdn.uat.accredify.io/schema/acra/bizfiles/profiles/public-accountant-firm/1.0/schema.json",
+    "type": "object",
+    "properties": {
+        "entityName": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/entityName"
+        },
+        "formerNames": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/formerNames"
+        },
+        "uen": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/uen"
+        },
+        "registrationDate": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+        },
+        "commencementDate": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+        },
+        "status": {
+            "type": "string"
+        },
+        "statusDate": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+        },
+        "constitution": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/businessConstitution"
+        },
+        "address": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/address"
+        },
+        "changeOfAddressDate": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+        },
+        "changeOfNameDate": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+        },
+        "activities": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/activities"
+        },
+        "partners": {
+            "type": "array",
+            "items": {
+                "allOf": [
+                    {
+                        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/person"
+                    }
+                ],
+                "properties": {
+                    "publicAccountantRegnNo": {
+                        "type": "string"
+                    },
+                    "partnerEntryDate": {
+                        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+                    },
+                    "partnerWithdrawalDate": {
+                        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+                    },
+                    "accountantsActEntryDate": {
+                        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+                    },
+                    "accountantActWithdrawalDate": {
+                        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+                    }
+                },
+                "required": [
+                    "partnerEntryDate"
+                ]
+            }
+        },
+        "receiptNumber": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/receiptNumber"
+        },
+        "receiptDate": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/receiptDate"
+        },
+        "signatureName": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/signatureName"
+        },
+        "qrCode": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/qrCode"
+        },
+        "authenticationNumber": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/authenticationNumber"
+        }
+    },
+    "required": [
+        "entityName",
+        "uen",
+        "registrationDate",
+        "commencementDate",
+        "status",
+        "statusDate",
+        "constitution",
+        "address",
+        "activities",
+        "partners",
+        "receiptDate",
+        "receiptNumber",
+        "signatureName",
+        "qrCode",
+        "authenticationNumber"
+    ]
+}

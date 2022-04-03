@@ -151,5 +151,7 @@
   "prettier": {
     "printWidth": 120
   },
-  "dependencies": {}
+  "dependencies": {
+    "@govtechsg/oa-schemata": "^1.18.0"
+  }
 }

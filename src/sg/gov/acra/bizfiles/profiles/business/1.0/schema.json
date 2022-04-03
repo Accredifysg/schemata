@@ -1,0 +1,130 @@
+﻿{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://cdn.uat.accredify.io/schema/acra/bizfiles/profiles/business/1.0/schema.json",
+	"type": "object",
+	"properties": {
+		"entityName": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/entityName"
+		},
+		"formerNames": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/formerNames"
+        },
+        "changeOfNameDate": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+        },
+        "uen": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/uen"
+        },
+		"registrationDate": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+        },
+        "commencementDate": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+        },
+		"status": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/entityStatus"
+		},
+		"statusDate": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+        },
+        "renewalDate": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+        },
+        "expiryDate": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+        },
+        "renewalByGiro": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/renewalByGiro"
+        },
+		"businessConstitution": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/businessConstitution"
+		},
+		"address": {
+			"$ref": "../../../common/definitions/1.0/schema.json#/definitions/address"
+		},
+		"changeOfAddressDate": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+        },
+        "activities": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/activities"
+        },
+        "representatives": {
+            "type": "array",
+            "items": {
+                "allOf": [
+                    {
+                        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/person"
+                    }
+                ],
+                "properties": {
+                    "appointmentDate": {
+                        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+                    }
+                },
+                "required": [
+                    "appointmentDate"
+                ]
+            }
+        },
+        "partners": {
+            "type": "array",
+            "items": {
+                "allOf": [
+                    {
+                        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/person"
+                    }
+                ],
+                "properties": {
+                    "entryDate": {
+                        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+                    },
+                    "position": {
+                        "type": "string"
+                    },
+                    "withdrawalDate": {
+                        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+                    }
+                },
+                "required": [
+                    "entryDate"
+                ]
+            }
+        },
+        "receiptNumber": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/receiptNumber"
+        },
+        "receiptDate": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/receiptDate"
+        },
+        "signatureName": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/signatureName"
+        },
+		"qrCode": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/qrCode"
+		},
+		"authenticationNumber": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/authenticationNumber"
+		}
+	},
+	"required": [
+		"entityName",
+		"uen",
+		"registrationDate",
+		"commencementDate",
+		"status",
+		"statusDate",
+		"renewalDate",
+		"expiryDate",
+		"renewalByGiro",
+		"businessConstitution",
+		"address",
+		"activities",
+		"representatives",
+		"partners",
+		"receiptNumber",
+		"receiptDate",
+		"signatureName",
+		"qrCode",
+		"authenticationNumber"
+	]
+}

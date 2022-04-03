@@ -1,0 +1,631 @@
+﻿{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://cdn.uat.accredify.io/schema/acra/bizfiles/definitions/1.0/schema.json",
+    "title": "Schema definitions for BizFile schemas",
+    "description": "Schema definitions for BizFile schemas",
+    "definitions": {
+        "address": {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "local",
+                        "foreign"
+                    ]
+                },
+                "streetName": {
+                    "type": "string"
+                },
+                "floor": {
+                    "type": "string"
+                },
+                "unit": {
+                    "type": "string"
+                },
+                "postalCode": {
+                    "type": "string"
+                },
+                "houseNumber": {
+                    "type": "string"
+                },
+                "buildingName": {
+                    "type": "string"
+                },
+                "invalidReason": {
+                    "type": "string"
+                },
+                "address1": {
+                    "type": "string"
+                },
+                "address2": {
+                    "type": "string"
+                },
+                "country": {
+                    "type": "string"
+                }
+            },
+            "anyOf": [
+                {
+                    "properties": {
+                        "type": {
+                            "const": "foreign"
+                        }
+                    },
+                    "required": [
+                        "type",
+                        "address1",
+                        "address2",
+                        "country"
+                    ]
+                },
+                {
+                    "properties": {
+                        "type": {
+                            "const": "local"
+                        }
+                    },
+                    "required": [
+                        "type",
+                        "streetName",
+                        "postalCode"
+                    ]
+                }
+            ],
+            "additionalProperties": false
+        },
+        "country": {
+            "type": "string",
+            "examples": [
+                "SG"
+            ],
+            "enum": [
+                "AD",
+                "AE",
+                "AF",
+                "AG",
+                "AL",
+                "AM",
+                "AO",
+                "AR",
+                "AT",
+                "AU",
+                "AX",
+                "AZ",
+                "BA",
+                "BB",
+                "BD",
+                "BE",
+                "BF",
+                "BG",
+                "BH",
+                "BI",
+                "BJ",
+                "BL",
+                "BM",
+                "BN",
+                "BO",
+                "BQ",
+                "BR",
+                "BS",
+                "BT",
+                "BV",
+                "BW",
+                "BY",
+                "BZ",
+                "CA",
+                "CC",
+                "CD",
+                "CF",
+                "CG",
+                "CH",
+                "CI",
+                "CK",
+                "CL",
+                "CM",
+                "CN",
+                "CO",
+                "CR",
+                "CU",
+                "CV",
+                "CW",
+                "CX",
+                "CY",
+                "CZ",
+                "DE",
+                "DJ",
+                "DK",
+                "DM",
+                "DO",
+                "DZ",
+                "EC",
+                "EE",
+                "EG",
+                "EH",
+                "ER",
+                "ES",
+                "ET",
+                "FI",
+                "FJ",
+                "FK",
+                "FM",
+                "FO",
+                "FR",
+                "GA",
+                "GB",
+                "GD",
+                "GE",
+                "GF",
+                "GG",
+                "GH",
+                "GI",
+                "GL",
+                "GM",
+                "GN",
+                "GP",
+                "GQ",
+                "GR",
+                "GS",
+                "GT",
+                "GU",
+                "GW",
+                "GY",
+                "HK",
+                "HM",
+                "HN",
+                "HR",
+                "HT",
+                "HU",
+                "ID",
+                "IE",
+                "IL",
+                "IM",
+                "IN",
+                "IO",
+                "IQ",
+                "IR",
+                "IS",
+                "IT",
+                "JE",
+                "JM",
+                "JO",
+                "JP",
+                "KE",
+                "KG",
+                "KH",
+                "KI",
+                "KM",
+                "KN",
+                "KP",
+                "KR",
+                "KW",
+                "KY",
+                "KZ",
+                "LA",
+                "LB",
+                "LC",
+                "LI",
+                "LK",
+                "LR",
+                "LS",
+                "LT",
+                "LU",
+                "LV",
+                "LY",
+                "MA",
+                "MC",
+                "MD",
+                "ME",
+                "MF",
+                "MG",
+                "MH",
+                "MK",
+                "ML",
+                "MM",
+                "MN",
+                "MO",
+                "MP",
+                "MQ",
+                "MR",
+                "MS",
+                "MT",
+                "MU",
+                "MV",
+                "MW",
+                "MX",
+                "MY",
+                "MZ",
+                "NA",
+                "NC",
+                "NE",
+                "NF",
+                "NG",
+                "NI",
+                "NL",
+                "NO",
+                "NP",
+                "NR",
+                "NU",
+                "NZ",
+                "OM",
+                "PA",
+                "PE",
+                "PF",
+                "PG",
+                "PH",
+                "PK",
+                "PL",
+                "PM",
+                "PN",
+                "PR",
+                "PS",
+                "PT",
+                "PW",
+                "PY",
+                "QA",
+                "RE",
+                "RO",
+                "RS",
+                "RU",
+                "RW",
+                "SA",
+                "SB",
+                "SC",
+                "SD",
+                "SE",
+                "SG",
+                "SH",
+                "SI",
+                "SJ",
+                "SK",
+                "SL",
+                "SM",
+                "SN",
+                "SO",
+                "SR",
+                "SS",
+                "ST",
+                "SV",
+                "SX",
+                "SY",
+                "SZ",
+                "TC",
+                "TD",
+                "TF",
+                "TG",
+                "TH",
+                "TJ",
+                "TK",
+                "TL",
+                "TM",
+                "TN",
+                "TO",
+                "TR",
+                "TT",
+                "TV",
+                "TW",
+                "TZ",
+                "UA",
+                "UG",
+                "UM",
+                "US",
+                "UY",
+                "UZ",
+                "VA",
+                "VC",
+                "VE",
+                "VG",
+                "VI",
+                "VN",
+                "VU",
+                "WF",
+                "WS",
+                "XK",
+                "XXA",
+                "YE",
+                "YT",
+                "ZA",
+                "ZM",
+                "ZW"
+            ]
+        },
+        "activities": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "description": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "name",
+                    "description"
+                ]
+            },
+            "additionalItems": false
+        },
+        "person": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "string"
+                },
+                "nationality": {
+                    "type": "string"
+                },
+                "address": {
+                    "$ref": "#/definitions/address"
+                },
+                "addressSource": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "name",
+                "id",
+                "nationality",
+                "address",
+                "addressSource"
+            ]
+        },
+        "shareholderGroup": {
+            "allOf": [
+                {
+                    "$ref": "#/definitions/share"
+                }
+            ],
+            "properties": {
+                "groupName": {
+                    "type": "string"
+                },
+                "shareholders": {
+                    "type": "array",
+                    "items": {
+                        "allOf": [
+                            {
+                                "$ref": "#/definitions/person"
+                            }
+                        ]
+                    }
+                }
+            },
+            "required": [
+                "groupName",
+                "shareholders"
+            ]
+        },
+        "shareholder": {
+            "allOf": [
+                {
+                    "$ref": "#/definitions/person"
+                },
+                {
+                    "$ref": "#/definitions/share"
+                }
+            ],
+            "properties": {
+                "addressChanged": {
+                    "type": "string"
+                }
+            }
+        },
+        "otherMembers": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "address": {
+                    "$ref": "#/definitions/address"
+                },
+                "memberType": {
+                    "type": "string",
+                    "enum": [
+                        "Liquidator",
+                        "Provisional Liquidator",
+                        "Receiver",
+                        "Judicial Manager"
+                    ]
+                }
+            },
+            "required": [
+                "name",
+                "address",
+                "memberType"
+            ]
+        },
+        "receiptNumber": {
+            "type": "string",
+            "description": "The receipt number used in the purchase of this certificate",
+            "examples": [
+                "ACRAXXXXXXXXXX06"
+            ]
+        },
+        "receiptDate": {
+            "type": "string",
+            "format": "date",
+            "pattern": "(((19|20)([2468][048]|[13579][26]|0[48])|2000)[-]02[-]29|((19|20)[0-9]{2}[-](0[469]|11)[-](0[1-9]|[12][0-9]|30)|(19|20)[0-9]{2}[-](0[13578]|1[02])[-](0[1-9]|[12][0-9]|3[01])|(19|20)[0-9]{2}[-]02[-](0[1-9]|1[0-9]|2[0-8])))"
+        },
+        "signatureName": {
+            "type": "string",
+            "description": "The name of the signatory",
+            "examples": [
+                "LEE TZE MING"
+            ]
+        },
+        "qrCode": {
+            "type": "string",
+            "description": "base64 encoded image"
+        },
+        "authenticationNumber": {
+            "type": "string",
+            "description": "The number used to verify the authenticity of this certificate",
+            "examples": [
+                "IXXXXXXX49"
+            ]
+        },
+        "entityName": {
+            "type": "string",
+            "description": "The name of the business or company",
+            "examples": [
+                "ACCREDIFY PTE. LTD."
+            ]
+        },
+        "formerNames": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "uen": {
+            "type": "string",
+            "description": "The Unique Entity Number of the entity",
+            "examples": [
+                "201807660K"
+            ]
+        },
+        "date": {
+            "type": "string",
+            "format": "date",
+            "examples": [
+                "2019-07-24"
+            ],
+            "pattern": "(((19|20)([2468][048]|[13579][26]|0[48])|2000)[-]02[-]29|((19|20)[0-9]{2}[-](0[469]|11)[-](0[1-9]|[12][0-9]|30)|(19|20)[0-9]{2}[-](0[13578]|1[02])[-](0[1-9]|[12][0-9]|3[01])|(19|20)[0-9]{2}[-]02[-](0[1-9]|1[0-9]|2[0-8])))"
+        },
+        "entityStatus": {
+            "type": "string"
+        },
+        "renewalByGiro": {
+            "type": "string"
+        },
+        "companyType": {
+            "type": "string",
+            "description": "The type of company",
+            "examples": [
+                "EXEMPT PRIVATE COMPANY LIMITED BY SHARES"
+            ]
+        },
+        "amalgamatedFrom": {
+            "type": "string"
+        },
+        "amalgamatedWith": {
+            "type": "string"
+        },
+        "amalgamatedToFrom": {
+            "type": "string"
+        },
+        "conditions": {
+            "type": "string"
+        },
+        "businessConstitution": {
+            "type": "string",
+            "enum": [
+                "Sole-Proprietorship",
+                "Partnership"
+            ]
+        },
+        "share": {
+            "type": "object",
+            "properties": {
+                "shares": {
+                    "type": "string"
+                },
+                "currency": {
+                    "type": "string"
+                },
+                "sharesType": {
+                    "type": "string",
+                    "enum": [
+                        "Ordinary",
+                        "Preference",
+                        "Others",
+                        "Treasury"
+                    ]
+                }
+            },
+            "required": [
+                "shares",
+                "currency",
+                "sharesType"
+            ]
+        },
+        "charges": {
+            "type": "object",
+            "properties": {
+                "chargeNumber": {
+                    "type": "string"
+                },
+                "dateRegistered": {
+                    "type": "string"
+                },
+                "amountSecured": {
+                    "type": "string"
+                },
+                "chargees": {
+                    "type": "string"
+                },
+                "currency": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "chargeNumber",
+                "dateRegistered",
+                "amountSecured",
+                "chargees"
+            ]
+        },
+        "auditFirms": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "$ref": "#/definitions/entityName"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "name"
+            ]
+        },
+        "capitals": {
+            "allOf": [
+                {
+                    "$ref": "#/definitions/share"
+                }
+            ],
+            "properties": {
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "Issued Share Capital",
+                        "Paid-Up Capital",
+                        "Treasury Shares"
+                    ]
+                }
+            },
+            "required": [
+                "type"
+            ]
+        },
+        "entityType": {
+            "type": "string",
+            "description": "The type of business certificate",
+            "enum": [
+                "company",
+                "business",
+                "foreignCompany",
+                "llp",
+                "lp"
+            ]
+        }
+    }
+}
