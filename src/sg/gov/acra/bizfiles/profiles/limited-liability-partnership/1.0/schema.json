@@ -1,136 +1,137 @@
 ﻿{
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://cdn.uat.accredify.io/schema/acra/bizfiles/profiles/limited-liability-partnership/1.0/schema.json",
-    "type": "object",
-    "properties": {
-        "entityName": {
-            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/entityName"
-        },
-        "formerNames": {
-            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/formerNames"
-        },
-        "uen": {
-            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/uen"
-        },
-        "registrationDate": {
-            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
-        },
-        "status": {
-            "type": "string"
-        },
-        "statusDate": {
-            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
-        },
-        "address": {
-            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/address"
-        },
-        "changeOfNameDate": {
-            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
-        },
-        "changeOfAddressDate": {
-            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
-        },
-        "annualDeclarationDate": {
-            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
-        },
-        "activities": {
-            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/activities"
-        },
-        "partners": {
-            "type": "array",
-            "items": {
-                "allOf": [
-                    {
-                        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/person"
-                    }
-                ],
-                "properties": {
-                    "appointmentDate": {
-                        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
-                    },
-                    "withdrawalDate": {
-                        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
-                    }
-                },
-                "required": [
-                    "appointmentDate"
-                ]
-            }
-        },
-        "managers": {
-            "type": "array",
-            "items": {
-                "allOf": [
-                    {
-                        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/person"
-                    }
-                ],
-                "properties": {
-                    "appointmentDate": {
-                        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
-                    },
-                    "withdrawalDate": {
-                        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
-                    }
-                },
-                "required": [
-                    "appointmentDate"
-                ]
-            }
-        },
-        "employees": {
-            "type": "array",
-            "items": {
-                "allOf": [
-                    {
-                        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/person"
-                    }
-                ],
-                "properties": {
-                    "appointmentDate": {
-                        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
-                    },
-                    "withdrawalDate": {
-                        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
-                    }
-                },
-                "required": [
-                    "appointmentDate"
-                ]
-            }
-        },
-        "receiptNumber": {
-            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/receiptNumber"
-        },
-        "receiptDate": {
-            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/receiptDate"
-        },
-        "signatureName": {
-            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/signatureName"
-        },
-        "qrCode": {
-            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/qrCode"
-        },
-        "authenticationNumber": {
-            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/authenticationNumber"
-        }
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://cdn.uat.accredify.io/schema/acra/bizfiles/profiles/limited-liability-partnership/1.0/schema.json",
+  "type": "object",
+  "properties": {
+    "entityName": {
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/entityName"
     },
-    "required": [
-        "entityName",
-        "uen",
-        "registrationDate",
-        "status",
-        "statusDate",
-        "address",
-        "annualDeclarationDate",
-        "activities",
-        "partners",
-        "managers",
-        "employees",
-        "receiptDate",
-        "receiptNumber",
-        "signatureName",
-        "qrCode",
-        "authenticationNumber"
-    ]
+    "formerNames": {
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/formerNames"
+    },
+    "uen": {
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/uen"
+    },
+    "registrationDate": {
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+    },
+    "status": {
+      "type": "string"
+    },
+    "statusDate": {
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+    },
+    "address": {
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/address"
+    },
+    "changeOfNameDate": {
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+    },
+    "changeOfAddressDate": {
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+    },
+    "annualDeclarationDate": {
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+    },
+    "activities": {
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/activities"
+    },
+    "partners": {
+      "type": "array",
+      "items": {
+        "allOf": [
+          {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/person"
+          }
+        ],
+        "properties": {
+          "appointmentDate": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+          },
+          "withdrawalDate": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+          }
+        },
+        "required": [
+          "appointmentDate"
+        ]
+      }
+    },
+    "managers": {
+      "type": "array",
+      "items": {
+        "allOf": [
+          {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/person"
+          }
+        ],
+        "properties": {
+          "appointmentDate": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+          },
+          "withdrawalDate": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+          }
+        },
+        "required": [
+          "appointmentDate"
+        ]
+      }
+    },
+    "employees": {
+      "type": "array",
+      "items": {
+        "allOf": [
+          {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/person"
+          }
+        ],
+        "properties": {
+          "appointmentDate": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+          },
+          "withdrawalDate": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+          }
+        },
+        "required": [
+          "appointmentDate"
+        ]
+      }
+    },
+    "receiptNumber": {
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/receiptNumber"
+    },
+    "receiptDate": {
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date",
+      "description": "The date at which this certificate was purchased in YYYY-MM-DD format"
+    },
+    "signatureName": {
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/signatureName"
+    },
+    "qrCode": {
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/qrCode"
+    },
+    "authenticationNumber": {
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/authenticationNumber"
+    }
+  },
+  "required": [
+    "entityName",
+    "uen",
+    "registrationDate",
+    "status",
+    "statusDate",
+    "address",
+    "annualDeclarationDate",
+    "activities",
+    "partners",
+    "managers",
+    "employees",
+    "receiptDate",
+    "receiptNumber",
+    "signatureName",
+    "qrCode",
+    "authenticationNumber"
+  ]
 }
