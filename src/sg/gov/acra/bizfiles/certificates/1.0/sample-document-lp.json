@@ -1,19 +1,19 @@
 {
-	"entityType": "lp",
-	"entityName": "Abcd lp",
-	"changeOfNameDate": "2009-11-01",
-	"uen": "T09LP8888Z",
-	"registrationDate": "2009-01-01",
-	"expiryDate": "2010-09-01",
-	"formerNames": [
-		{
-			"name": "Dcba lp",
-			"effectiveFrom": "2009-09-09"
-		}
-	],
-	"receiptDate": "2019-10-22",
-	"receiptNumber": "ACRAXXXXXXXXXX06",
-	"signatureName": "Lee Tze Ming",
-	"qrCode": "",
-	"authenticationNumber": "IXXXXXXX49"
+  "entityType": "lp",
+  "entityName": "Abcd lp",
+  "changeOfNameDate": "2009-11-01",
+  "uen": "T09LP8888Z",
+  "registrationDate": "2009-01-01",
+  "expiryDate": "2010-09-01",
+  "formerNames": [
+    {
+      "name": "Dcba lp",
+      "effectiveFrom": "2009-09-09"
+    }
+  ],
+  "receiptDate": "2019-10-22",
+  "receiptNumber": "ACRAXXXXXXXXXX06",
+  "signatureName": "Lee Tze Ming",
+  "qrCode": "",
+  "authenticationNumber": "IXXXXXXX49"
 }

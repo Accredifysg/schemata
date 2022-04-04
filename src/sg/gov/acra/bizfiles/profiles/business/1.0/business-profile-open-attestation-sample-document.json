@@ -1,376 +1,376 @@
 {
-	"entityName": "Eat toast bread",
-	"formerNames": [
-		"#!T*-#&T?!ST"
-	],
-	"changeOfNameDate": "2019-10-18",
-	"uen": "53235918J",
-	"registrationDate": "2019-07-31",
-	"commencementDate": "2019-07-30",
-	"status": "Live",
-	"statusDate": "2019-07-31",
-	"renewalDate": "2024-01-01",
-	"expiryDate": "2022-07-31",
-	"renewalByGiro": "NO",
-	"businessConstitution": "Sole-Proprietorship",
-	"address": {
-		"type": "local",
-		"streetName": "Ang mo kio avenue 6",
-		"floor": "13",
-		"unit": "13",
-		"postalCode": "888888",
-		"houseNumber": "646",
-		"buildingName": "ang mo kio 61",
-		"invalidReason": "ACRA mail to this address was returned undelivered on 22/12/2017."
-	},
-	"changeOfAddressDate": "2016-10-10",
-	"activities": [
-		{
-			"name": "MONEY-CHANGING SERVICES (64993)",
-			"description": "FUND TRANSFER SERVICE"
-		},
-		{
-			"name": "",
-			"description": ""
-		}
-	],
-	"representatives": [
-		{
-			"name": "ei hhh whxyz xhxviy",
-			"id": "S0069597A",
-			"nationality": "SG",
-			"address": {
-				"type": "local",
-				"streetName": "anchorvale crescent",
-				"floor": "11",
-				"unit": "11",
-				"postalCode": "544662",
-				"houseNumber": "75",
-				"buildingName": "the vales",
-				"invalidReason": "ACRA mail to this address was returned undelivered on 01/02/2018."
-			},
-			"addressSource": "acra",
-			"appointmentDate": "2015-08-01"
-		},
-		{
-			"name": "mehar",
-			"id": "S4162824C",
-			"nationality": "SG",
-			"address": {
-				"type": "local",
-				"streetName": "sea avenue",
-				"floor": "02",
-				"unit": "03",
-				"postalCode": "424242",
-				"houseNumber": "20b"
-			},
-			"addressSource": "acra",
-			"appointmentDate": "2015-08-01"
-		}
-	],
-	"partners": [
-		{
-			"name": "thst",
-			"id": "S1061593C",
-			"nationality": "SG",
-			"address": {
-				"type": "local",
-				"streetName": "choa CHU KANG LOOP",
-				"floor": "02",
-				"unit": "02",
-				"postalCode": "680342",
-				"houseNumber": "342",
-				"invalidReason": "ACRA mail to this address was returned undelivered on 10/08/2018."
-			},
-			"addressSource": "acra",
-			"entryDate": "2016-03-03",
-			"position": "OWNER"
-		},
-		{
-			"name": "HJYIV TZY",
-			"id": "S1096543H",
-			"nationality": "SG",
-			"address": {
-				"type": "local",
-				"houseNumber": "111",
-				"streetName": "ANG MO KIO AVENUE 4",
-				"floor": "10",
-				"unit": "04",
-				"postalCode": "560111",
-				"buildingName": "KEBUN BARU heights"
-			},
-			"addressSource": "acra",
-			"entryDate": "2016-02-24",
-			"position": "OWNER"
-		},
-		{
-			"name": "thst",
-			"id": "S1052670A",
-			"nationality": "SG",
-			"address": {
-				"type": "local",
-				"streetName": "choa CHU KANG LOOP",
-				"floor": "01",
-				"unit": "01",
-				"postalCode": "680340",
-				"houseNumber": "340"
-			},
-			"addressSource": "acra",
-			"entryDate": "2016-03-10",
-			"position": "OWNER"
-		},
-		{
-			"name": "PIXXIHP THHXZS",
-			"id": "S0016180B",
-			"nationality": "SG",
-			"address": {
-				"type": "local",
-				"streetName": "ISHUN STREET 72",
-				"floor": "12",
-				"unit": "11",
-				"postalCode": "760763",
-				"houseNumber": "763"
-			},
-			"addressSource": "acra",
-			"entryDate": "2019-07-30",
-			"position": "OWNER"
-		},
-		{
-			"name": "-!INIG-&!T!--#V-30-M!Y7",
-			"id": "201700437C",
-			"nationality": "SG",
-			"address": {
-				"type": "local",
-				"streetName": "TAMPINES STREET 11",
-				"floor": "01",
-				"unit": "04",
-				"postalCode": "521131",
-				"houseNumber": "131"
-			},
-			"addressSource": "acra",
-			"entryDate": "2017-09-06",
-			"position": "OWNER"
-		},
-		{
-			"name": "thst",
-			"id": "S1061593C",
-			"nationality": "SG",
-			"address": {
-				"type": "local",
-				"streetName": "choa CHU KANG LOOP",
-				"floor": "02",
-				"unit": "02",
-				"postalCode": "680342",
-				"houseNumber": "342",
-				"invalidReason": "ACRA mail to this address was returned undelivered on 22/10/2019."
-			},
-			"addressSource": "acra",
-			"entryDate": "2016-02-24",
-			"position": "Nominee/Trustee",
-			"withdrawalDate": "2016-03-09"
-		},
-		{
-			"name": "FIZS SZHHU SHZHHHY",
-			"id": "S1155939E",
-			"nationality": "QA",
-			"address": {
-				"type": "local",
-				"streetName": "sea avenue",
-				"floor": "02",
-				"unit": "03",
-				"postalCode": "424242",
-				"houseNumber": "20b"
-			},
-			"addressSource": "acra",
-			"entryDate": "2016-02-23",
-			"position": "Nominee/Trustee",
-			"withdrawalDate": "2016-02-24"
-		},
-		{
-			"name": "FIZS SZHHU SHZHHHY",
-			"id": "S1155939E",
-			"nationality": "QA",
-			"address": {
-				"type": "local",
-				"streetName": "sea avenue",
-				"floor": "02",
-				"unit": "03",
-				"postalCode": "424242",
-				"houseNumber": "20b"
-			},
-			"addressSource": "acra",
-			"entryDate": "2016-02-15",
-			"position": "Nominee/Trustee",
-			"withdrawalDate": "2016-02-19"
-		},
-		{
-			"name": "FIZS SZHHU SHZHHHY",
-			"id": "S1155939E",
-			"nationality": "QA",
-			"address": {
-				"type": "local",
-				"streetName": "sea avenue",
-				"floor": "02",
-				"unit": "03",
-				"postalCode": "424242",
-				"houseNumber": "20b"
-			},
-			"addressSource": "acra",
-			"entryDate": "2016-02-12",
-			"position": "Nominee/Trustee",
-			"withdrawalDate": "2016-02-15"
-		},
-		{
-			"name": "JHUIIJ",
-			"id": "S7098532B",
-			"nationality": "GB",
-			"address": {
-				"type": "local",
-				"streetName": "ANSON ROAD",
-				"postalCode": "079903",
-				"houseNumber": "10"
-			},
-			"addressSource": "acra",
-			"entryDate": "2013-07-04",
-			"position": "Owner",
-			"withdrawalDate": "2016-07-20"
-		},
-		{
-			"name": "M?M !#!# $?U- PT#. LT&.",
-			"id": "201506036D",
-			"nationality": "SG",
-			"address": {
-				"type": "local",
-				"streetName": "ANSON ROAD",
-				"postalCode": "079903",
-				"floor": "01",
-				"unit": "01",
-				"houseNumber": "10"
-			},
-			"addressSource": "acra",
-			"entryDate": "2016-02-07",
-			"position": "Owner",
-			"withdrawalDate": "2016-02-24"
-		},
-		{
-			"name": "THST_S2013783Z",
-			"id": "S2013783A",
-			"nationality": "AT",
-			"address": {
-				"type": "foreign",
-				"address1": "a 1030 WIEN",
-				"address2": "LOTHRINGERstrasse",
-				"country": "14/16 France"
-			},
-			"addressSource": "acra",
-			"entryDate": "2016-02-07",
-			"position": "Owner",
-			"withdrawalDate": "2016-02-24"
-		},
-		{
-			"name": "W HHT EYHWHZ",
-			"id": "S7139337B",
-			"nationality": "SG",
-			"address": {
-				"type": "local",
-				"streetName": "marina boulevard",
-				"postalCode": "018980",
-				"floor": "51",
-				"unit": "05",
-				"buildingName": "marina bay residences",
-				"houseNumber": "18"
-			},
-			"addressSource": "acra",
-			"entryDate": "2014-03-31",
-			"position": "Owner",
-			"withdrawalDate": "2016-02-12"
-		},
-		{
-			"name": "XYZ",
-			"id": "S2014905A",
-			"nationality": "BY",
-			"address": {
-				"type": "local",
-				"streetName": "middle road",
-				"postalCode": "188979",
-				"floor": "12",
-				"unit": "wdg",
-				"buildingName": "fortune centre",
-				"houseNumber": "190"
-			},
-			"addressSource": "acra",
-			"entryDate": "2014-03-31",
-			"position": "Owner",
-			"withdrawalDate": "2016-02-12"
-		},
-		{
-			"name": "JHHYSHY",
-			"id": "S6366878H",
-			"nationality": "SG",
-			"address": {
-				"type": "local",
-				"streetName": "anson road",
-				"postalCode": "079903",
-				"houseNumber": "10"
-			},
-			"addressSource": "acra",
-			"entryDate": "2013-07-04",
-			"position": "Owner",
-			"withdrawalDate": "2016-07-18"
-		},
-		{
-			"name": "HXZY IS JHYEU",
-			"id": "S2014958B",
-			"nationality": "SG",
-			"address": {
-				"type": "local",
-				"streetName": "lorong telok",
-				"floor": "02",
-				"unit": "01",
-				"postalCode": "049032",
-				"houseNumber": "20"
-			},
-			"addressSource": "acra",
-			"entryDate": "2016-02-08",
-			"position": "Nominee/Trustee",
-			"withdrawalDate": "2016-02-24"
-		},
-		{
-			"name": "HXZY IS JHYEU",
-			"id": "S2014958B",
-			"nationality": "SG",
-			"address": {
-				"type": "local",
-				"streetName": "lorong telok",
-				"floor": "02",
-				"unit": "01",
-				"postalCode": "049032",
-				"houseNumber": "20"
-			},
-			"addressSource": "acra",
-			"entryDate": "2016-02-18",
-			"position": "Owner",
-			"withdrawalDate": "2016-02-24"
-		}
-	],
-	"receiptNumber": "Replacement Copy of ACRA191113111236",
-	"receiptDate": "2019-11-18",
-	"signatureName": "Lee Tze Ming",
-	"qrCode": "BASE64",
-	"authenticationNumber": "IXXXXXXX49",
-	"issuers": [
-		{
-			"name": "GovTech",
-			"documentStore": "0x8Fc57204c35fb9317D91285eF52D6b892EC08cD3",
-			"identityProof": {
-				"type": "DNS-TXT",
-				"location": "example.openattestation.com"
-			}
-		}
-	],
-	"$template": {
-		"name": "GEEK_OUT_2020",
-		"type": "EMBEDDED_RENDERER",
-		"url": "https://stoic-lumiere-531096.netlify.app"
-	}
+  "entityName": "Eat toast bread",
+  "formerNames": [
+    "#!T*-#&T?!ST"
+  ],
+  "changeOfNameDate": "2019-10-18",
+  "uen": "53235918J",
+  "registrationDate": "2019-07-31",
+  "commencementDate": "2019-07-30",
+  "status": "Live",
+  "statusDate": "2019-07-31",
+  "renewalDate": "2024-01-01",
+  "expiryDate": "2022-07-31",
+  "renewalByGiro": "NO",
+  "businessConstitution": "Sole-Proprietorship",
+  "address": {
+    "type": "local",
+    "streetName": "Ang mo kio avenue 6",
+    "floor": "13",
+    "unit": "13",
+    "postalCode": "888888",
+    "houseNumber": "646",
+    "buildingName": "ang mo kio 61",
+    "invalidReason": "ACRA mail to this address was returned undelivered on 22/12/2017."
+  },
+  "changeOfAddressDate": "2016-10-10",
+  "activities": [
+    {
+      "name": "MONEY-CHANGING SERVICES (64993)",
+      "description": "FUND TRANSFER SERVICE"
+    },
+    {
+      "name": "",
+      "description": ""
+    }
+  ],
+  "representatives": [
+    {
+      "name": "ei hhh whxyz xhxviy",
+      "id": "S0069597A",
+      "nationality": "SG",
+      "address": {
+        "type": "local",
+        "streetName": "anchorvale crescent",
+        "floor": "11",
+        "unit": "11",
+        "postalCode": "544662",
+        "houseNumber": "75",
+        "buildingName": "the vales",
+        "invalidReason": "ACRA mail to this address was returned undelivered on 01/02/2018."
+      },
+      "addressSource": "acra",
+      "appointmentDate": "2015-08-01"
+    },
+    {
+      "name": "mehar",
+      "id": "S4162824C",
+      "nationality": "SG",
+      "address": {
+        "type": "local",
+        "streetName": "sea avenue",
+        "floor": "02",
+        "unit": "03",
+        "postalCode": "424242",
+        "houseNumber": "20b"
+      },
+      "addressSource": "acra",
+      "appointmentDate": "2015-08-01"
+    }
+  ],
+  "partners": [
+    {
+      "name": "thst",
+      "id": "S1061593C",
+      "nationality": "SG",
+      "address": {
+        "type": "local",
+        "streetName": "choa CHU KANG LOOP",
+        "floor": "02",
+        "unit": "02",
+        "postalCode": "680342",
+        "houseNumber": "342",
+        "invalidReason": "ACRA mail to this address was returned undelivered on 10/08/2018."
+      },
+      "addressSource": "acra",
+      "entryDate": "2016-03-03",
+      "position": "OWNER"
+    },
+    {
+      "name": "HJYIV TZY",
+      "id": "S1096543H",
+      "nationality": "SG",
+      "address": {
+        "type": "local",
+        "houseNumber": "111",
+        "streetName": "ANG MO KIO AVENUE 4",
+        "floor": "10",
+        "unit": "04",
+        "postalCode": "560111",
+        "buildingName": "KEBUN BARU heights"
+      },
+      "addressSource": "acra",
+      "entryDate": "2016-02-24",
+      "position": "OWNER"
+    },
+    {
+      "name": "thst",
+      "id": "S1052670A",
+      "nationality": "SG",
+      "address": {
+        "type": "local",
+        "streetName": "choa CHU KANG LOOP",
+        "floor": "01",
+        "unit": "01",
+        "postalCode": "680340",
+        "houseNumber": "340"
+      },
+      "addressSource": "acra",
+      "entryDate": "2016-03-10",
+      "position": "OWNER"
+    },
+    {
+      "name": "PIXXIHP THHXZS",
+      "id": "S0016180B",
+      "nationality": "SG",
+      "address": {
+        "type": "local",
+        "streetName": "ISHUN STREET 72",
+        "floor": "12",
+        "unit": "11",
+        "postalCode": "760763",
+        "houseNumber": "763"
+      },
+      "addressSource": "acra",
+      "entryDate": "2019-07-30",
+      "position": "OWNER"
+    },
+    {
+      "name": "-!INIG-&!T!--#V-30-M!Y7",
+      "id": "201700437C",
+      "nationality": "SG",
+      "address": {
+        "type": "local",
+        "streetName": "TAMPINES STREET 11",
+        "floor": "01",
+        "unit": "04",
+        "postalCode": "521131",
+        "houseNumber": "131"
+      },
+      "addressSource": "acra",
+      "entryDate": "2017-09-06",
+      "position": "OWNER"
+    },
+    {
+      "name": "thst",
+      "id": "S1061593C",
+      "nationality": "SG",
+      "address": {
+        "type": "local",
+        "streetName": "choa CHU KANG LOOP",
+        "floor": "02",
+        "unit": "02",
+        "postalCode": "680342",
+        "houseNumber": "342",
+        "invalidReason": "ACRA mail to this address was returned undelivered on 22/10/2019."
+      },
+      "addressSource": "acra",
+      "entryDate": "2016-02-24",
+      "position": "Nominee/Trustee",
+      "withdrawalDate": "2016-03-09"
+    },
+    {
+      "name": "FIZS SZHHU SHZHHHY",
+      "id": "S1155939E",
+      "nationality": "QA",
+      "address": {
+        "type": "local",
+        "streetName": "sea avenue",
+        "floor": "02",
+        "unit": "03",
+        "postalCode": "424242",
+        "houseNumber": "20b"
+      },
+      "addressSource": "acra",
+      "entryDate": "2016-02-23",
+      "position": "Nominee/Trustee",
+      "withdrawalDate": "2016-02-24"
+    },
+    {
+      "name": "FIZS SZHHU SHZHHHY",
+      "id": "S1155939E",
+      "nationality": "QA",
+      "address": {
+        "type": "local",
+        "streetName": "sea avenue",
+        "floor": "02",
+        "unit": "03",
+        "postalCode": "424242",
+        "houseNumber": "20b"
+      },
+      "addressSource": "acra",
+      "entryDate": "2016-02-15",
+      "position": "Nominee/Trustee",
+      "withdrawalDate": "2016-02-19"
+    },
+    {
+      "name": "FIZS SZHHU SHZHHHY",
+      "id": "S1155939E",
+      "nationality": "QA",
+      "address": {
+        "type": "local",
+        "streetName": "sea avenue",
+        "floor": "02",
+        "unit": "03",
+        "postalCode": "424242",
+        "houseNumber": "20b"
+      },
+      "addressSource": "acra",
+      "entryDate": "2016-02-12",
+      "position": "Nominee/Trustee",
+      "withdrawalDate": "2016-02-15"
+    },
+    {
+      "name": "JHUIIJ",
+      "id": "S7098532B",
+      "nationality": "GB",
+      "address": {
+        "type": "local",
+        "streetName": "ANSON ROAD",
+        "postalCode": "079903",
+        "houseNumber": "10"
+      },
+      "addressSource": "acra",
+      "entryDate": "2013-07-04",
+      "position": "Owner",
+      "withdrawalDate": "2016-07-20"
+    },
+    {
+      "name": "M?M !#!# $?U- PT#. LT&.",
+      "id": "201506036D",
+      "nationality": "SG",
+      "address": {
+        "type": "local",
+        "streetName": "ANSON ROAD",
+        "postalCode": "079903",
+        "floor": "01",
+        "unit": "01",
+        "houseNumber": "10"
+      },
+      "addressSource": "acra",
+      "entryDate": "2016-02-07",
+      "position": "Owner",
+      "withdrawalDate": "2016-02-24"
+    },
+    {
+      "name": "THST_S2013783Z",
+      "id": "S2013783A",
+      "nationality": "AT",
+      "address": {
+        "type": "foreign",
+        "address1": "a 1030 WIEN",
+        "address2": "LOTHRINGERstrasse",
+        "country": "14/16 France"
+      },
+      "addressSource": "acra",
+      "entryDate": "2016-02-07",
+      "position": "Owner",
+      "withdrawalDate": "2016-02-24"
+    },
+    {
+      "name": "W HHT EYHWHZ",
+      "id": "S7139337B",
+      "nationality": "SG",
+      "address": {
+        "type": "local",
+        "streetName": "marina boulevard",
+        "postalCode": "018980",
+        "floor": "51",
+        "unit": "05",
+        "buildingName": "marina bay residences",
+        "houseNumber": "18"
+      },
+      "addressSource": "acra",
+      "entryDate": "2014-03-31",
+      "position": "Owner",
+      "withdrawalDate": "2016-02-12"
+    },
+    {
+      "name": "XYZ",
+      "id": "S2014905A",
+      "nationality": "BY",
+      "address": {
+        "type": "local",
+        "streetName": "middle road",
+        "postalCode": "188979",
+        "floor": "12",
+        "unit": "wdg",
+        "buildingName": "fortune centre",
+        "houseNumber": "190"
+      },
+      "addressSource": "acra",
+      "entryDate": "2014-03-31",
+      "position": "Owner",
+      "withdrawalDate": "2016-02-12"
+    },
+    {
+      "name": "JHHYSHY",
+      "id": "S6366878H",
+      "nationality": "SG",
+      "address": {
+        "type": "local",
+        "streetName": "anson road",
+        "postalCode": "079903",
+        "houseNumber": "10"
+      },
+      "addressSource": "acra",
+      "entryDate": "2013-07-04",
+      "position": "Owner",
+      "withdrawalDate": "2016-07-18"
+    },
+    {
+      "name": "HXZY IS JHYEU",
+      "id": "S2014958B",
+      "nationality": "SG",
+      "address": {
+        "type": "local",
+        "streetName": "lorong telok",
+        "floor": "02",
+        "unit": "01",
+        "postalCode": "049032",
+        "houseNumber": "20"
+      },
+      "addressSource": "acra",
+      "entryDate": "2016-02-08",
+      "position": "Nominee/Trustee",
+      "withdrawalDate": "2016-02-24"
+    },
+    {
+      "name": "HXZY IS JHYEU",
+      "id": "S2014958B",
+      "nationality": "SG",
+      "address": {
+        "type": "local",
+        "streetName": "lorong telok",
+        "floor": "02",
+        "unit": "01",
+        "postalCode": "049032",
+        "houseNumber": "20"
+      },
+      "addressSource": "acra",
+      "entryDate": "2016-02-18",
+      "position": "Owner",
+      "withdrawalDate": "2016-02-24"
+    }
+  ],
+  "receiptNumber": "Replacement Copy of ACRA191113111236",
+  "receiptDate": "2019-11-18",
+  "signatureName": "Lee Tze Ming",
+  "qrCode": "BASE64",
+  "authenticationNumber": "IXXXXXXX49",
+  "issuers": [
+    {
+      "name": "GovTech",
+      "documentStore": "0x8Fc57204c35fb9317D91285eF52D6b892EC08cD3",
+      "identityProof": {
+        "type": "DNS-TXT",
+        "location": "example.openattestation.com"
+      }
+    }
+  ],
+  "$template": {
+    "name": "GEEK_OUT_2020",
+    "type": "EMBEDDED_RENDERER",
+    "url": "https://stoic-lumiere-531096.netlify.app"
+  }
 }

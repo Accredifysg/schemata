@@ -1,191 +1,191 @@
 {
-	"entityName": "FUSZFUFZSU",
-	"formerNames": [
-		"dcba lp"
-	],
-	"changeOfNameDate": "2009-11-01",
-	"uen": "T17LP0140J",
-	"registrationDate": "2017-06-13",
-	"commencementDate": "2017-06-13",
-	"status": "LiDissolvedve",
-	"statusDate": "2017-08-28",
-	"renewalDate": "2017-08-28",
-	"expiryDate": "2018-06-12",
-	"giroRenewal": false,
-	"12LpCompliance": true,
-	"address": {
-		"type": "local",
-		"streetName": "sea avenue",
-		"postalCode": "424242",
-		"houseNumber": "20B",
-		"invalidReason": "ACRA mail to this address was returned undelivered on 22/12/2017."
-	},
-	"changeOfAddressDate": "2009-11-01",
-	"activities": [
-		{
-			"name": "CAPTIVE MANAGERS (66292)",
-			"description": "HEDGE FUND"
-		},
-		{
-			"name": "",
-			"description": ""
-		}
-	],
-	"managers": [
-		{
-			"name": "SPIIZXVIIZx",
-			"id": "S1234567Z",
-			"nationality": "AMERICAN SAMOA",
-			"address": {
-				"type": "local",
-				"streetName": "abc street",
-				"floor": "01",
-				"unit": "01",
-				"postalCode": "123456",
-				"houseNumber": "123",
-				"buildingName": "cde plaza",
-				"invalidReason": "ACRA mail to this address was returned undelivered on 14/01/2018."
-			},
-			"addressSource": "ACRA",
-			"appointmentDate": "2017-06-13"
-		},
-		{
-			"name": "SPIIZXVIIZXEXXV",
-			"id": "S7068561B",
-			"nationality": "SINGAPORE CITIZEN",
-			"address": {
-				"type": "local",
-				"streetName": "sea avenue",
-				"floor": "02",
-				"unit": "03",
-				"postalCode": "424242",
-				"houseNumber": "20b"
-			},
-			"addressSource": "ACRA",
-			"appointmentDate": "2017-06-15"
-		}
-	],
-	"partners": [
-		{
-			"name": "SPIIZXVIIZx",
-			"id": "S2014916G",
-			"nationality": "SINGAPORE CITIZEN",
-			"address": {
-				"type": "local",
-				"streetName": "aNG MO KIO AVENUE 10",
-				"postalCode": "560464",
-				"houseNumber": "464",
-				"buildingName": "teck GHEE HORIZON",
-				"invalidReason": "ACRA mail to this address was returned undelivered on 07/07/2018."
-			},
-			"addressSource": "ACRA",
-			"appointmentDate": "2017-06-13",
-			"position": "Limited Partner"
-		},
-		{
-			"name": "SPIIZXVIIZX",
-			"id": "S1122334Z",
-			"nationality": "AMERICAN SAMOA",
-			"address": {
-				"type": "local",
-				"streetName": "fed avenue",
-				"floor": "33",
-				"unit": "33",
-				"postalCode": "321321",
-				"houseNumber": "168",
-				"buildingName": "abc condo"
-			},
-			"addressSource": "ACRA",
-			"appointmentDate": "2017-06-13",
-			"position": "General Partner"
-		},
-		{
-			"name": "SIHHTHIX JZJTSHy",
-			"id": "S0176696A",
-			"nationality": "BAHRAINI",
-			"address": {
-				"type": "local",
-				"streetName": "bishan STREET 21",
-				"floor": "06",
-				"unit": "09",
-				"postalCode": "574045",
-				"houseNumber": "63",
-				"buildingName": "bishan 8"
-			},
-			"addressSource": "ACRA",
-			"appointmentDate": "2017-07-27",
-			"position": "General Partner"
-		},
-		{
-			"name": "SHYE YZUTYHY",
-			"id": "S2015402J",
-			"nationality": "SINGAPORE CITIZEN",
-			"address": {
-				"type": "local",
-				"streetName": "springleaf walk",
-				"floor": "10",
-				"unit": "10",
-				"postalCode": "787878",
-				"houseNumber": "26",
-				"buildingName": "springleaf garden",
-				"invalidReason": "ACRA mail to this address was returned undelivered on 21/10/2018."
-			},
-			"addressSource": "ACRA",
-			"appointmentDate": "2018-02-01",
-			"withdrawalDate": "2018-07-03",
-			"position": "General Partner"
-		},
-		{
-			"name": "YTIIHT J",
-			"id": "G0667361P",
-			"nationality": "CHINESE",
-			"address": {
-				"type": "foreign",
-				"address1": "5804,CHURCHILL",
-				"address2": "LVD MISSISSAUGA,",
-				"country": "ONTARIO, CANANDA"
-			},
-			"addressSource": "ACRA",
-			"appointmentDate": "2018-01-30",
-			"withdrawalDate": "2018-07-03",
-			"position": "General Partner"
-		},
-		{
-			"name": "HTYZTIIS IZYZPIHXU",
-			"id": "S7964287H",
-			"nationality": "ALGERIAN",
-			"address": {
-				"type": "local",
-				"streetName": "sea avenue",
-				"floor": "01",
-				"unit": "02",
-				"postalCode": "424242",
-				"houseNumber": "20b"
-			},
-			"addressSource": "ACRA",
-			"appointmentDate": "2018-01-30",
-			"withdrawalDate": "2018-07-03",
-			"position": "Limited Partner"
-		}
-	],
-	"receiptDate": "2019-10-22",
-	"receiptNumber": "ACRAXXXXXXXXXX06",
-	"signatureName": "Lee Tze Ming",
-	"qrCode": "",
-	"authenticationNumber": "IXXXXXXX49",
-	"issuers": [
-		{
-			"name": "GovTech",
-			"documentStore": "0x8Fc57204c35fb9317D91285eF52D6b892EC08cD3",
-			"identityProof": {
-				"type": "DNS-TXT",
-				"location": "example.openattestation.com"
-			}
-		}
-	],
-	"$template": {
-		"name": "GEEK_OUT_2020",
-		"type": "EMBEDDED_RENDERER",
-		"url": "https://stoic-lumiere-531096.netlify.app"
-	}
+  "entityName": "FUSZFUFZSU",
+  "formerNames": [
+    "dcba lp"
+  ],
+  "changeOfNameDate": "2009-11-01",
+  "uen": "T17LP0140J",
+  "registrationDate": "2017-06-13",
+  "commencementDate": "2017-06-13",
+  "status": "LiDissolvedve",
+  "statusDate": "2017-08-28",
+  "renewalDate": "2017-08-28",
+  "expiryDate": "2018-06-12",
+  "giroRenewal": false,
+  "12LpCompliance": true,
+  "address": {
+    "type": "local",
+    "streetName": "sea avenue",
+    "postalCode": "424242",
+    "houseNumber": "20B",
+    "invalidReason": "ACRA mail to this address was returned undelivered on 22/12/2017."
+  },
+  "changeOfAddressDate": "2009-11-01",
+  "activities": [
+    {
+      "name": "CAPTIVE MANAGERS (66292)",
+      "description": "HEDGE FUND"
+    },
+    {
+      "name": "",
+      "description": ""
+    }
+  ],
+  "managers": [
+    {
+      "name": "SPIIZXVIIZx",
+      "id": "S1234567Z",
+      "nationality": "AMERICAN SAMOA",
+      "address": {
+        "type": "local",
+        "streetName": "abc street",
+        "floor": "01",
+        "unit": "01",
+        "postalCode": "123456",
+        "houseNumber": "123",
+        "buildingName": "cde plaza",
+        "invalidReason": "ACRA mail to this address was returned undelivered on 14/01/2018."
+      },
+      "addressSource": "ACRA",
+      "appointmentDate": "2017-06-13"
+    },
+    {
+      "name": "SPIIZXVIIZXEXXV",
+      "id": "S7068561B",
+      "nationality": "SINGAPORE CITIZEN",
+      "address": {
+        "type": "local",
+        "streetName": "sea avenue",
+        "floor": "02",
+        "unit": "03",
+        "postalCode": "424242",
+        "houseNumber": "20b"
+      },
+      "addressSource": "ACRA",
+      "appointmentDate": "2017-06-15"
+    }
+  ],
+  "partners": [
+    {
+      "name": "SPIIZXVIIZx",
+      "id": "S2014916G",
+      "nationality": "SINGAPORE CITIZEN",
+      "address": {
+        "type": "local",
+        "streetName": "aNG MO KIO AVENUE 10",
+        "postalCode": "560464",
+        "houseNumber": "464",
+        "buildingName": "teck GHEE HORIZON",
+        "invalidReason": "ACRA mail to this address was returned undelivered on 07/07/2018."
+      },
+      "addressSource": "ACRA",
+      "appointmentDate": "2017-06-13",
+      "position": "Limited Partner"
+    },
+    {
+      "name": "SPIIZXVIIZX",
+      "id": "S1122334Z",
+      "nationality": "AMERICAN SAMOA",
+      "address": {
+        "type": "local",
+        "streetName": "fed avenue",
+        "floor": "33",
+        "unit": "33",
+        "postalCode": "321321",
+        "houseNumber": "168",
+        "buildingName": "abc condo"
+      },
+      "addressSource": "ACRA",
+      "appointmentDate": "2017-06-13",
+      "position": "General Partner"
+    },
+    {
+      "name": "SIHHTHIX JZJTSHy",
+      "id": "S0176696A",
+      "nationality": "BAHRAINI",
+      "address": {
+        "type": "local",
+        "streetName": "bishan STREET 21",
+        "floor": "06",
+        "unit": "09",
+        "postalCode": "574045",
+        "houseNumber": "63",
+        "buildingName": "bishan 8"
+      },
+      "addressSource": "ACRA",
+      "appointmentDate": "2017-07-27",
+      "position": "General Partner"
+    },
+    {
+      "name": "SHYE YZUTYHY",
+      "id": "S2015402J",
+      "nationality": "SINGAPORE CITIZEN",
+      "address": {
+        "type": "local",
+        "streetName": "springleaf walk",
+        "floor": "10",
+        "unit": "10",
+        "postalCode": "787878",
+        "houseNumber": "26",
+        "buildingName": "springleaf garden",
+        "invalidReason": "ACRA mail to this address was returned undelivered on 21/10/2018."
+      },
+      "addressSource": "ACRA",
+      "appointmentDate": "2018-02-01",
+      "withdrawalDate": "2018-07-03",
+      "position": "General Partner"
+    },
+    {
+      "name": "YTIIHT J",
+      "id": "G0667361P",
+      "nationality": "CHINESE",
+      "address": {
+        "type": "foreign",
+        "address1": "5804,CHURCHILL",
+        "address2": "LVD MISSISSAUGA,",
+        "country": "ONTARIO, CANANDA"
+      },
+      "addressSource": "ACRA",
+      "appointmentDate": "2018-01-30",
+      "withdrawalDate": "2018-07-03",
+      "position": "General Partner"
+    },
+    {
+      "name": "HTYZTIIS IZYZPIHXU",
+      "id": "S7964287H",
+      "nationality": "ALGERIAN",
+      "address": {
+        "type": "local",
+        "streetName": "sea avenue",
+        "floor": "01",
+        "unit": "02",
+        "postalCode": "424242",
+        "houseNumber": "20b"
+      },
+      "addressSource": "ACRA",
+      "appointmentDate": "2018-01-30",
+      "withdrawalDate": "2018-07-03",
+      "position": "Limited Partner"
+    }
+  ],
+  "receiptDate": "2019-10-22",
+  "receiptNumber": "ACRAXXXXXXXXXX06",
+  "signatureName": "Lee Tze Ming",
+  "qrCode": "",
+  "authenticationNumber": "IXXXXXXX49",
+  "issuers": [
+    {
+      "name": "GovTech",
+      "documentStore": "0x8Fc57204c35fb9317D91285eF52D6b892EC08cD3",
+      "identityProof": {
+        "type": "DNS-TXT",
+        "location": "example.openattestation.com"
+      }
+    }
+  ],
+  "$template": {
+    "name": "GEEK_OUT_2020",
+    "type": "EMBEDDED_RENDERER",
+    "url": "https://stoic-lumiere-531096.netlify.app"
+  }
 }
