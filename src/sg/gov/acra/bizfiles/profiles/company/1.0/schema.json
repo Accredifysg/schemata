@@ -174,12 +174,6 @@
         "signatureName": {
             "type": "string"
         },
-        "signature": {
-            "type": "string"
-        },
-        "stamp": {
-            "type": "string"
-        },
         "qrCode": {
             "type": "string"
         },
