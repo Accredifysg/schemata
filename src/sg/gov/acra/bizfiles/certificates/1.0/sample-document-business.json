@@ -1,19 +1,19 @@
 {
-	"entityType": "business",
-	"entityName": "168 Enterprise",
-	"changeOfNameDate": "2016-10-10",
-	"uen": "16888888A",
-	"registrationDate": "2016-08-08",
-	"expiryDate": "2017-08-08",
-	"formerNames": [
-		{
-			"name": "9413 Enterprise",
-			"effectiveFrom": "2016-08-08"
-		}
-	],
-	"receiptNumber": "ACRAXXXXXXXXXX06",
-	"receiptDate": "2019-10-22",
-	"signatureName": "Lee Tze Ming",
-	"qrCode": "",
-	"authenticationNumber": "IXXXXXXX49"
+  "entityType": "business",
+  "entityName": "168 Enterprise",
+  "changeOfNameDate": "2016-10-10",
+  "uen": "16888888A",
+  "registrationDate": "2016-08-08",
+  "expiryDate": "2017-08-08",
+  "formerNames": [
+    {
+      "name": "9413 Enterprise",
+      "effectiveFrom": "2016-08-08"
+    }
+  ],
+  "receiptNumber": "ACRAXXXXXXXXXX06",
+  "receiptDate": "2019-10-22",
+  "signatureName": "Lee Tze Ming",
+  "qrCode": "",
+  "authenticationNumber": "IXXXXXXX49"
 }
