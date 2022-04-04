@@ -1,3 +1,4 @@
+/* eslint-disable jest/no-export */
 import Ajv from "ajv";
 import { cloneDeep, omit } from "lodash";
 import axios from "axios";
@@ -51,65 +52,17 @@ export function testCommon(schema: object, sampleDocJson: object) {
       });
     });
 
-    describe("status", () => {
-      it("should return array of errors without status", () => {
-        const badDoc = omit(cloneDeep(sampleDocJson), "status");
+    describe("entityType", () => {
+      it("should return array of errors without entityType", () => {
+        const badDoc = omit(cloneDeep(sampleDocJson), "entityType");
         expect(validator(badDoc)).toBe(false);
         expect(validator.errors).toStrictEqual([
           {
             keyword: "required",
             dataPath: "",
             schemaPath: "#/required",
-            params: { missingProperty: "status" },
-            message: "should have required property 'status'"
-          }
-        ]);
-      });
-    });
-
-    describe("statusDate", () => {
-      it("should return array of errors without statusDate", () => {
-        const badDoc = omit(cloneDeep(sampleDocJson), "statusDate");
-        expect(validator(badDoc)).toBe(false);
-        expect(validator.errors).toStrictEqual([
-          {
-            keyword: "required",
-            dataPath: "",
-            schemaPath: "#/required",
-            params: { missingProperty: "statusDate" },
-            message: "should have required property 'statusDate'"
-          }
-        ]);
-      });
-    });
-
-    describe("address", () => {
-      it("should return array of errors without address", () => {
-        const badDoc = omit(cloneDeep(sampleDocJson), "address");
-        expect(validator(badDoc)).toBe(false);
-        expect(validator.errors).toStrictEqual([
-          {
-            keyword: "required",
-            dataPath: "",
-            schemaPath: "#/required",
-            params: { missingProperty: "address" },
-            message: "should have required property 'address'"
-          }
-        ]);
-      });
-    });
-
-    describe("activities", () => {
-      it("should return array of errors without activities", () => {
-        const badDoc = omit(cloneDeep(sampleDocJson), "activities");
-        expect(validator(badDoc)).toBe(false);
-        expect(validator.errors).toStrictEqual([
-          {
-            keyword: "required",
-            dataPath: "",
-            schemaPath: "#/required",
-            params: { missingProperty: "activities" },
-            message: "should have required property 'activities'"
+            params: { missingProperty: "entityType" },
+            message: "should have required property 'entityType'"
           }
         ]);
       });
