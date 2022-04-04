@@ -1,3 +1,4 @@
+/* eslint-disable jest/no-export */
 import Ajv from "ajv";
 import { cloneDeep, omit } from "lodash";
 import axios from "axios";
