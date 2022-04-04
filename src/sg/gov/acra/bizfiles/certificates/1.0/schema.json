@@ -19,7 +19,7 @@
         },
         "registrationDate": {
             "$ref": "../../common/definitions/1.0/schema.json#/definitions/date",
-            "description": "The registration date of the comapny/business in YYYY-MM-DD format"
+            "description": "The registration date of the company/business in YYYY-MM-DD format"
         },
         "expiryDate": {
             "$ref": "../../common/definitions/1.0/schema.json#/definitions/date",
