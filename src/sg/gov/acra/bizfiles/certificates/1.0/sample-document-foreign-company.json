@@ -1,19 +1,34 @@
 {
+  "prodName": "CERTIFICATE CONFIRMING REGISTRATION OF FOREIGN COMPANY",
+  "productCode": "I034",
+  "entityName": "BAIA BRANCH OFFICE (name change effective from 12/07/2020);",
   "entityType": "foreignCompany",
-  "entityName": "Lucky Services Limited",
-  "changeOfNameDate": "2016-10-01",
-  "uen": "T16000008M",
-  "country": "FR",
-  "incorporationDate": "2016-08-08",
+  "changeOfNameDate": "12/07/2020",
+  "uen": "T18FC0029F",
+  "companyName": "BAIA",
+  "incorporationDate": "20/11/2018",
+  "country": "AUSTRIA",
   "formerNames": [
     {
-      "name": "Unlucky Services Limited",
-      "effectiveFrom": "2016-08-08"
+      "sNo": 1,
+      "name": "OMEGS BRANCH OFFICE",
+      "effectiveFrom": "12/07/2020"
+    },
+    {
+      "sNo": 2,
+      "name": "RUMU SINGAPORE BRANCH",
+      "effectiveFrom": "12/07/2020"
+    },
+    {
+      "sNo": 3,
+      "name": "$@ $##S WITH?UT SH!-# @!P (SING!P?-# *-!N@H)",
+      "effectiveFrom": "20/11/2018"
     }
   ],
-  "receiptNumber": "ACRAXXXXXXXXXX06",
-  "receiptDate": "2019-10-22",
-  "signatureName": "Tan Yong Tat",
+  "nameHistoryDate": "13/01/2003",
+  "receiptDate": "23/10/2014",
+  "receiptNumber": "ACRA160504005372",
+  "signatureName": "TAN YONG TAT",
   "qrCode": "",
-  "authenticationNumber": "IXXXXXXX49"
+  "authenticationNumber": "X22125755G"
 }
