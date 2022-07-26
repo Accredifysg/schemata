@@ -15,19 +15,19 @@
     },
     "incorporationDate": {
       "$ref": "../../common/definitions/1.0/schema.json#/definitions/date",
-      "description": "The incorporation date of the company/business in YYYY-MM-DD format"
+      "description": "The incorporation date of the company/business in DD/MM/YYYY format"
     },
     "registrationDate": {
       "$ref": "../../common/definitions/1.0/schema.json#/definitions/date",
-      "description": "The registration date of the company/business in YYYY-MM-DD format"
+      "description": "The registration date of the company/business in DD/MM/YYYY format"
     },
     "expiryDate": {
       "$ref": "../../common/definitions/1.0/schema.json#/definitions/date",
-      "description": "The expiry date for this certificate in YYYY-MM-DD format"
+      "description": "The expiry date for this certificate in DD/MM/YYYY format"
     },
     "receiptDate": {
       "$ref": "../../common/definitions/1.0/schema.json#/definitions/date",
-      "description": "The date at which this certificate was purchased in YYYY-MM-DD format"
+      "description": "The date at which this certificate was purchased in DD/MM/YYYY format"
     },
     "uen": {
       "$ref": "../../common/definitions/1.0/schema.json#/definitions/uen"
