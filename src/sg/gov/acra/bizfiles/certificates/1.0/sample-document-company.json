@@ -1,19 +1,23 @@
 {
+  "prodName": "CERTIFICATE CONFIRMING INCORPORATION OF COMPANY",
+  "productCode": "I031",
+  "entityName": "UP P?INT PT#. LT&. BERHAD(name change effective from 30/06/2022)",
   "entityType": "company",
-  "entityName": "Lucky Company Pte. LTD.",
-  "changeOfNameDate": "2016-10-01",
-  "uen": "201600008M",
-  "incorporationDate": "2016-08-08",
-  "companyType": "Limited exempt private company",
+  "changeOfNameDate": "30/06/2022",
+  "uen": "201500059D",
+  "incorporationDate": "01/01/2015",
+  "companyType": "PUBLIC COMPANY LIMITED BY SHARES",
   "formerNames": [
     {
-      "name": "Unlucky Company Pte. ltd.",
-      "effectiveFrom": "2016-08-08"
+      "sNo": 1,
+      "name": "UP P?INT PT#. LT&.",
+      "effectiveFrom": "01/01/2015"
     }
   ],
-  "receiptNumber": "ACRAXXXXXXXXXX06",
-  "receiptDate": "2019-10-22",
-  "signatureName": "Tan Yong Tat",
+  "nameHistoryDate": "13/01/2003",
+  "receiptDate": "23/10/2014",
+  "receiptNumber": "ACRA160504005372",
+  "signatureName": "TAN YONG TAT",
   "qrCode": "",
-  "authenticationNumber": "IXXXXXXX49"
+  "authenticationNumber": "P22125734P"
 }

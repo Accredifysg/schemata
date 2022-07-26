@@ -1,19 +1,23 @@
 {
+  "productName": "CERTIFICATE CONFIRMING REGISTRATION OF BUSINESS NAME",
+  "productCode": "I030",
+  "entityName": "GFDRDGFDG (name change effective from 17/03/2022);",
   "entityType": "business",
-  "entityName": "168 Enterprise",
-  "changeOfNameDate": "2016-10-10",
-  "uen": "16888888A",
-  "registrationDate": "2016-08-08",
-  "expiryDate": "2017-08-08",
+  "changeOfNameDate": "17/03/2022",
+  "uen": "53402197B",
+  "registrationDate": "14/09/2021",
+  "expiryDate": "14/09/2022",
   "formerNames": [
     {
-      "name": "9413 Enterprise",
-      "effectiveFrom": "2016-08-08"
+      "sNo": 1,
+      "name": "TEST EENNDDOOOORSSSE",
+      "effectiveFrom": "14/09/2021"
     }
   ],
-  "receiptNumber": "ACRAXXXXXXXXXX06",
-  "receiptDate": "2019-10-22",
-  "signatureName": "Lee Tze Ming",
+  "nameHistoryDate": "13/01/2003",
+  "receiptDate": "23/10/2014",
+  "receiptNumber": "ACRA160504005372",
+  "signatureName": "TAN YONG TAT",
   "qrCode": "",
-  "authenticationNumber": "IXXXXXXX49"
+  "authenticationNumber": "P22125734P"
 }
