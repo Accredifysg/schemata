@@ -514,6 +514,7 @@
     },
     "uen": {
       "type": "string",
+      "maxLength": 10,
       "description": "The Unique Entity Number of the entity",
       "examples": [
         "201807660K"
