@@ -480,6 +480,32 @@
         "ACCREDIFY PTE. LTD."
       ]
     },
+    "productName": {
+      "type": "string",
+      "description": "The name of the generated product",
+      "examples": [
+        "CERTIFICATE CONFIRMING REGISTRATION OF BUSINESS NAME",
+        "CERTIFICATE CONFIRMING INCORPORATION OF COMPANY"
+      ]
+    },
+    "productCode": {
+      "type": "string",
+      "examples": [
+        "I001"
+      ],
+      "enum": [
+        "I001",
+        "I003",
+        "I014",
+        "I023",
+        "I025",
+        "I030",
+        "I031",
+        "I032",
+        "I033",
+        "I034"
+      ]
+    },
     "formerNames": {
       "type": "array",
       "items": {
