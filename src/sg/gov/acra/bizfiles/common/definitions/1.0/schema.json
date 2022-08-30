@@ -32,6 +32,9 @@
         "buildingName": {
           "type": "string"
         },
+        "formattedAddress": {
+          "type": "string"
+        },
         "invalidReason": {
           "type": "string"
         },
@@ -55,8 +58,8 @@
           "required": [
             "type",
             "address1",
-            "address2",
-            "country"
+            "country",
+            "formattedAddress"
           ]
         },
         {
@@ -68,7 +71,8 @@
           "required": [
             "type",
             "streetName",
-            "postalCode"
+            "postalCode",
+            "formattedAddress"
           ]
         }
       ],
@@ -648,11 +652,11 @@
       "type": "string",
       "description": "The type of business certificate",
       "enum": [
-        "company",
-        "business",
-        "foreignCompany",
-        "llp",
-        "lp"
+        "Company",
+        "Business",
+        "ForeignCompany",
+        "LLP",
+        "LP"
       ]
     }
   }
