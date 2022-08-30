@@ -38,6 +38,9 @@
         "invalidReason": {
           "type": "string"
         },
+        "invalidReasonIndicator": {
+          "type": "string"
+        },
         "address1": {
           "type": "string"
         },
@@ -76,6 +79,11 @@
           ]
         }
       ],
+      "dependentRequired": {
+        "invalidReasonIndicator": [
+          "invalidReason"
+        ]
+      },
       "additionalProperties": false
     },
     "country": {
@@ -576,10 +584,10 @@
         "sharesType": {
           "type": "string",
           "enum": [
-            "Ordinary",
-            "Preference",
-            "Others",
-            "Treasury"
+            "ORDINARY",
+            "PREFERENCE",
+            "OTHERS",
+            "TREASURY"
           ]
         }
       },
@@ -639,7 +647,7 @@
           "type": "string",
           "enum": [
             "Issued Share Capital",
-            "Paid-Up Capital",
+            "Paid Up Share Capital",
             "Treasury Shares"
           ]
         }
