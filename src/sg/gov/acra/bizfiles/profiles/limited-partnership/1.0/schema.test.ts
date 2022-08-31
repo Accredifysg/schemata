@@ -102,17 +102,17 @@ describe("limitedPartnershipProfileSchema", () => {
     });
   });
 
-  describe("12LpCompliance", () => {
-    it("should return array of errors without 12LpCompliance", () => {
-      const badDoc = omit(cloneDeep(sampleDocJson), "12LpCompliance");
+  describe("lpCompliance", () => {
+    it("should return array of errors without lpCompliance", () => {
+      const badDoc = omit(cloneDeep(sampleDocJson), "lpCompliance");
       expect(validator(badDoc)).toBe(false);
       expect(validator.errors).toStrictEqual([
         {
           keyword: "required",
           dataPath: "",
           schemaPath: "#/required",
-          params: { missingProperty: "12LpCompliance" },
-          message: "should have required property '12LpCompliance'"
+          params: { missingProperty: "lpCompliance" },
+          message: "should have required property 'lpCompliance'"
         }
       ]);
     });

@@ -36,8 +36,8 @@
     "giroRenewal": {
       "$ref": "../../../common/definitions/1.0/schema.json#/definitions/giroRenewal"
     },
-    "12LpCompliance": {
-      "type": "boolean"
+    "lpCompliance": {
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/lpCompliance"
     },
     "address": {
       "$ref": "../../../common/definitions/1.0/schema.json#/definitions/address"
@@ -122,7 +122,7 @@
     "renewalDate",
     "expiryDate",
     "giroRenewal",
-    "12LpCompliance",
+    "lpCompliance",
     "address",
     "activities",
     "managers",

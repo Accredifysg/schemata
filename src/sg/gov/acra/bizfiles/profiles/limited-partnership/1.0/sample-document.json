@@ -12,7 +12,7 @@
   "renewalDate": "2017-08-28",
   "expiryDate": "2018-06-12",
   "giroRenewal": "NO",
-  "12LpCompliance": true,
+  "lpCompliance": "YES",
   "address": {
     "type": "local",
     "streetName": "sea avenue",
