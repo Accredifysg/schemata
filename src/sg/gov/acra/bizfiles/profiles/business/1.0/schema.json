@@ -33,8 +33,8 @@
     "expiryDate": {
       "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
     },
-    "renewalByGiro": {
-      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/renewalByGiro"
+    "giroRenewal": {
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/giroRenewal"
     },
     "businessConstitution": {
       "$ref": "../../../common/definitions/1.0/schema.json#/definitions/businessConstitution"
@@ -115,7 +115,7 @@
     "status",
     "statusDate",
     "expiryDate",
-    "renewalByGiro",
+    "giroRenewal",
     "businessConstitution",
     "address",
     "activities",

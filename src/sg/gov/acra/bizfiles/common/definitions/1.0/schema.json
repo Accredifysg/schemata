@@ -577,8 +577,12 @@
     "entityStatus": {
       "type": "string"
     },
-    "renewalByGiro": {
-      "type": "string"
+    "giroRenewal": {
+        "type": "string",
+        "enum": [
+          "YES",
+          "NO"
+        ]
     },
     "companyType": {
       "type": "string",
