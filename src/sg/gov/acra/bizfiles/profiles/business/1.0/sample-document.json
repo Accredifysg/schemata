@@ -11,7 +11,7 @@
   "statusDate": "2019-07-31",
   "renewalDate": "2024-01-01",
   "expiryDate": "2022-07-31",
-  "renewalByGiro": "NO",
+  "giroRenewal": "NO",
   "businessConstitution": "Sole-Proprietor",
   "address": {
     "type": "local",

@@ -86,17 +86,17 @@ describe("businessProfileSchema", () => {
     });
   });
 
-  describe("renewalByGiro", () => {
-    it("should return array of errors without renewalByGiro", () => {
-      const badDoc = omit(cloneDeep(sampleDocJson), "renewalByGiro");
+  describe("giroRenewal", () => {
+    it("should return array of errors without giroRenewal", () => {
+      const badDoc = omit(cloneDeep(sampleDocJson), "giroRenewal");
       expect(validator(badDoc)).toBe(false);
       expect(validator.errors).toStrictEqual([
         {
           keyword: "required",
           dataPath: "",
           schemaPath: "#/required",
-          params: { missingProperty: "renewalByGiro" },
-          message: "should have required property 'renewalByGiro'"
+          params: { missingProperty: "giroRenewal" },
+          message: "should have required property 'giroRenewal'"
         }
       ]);
     });
