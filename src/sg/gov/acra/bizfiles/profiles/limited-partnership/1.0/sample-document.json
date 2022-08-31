@@ -11,7 +11,7 @@
   "statusDate": "2017-08-28",
   "renewalDate": "2017-08-28",
   "expiryDate": "2018-06-12",
-  "giroRenewal": false,
+  "giroRenewal": "NO",
   "12LpCompliance": true,
   "address": {
     "type": "local",
