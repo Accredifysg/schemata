@@ -584,6 +584,13 @@
           "NO"
         ]
     },
+    "lpCompliance": {
+      "type": "string",
+      "enum": [
+        "YES",
+        "NO"
+      ]
+    },
     "companyType": {
       "type": "string",
       "description": "The type of company",
