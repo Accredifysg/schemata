@@ -702,18 +702,6 @@
       "required": [
         "type"
       ]
-    },
-    "entityType": {
-      "type": "string",
-      "description": "The type of business certificate",
-      "enum": [
-        "Company",
-        "Business",
-        "ForeignCompany",
-        "LLP",
-        "LP",
-        "PAF"
-      ]
     }
   }
 }

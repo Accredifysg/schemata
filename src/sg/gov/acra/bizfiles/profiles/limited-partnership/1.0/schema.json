@@ -129,8 +129,6 @@
     "partners",
     "receiptDate",
     "receiptNumber",
-    "signatureName",
-    "qrCode",
-    "authenticationNumber"
+    "signatureName"
   ]
 }

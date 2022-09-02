@@ -128,8 +128,6 @@
     "managers",
     "receiptDate",
     "receiptNumber",
-    "signatureName",
-    "qrCode",
-    "authenticationNumber"
+    "signatureName"
   ]
 }
