@@ -191,8 +191,6 @@
     "representatives",
     "receiptNumber",
     "receiptDate",
-    "signatureName",
-    "qrCode",
-    "authenticationNumber"
+    "signatureName"
   ]
 }
