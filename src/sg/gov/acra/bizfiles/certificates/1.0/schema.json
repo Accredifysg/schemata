@@ -97,7 +97,7 @@
     {
       "properties": {
         "entityType": {
-          "const": "foreignCompany"
+          "const": "ForeignCompany"
         }
       },
       "required": [
@@ -109,7 +109,7 @@
     {
       "properties": {
         "entityType": {
-          "const": "lp"
+          "const": "LP"
         }
       },
       "required": [
@@ -119,7 +119,7 @@
     {
       "properties": {
         "entityType": {
-          "const": "llp"
+          "const": "PAF"
         }
       },
       "required": [
@@ -129,7 +129,7 @@
     {
       "properties": {
         "entityType": {
-          "const": "business"
+          "const": "LLP"
         }
       },
       "required": [
@@ -139,7 +139,17 @@
     {
       "properties": {
         "entityType": {
-          "const": "company"
+          "const": "Business"
+        }
+      },
+      "required": [
+        "registrationDate"
+      ]
+    },
+    {
+      "properties": {
+        "entityType": {
+          "const": "Company"
         }
       },
       "required": [
