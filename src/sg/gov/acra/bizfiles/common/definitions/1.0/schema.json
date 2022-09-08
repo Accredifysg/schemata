@@ -533,6 +533,7 @@
       "type": "array",
       "description": "Former names that the company/business was known by and the date that the names were no longer used",
       "items": {
+        "type": "object",
         "additionalProperties": false,
         "properties": {
           "sNo": {
