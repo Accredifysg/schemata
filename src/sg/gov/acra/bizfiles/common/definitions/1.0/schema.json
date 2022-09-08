@@ -531,32 +531,8 @@
     },
     "formerNames": {
       "type": "array",
-      "description": "Former names that the company/business was known by and the date that the names were no longer used",
       "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "properties": {
-          "sNo": {
-            "type": "integer",
-            "description": "Sequence number of former name change",
-            "examples": [
-              1,
-              2
-            ]
-          },
-          "name": {
-            "type": "string",
-            "examples": [
-              "CEITO PTE. LTD."
-            ]
-          },
-          "effectiveFrom": {
-            "$ref": "#/definitions/date"
-          }
-        },
-        "required": [
-          "name"
-        ]
+        "type": "string"
       }
     },
     "uen": {
@@ -579,11 +555,11 @@
       "type": "string"
     },
     "giroRenewal": {
-        "type": "string",
-        "enum": [
-          "YES",
-          "NO"
-        ]
+      "type": "string",
+      "enum": [
+        "YES",
+        "NO"
+      ]
     },
     "lpCompliance": {
       "type": "string",
