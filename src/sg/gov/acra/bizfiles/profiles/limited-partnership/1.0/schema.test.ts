@@ -54,22 +54,6 @@ describe("limitedPartnershipProfileSchema", () => {
     });
   });
 
-  describe("renewalDate", () => {
-    it("should return array of errors without renewalDate", () => {
-      const badDoc = omit(cloneDeep(sampleDocJson), "renewalDate");
-      expect(validator(badDoc)).toBe(false);
-      expect(validator.errors).toStrictEqual([
-        {
-          keyword: "required",
-          dataPath: "",
-          schemaPath: "#/required",
-          params: { missingProperty: "renewalDate" },
-          message: "should have required property 'renewalDate'"
-        }
-      ]);
-    });
-  });
-
   describe("expiryDate", () => {
     it("should return array of errors without expiryDate", () => {
       const badDoc = omit(cloneDeep(sampleDocJson), "expiryDate");
@@ -113,22 +97,6 @@ describe("limitedPartnershipProfileSchema", () => {
           schemaPath: "#/required",
           params: { missingProperty: "lpCompliance" },
           message: "should have required property 'lpCompliance'"
-        }
-      ]);
-    });
-  });
-
-  describe("managers", () => {
-    it("should return array of errors without managers", () => {
-      const badDoc = omit(cloneDeep(sampleDocJson), "managers");
-      expect(validator(badDoc)).toBe(false);
-      expect(validator.errors).toStrictEqual([
-        {
-          keyword: "required",
-          dataPath: "",
-          schemaPath: "#/required",
-          params: { missingProperty: "managers" },
-          message: "should have required property 'managers'"
         }
       ]);
     });

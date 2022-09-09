@@ -8,6 +8,7 @@ function loadSchema(uri: string) {
     return res.data;
   });
 }
+
 const ajv = new Ajv({ allErrors: true, loadSchema: loadSchema });
 let validator: Ajv.ValidateFunction;
 
@@ -39,13 +40,17 @@ export function testOaCommon(schema: object, sampleDocJson: object) {
     it("should return array of errors without issuer name", () => {
       const badDoc = omit(cloneDeep(sampleDocJson), "issuers[0].name");
       expect(validator(badDoc)).toBe(false);
-      expect(validator.errors).toContainEqual({
-        keyword: "required",
-        dataPath: ".issuers[0]",
-        schemaPath: "#/required",
-        params: { missingProperty: "name" },
-        message: "should have required property 'name'"
-      });
+      expect(validator.errors).toEqual(
+        expect.arrayContaining([
+          expect.objectContaining({
+            keyword: "required",
+            dataPath: ".issuers[0]",
+            schemaPath: "#/required",
+            params: { missingProperty: "name" },
+            message: "should have required property 'name'"
+          })
+        ])
+      );
     });
   });
 }
