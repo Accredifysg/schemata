@@ -89,30 +89,12 @@
           },
           "withdrawalDate": {
             "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
-          },
-          "accountantsActEntryDate": {
-            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
-          },
-          "accountantActWithdrawalDate": {
-            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
           }
         },
         "required": [
           "position",
           "entryDate"
         ]
-      }
-    },
-    "liquidators": {
-      "type": "array",
-      "items": {
-        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/otherMembers"
-      }
-    },
-    "provisionalLiquidators": {
-      "type": "array",
-      "items": {
-        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/otherMembers"
       }
     },
     "receiptNumber": {
