@@ -163,37 +163,5 @@ export function testCommon(schema: object, sampleDocJson: object) {
         ]);
       });
     });
-
-    describe("qrCode", () => {
-      it("should return array of errors without qrCode", () => {
-        const badDoc = omit(cloneDeep(sampleDocJson), "qrCode");
-        expect(validator(badDoc)).toBe(false);
-        expect(validator.errors).toStrictEqual([
-          {
-            keyword: "required",
-            dataPath: "",
-            schemaPath: "#/required",
-            params: { missingProperty: "qrCode" },
-            message: "should have required property 'qrCode'"
-          }
-        ]);
-      });
-    });
-
-    describe("authenticationNumber", () => {
-      it("should return array of errors without authenticationNumber", () => {
-        const badDoc = omit(cloneDeep(sampleDocJson), "authenticationNumber");
-        expect(validator(badDoc)).toBe(false);
-        expect(validator.errors).toStrictEqual([
-          {
-            keyword: "required",
-            dataPath: "",
-            schemaPath: "#/required",
-            params: { missingProperty: "authenticationNumber" },
-            message: "should have required property 'authenticationNumber'"
-          }
-        ]);
-      });
-    });
   });
 }

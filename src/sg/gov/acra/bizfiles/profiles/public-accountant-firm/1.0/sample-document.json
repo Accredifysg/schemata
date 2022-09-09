@@ -1,218 +1,114 @@
 {
-  "entityName": "OM salah",
-  "formerNames": [],
-  "uen": "T19PF0001K",
-  "registrationDate": "2019-02-06",
-  "commencementDate": "2019-02-06",
-  "status": "Suspended (SI)",
-  "statusDate": "2019-02-06",
+  "productCode": "I023",
+  "entityName": "DGH&&*()56YH",
+  "uen": "T22PF0008E",
+  "registrationDate": "25/04/2022",
+  "commencementDate": "25/04/2022",
+  "status": "Live",
+  "statusDate": "25/04/2022",
   "constitution": "Partnership",
   "address": {
     "type": "local",
-    "streetName": "springleaf walk",
-    "postalCode": "787878",
-    "houseNumber": "36",
-    "buildingName": "springleaf garden",
-    "invalidReason": "ACRA mail to this address was returned undelivered on 22/12/2017."
+    "streetName": "SEA AVENUE",
+    "floor": "89",
+    "unit": "68",
+    "postalCode": "424242",
+    "houseNumber": "20B",
+    "formattedAddress": "20B SEA AVENUE\n#89-68\nSINGAPORE (424242)"
   },
-  "changeOfAddressDate": "2019-02-06",
-  "changeOfNameDate": "2019-02-06",
+  "changeOfNameDate": "27/05/2022",
   "activities": [
     {
-      "name": "ACCOUNTING AND AUDITING SERVICES (INCLUDING TAXATION ADVISORY SERVICES) (69201)",
-      "description": ""
-    },
-    {
-      "name": "",
-      "description": ""
+      "name": "ACCOUNTING AND AUDITING SERVICES (EXCLUDING ONLINE MARKETPLACES)(69201)",
+      "description": "ACCOUNT"
     }
   ],
   "partners": [
     {
-      "name": "SUZF FU",
-      "id": "S1320293A",
-      "nationality": "SINGAPORE CITIZEN",
-      "address": {
-        "type": "local",
-        "streetName": "springleaf walk",
-        "postalCode": "787878",
-        "houseNumber": "26",
-        "buildingName": "springleaf garden",
-        "invalidReason": "ACRA mail to this address was returned undelivered on 02/02/2018."
-      },
-      "addressSource": "ACRA",
-      "regn": "88901",
-      "partnerEntryDate": "1966-01-01"
-    },
-    {
-      "name": "HZXZY",
-      "id": "S3019661I",
-      "nationality": "SINGAPORE CITIZEN",
-      "address": {
-        "type": "local",
-        "streetName": "simei street 1",
-        "floor": "12",
-        "unit": "34",
-        "postalCode": "520113",
-        "houseNumber": "113"
-      },
-      "addressSource": "ACRA",
-      "publicAccountantRegnNo": "88904",
-      "partnerEntryDate": "2019-02-06",
-      "accountantsActEntryDate": "2019-02-06"
-    },
-    {
-      "name": "ZYIZXZIHP JZYZJHZYUIZY",
-      "id": "S7560027E",
-      "nationality": "REUNION",
-      "address": {
-        "type": "local",
-        "streetName": "sea avenue",
-        "floor": "01",
-        "unit": "02",
-        "postalCode": "424242",
-        "houseNumber": "20b"
-      },
-      "addressSource": "ACRA",
-      "publicAccountantRegnNo": "88912",
-      "partnerEntryDate": "2017-07-03",
-      "accountantsActEntryDate": "2017-06-13"
-    },
-    {
-      "name": "YZT THJT JHHY",
-      "id": "S8077800G",
-      "nationality": "SINGAPORE P.R.",
-      "address": {
-        "type": "local",
-        "streetName": "cHOA CHU KANG AVENUE 5",
-        "floor": "04",
-        "unit": "68",
-        "postalCode": "684484",
-        "houseNumber": "484D"
-      },
-      "addressSource": "ACRA",
-      "publicAccountantRegnNo": "01468",
-      "partnerEntryDate": "2017-09-01",
-      "accountantsActEntryDate": "2017-09-01"
-    },
-    {
-      "name": "NAYANA",
-      "id": "NAYANA",
-      "nationality": "SINGAPORE CITIZEN",
-      "address": {
-        "type": "local",
-        "streetName": "bedok reservoir crescent",
-        "postalCode": "4747474",
-        "houseNumber": "747D"
-      },
-      "addressSource": "ACRA",
-      "partnerEntryDate": "2019-02-06"
-    },
-    {
-      "name": "FUFUFUFU",
-      "id": "KJH123456",
-      "nationality": "SINGAPORE CITIZEN",
+      "name": "FLOW CHECK MUMMY",
+      "id": "2N79BK",
+      "nationality": "BHUTAN",
       "address": {
         "type": "foreign",
-        "country": "SG",
-        "address1": "GGFGFHGF",
-        "address2": "GHGHG"
+        "address1": "CAP1",
+        "address2": "CAP2",
+        "country": "BHUTAN",
+        "formattedAddress": "CAP1\nCAP2"
       },
       "addressSource": "ACRA",
-      "partnerEntryDate": "2017-09-01",
-      "accountantsActEntryDate": "1965-01-01"
+      "partnerEntryDate": "25/04/2022"
     },
     {
-      "name": "UIIHT YHW SHZIHHHXUHI",
-      "id": "S7037209F",
-      "nationality": "SINGAPORE CITIZEN",
+      "name": "PRIYA REDDY",
+      "id": "G7205159P",
+      "nationality": "ARMENIAN",
       "address": {
         "type": "local",
-        "houseNumber": "20",
-        "streetName": "sCIENCE PARK ROAD",
-        "buildingName": "TELETECH PARK",
-        "postalCode": "117674"
-      },
-      "addressSource": "ACRA",
-      "partnerEntryDate": "2017-09-01",
-      "accountantsActEntryDate": "2017-07-17"
-    },
-    {
-      "name": "HHXXH",
-      "id": "S2014135B",
-      "nationality": "SINGAPORE CITIZEN",
-      "address": {
-        "type": "local",
-        "streetName": "springleaf walk",
-        "floor": "a1",
-        "unit": "03",
+        "streetName": "SPR0013",
+        "floor": "12A",
+        "unit": "5GHJJ",
         "postalCode": "787878",
         "houseNumber": "26",
-        "buildingName": "springleaf garden",
-        "invalidReason": "ACRA mail to this address was returned undelivered on 27/12/2018."
+        "buildingName": "SPRINGLEAF GARDEN",
+        "formattedAddress": "26 SPR0013\n#12A-5GHJJ\nSPRINGLEAF GARDEN\nSINGAPORE (787878)"
       },
       "addressSource": "ACRA",
-      "publicAccountantRegnNo": "88885",
-      "partnerEntryDate": "2017-09-01",
-      "accountantsActEntryDate": "2017-10-30",
-      "accountantActWithdrawalDate": "2017-11-02"
+      "partnerEntryDate": "03/06/2022"
     },
     {
-      "name": "ZYIZXZIHP JZYZJHZYUIZY",
-      "id": "S7560027E",
-      "nationality": "REUNION",
-      "address": {
-        "type": "local",
-        "streetName": "sea avenue",
-        "floor": "02",
-        "unit": "01",
-        "postalCode": "424242",
-        "houseNumber": "20b"
-      },
-      "addressSource": "ACRA",
-      "publicAccountantRegnNo": "REUNION",
-      "partnerEntryDate": "2017-06-13",
-      "accountantsActEntryDate": "2017-08-10"
-    },
-    {
-      "name": "MEHAR",
-      "id": "S4162824C",
+      "name": "ALBERT TAN",
+      "id": "S3001479J",
       "nationality": "SINGAPORE CITIZEN",
       "address": {
         "type": "local",
-        "streetName": "sea avenue",
-        "floor": "03",
-        "unit": "02",
-        "postalCode": "424242",
-        "houseNumber": "20b"
+        "streetName": "ANS0001",
+        "floor": "12",
+        "unit": "12",
+        "postalCode": "79903",
+        "houseNumber": "10",
+        "buildingName": "INTERNATIONAL PLAZA",
+        "formattedAddress": "10 ANS0001\n#12-12\nINTERNATIONAL PLAZA\nSINGAPORE (79903)"
       },
       "addressSource": "ACRA",
-      "publicAccountantRegnNo": "REUNION",
-      "accountantsActEntryDate": "2017-10-30",
-      "accountantActWithdrawalDate": "2017-11-02",
-      "partnerEntryDate": "2017-10-30"
+      "partnerEntryDate": "25/04/2022",
+      "accountantsActEntryDate": "25/04/2022"
     },
     {
-      "name": "UIIHT YHW SHZIHHHXUHI",
-      "id": "S7037209F",
-      "nationality": "SINGAPORE CITIZEN",
+      "name": "PA EXAM CODE PAF",
+      "id": "UPMA15",
+      "nationality": "ALGERIAN",
       "address": {
-        "type": "local",
-        "streetName": "science park road",
-        "postalCode": "117674",
-        "buildingName": "teletech park",
-        "houseNumber": "20"
+        "type": "foreign",
+        "address1": "YTRF",
+        "address2": "LINE2",
+        "country": "ALGERIAN",
+        "formattedAddress": "YTRF\nLINE2"
       },
       "addressSource": "ACRA",
-      "publicAccountantRegnNo": "REUNION",
-      "accountantsActEntryDate": "2017-07-17",
-      "accountantActWithdrawalDate": "2017-07-20",
-      "partnerEntryDate": "2016-01-01"
+      "publicAccountantRegnNo": "88947",
+      "accountantsActEntryDate": "25/04/2022",
+      "accountantActWithdrawalDate": "25/04/2022"
+    },
+    {
+      "name": "PADFFF",
+      "id": "G2536286T",
+      "nationality": "AMERICAN",
+      "address": {
+        "type": "local",
+        "streetName": "SPRINGLEAF WALK",
+        "floor": "06",
+        "unit": "06",
+        "postalCode": "787878",
+        "houseNumber": "26",
+        "buildingName": "SPRINGLEAF GARDEN",
+        "formattedAddress": "26 SPRINGLEAF WALK\n#06-06\nSPRINGLEAF GARDEN\nSINGAPORE (787878)"
+      },
+      "addressSource": "N/A",
+      "partnerEntryDate": "25/04/2022",
+      "partnerWithdrawalDate": "25/04/2022"
     }
   ],
-  "receiptDate": "2019-10-22",
-  "receiptNumber": "ACRAXXXXXXXXXX06",
-  "signatureName": "Lee Tze Ming",
-  "qrCode": "",
-  "authenticationNumber": "IXXXXXXX49"
+  "receiptDate": "23/10/2014",
+  "receiptNumber": "ACRA220425101697",
+  "signatureName": "TAN YONG TAT"
 }

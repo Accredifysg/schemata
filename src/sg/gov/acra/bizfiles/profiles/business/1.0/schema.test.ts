@@ -10,6 +10,7 @@ function loadSchema(uri: string) {
     return res.data;
   });
 }
+
 const ajv = new Ajv({ allErrors: true, loadSchema: loadSchema });
 let validator: Ajv.ValidateFunction;
 
@@ -49,22 +50,6 @@ describe("businessProfileSchema", () => {
           schemaPath: "#/required",
           params: { missingProperty: "commencementDate" },
           message: "should have required property 'commencementDate'"
-        }
-      ]);
-    });
-  });
-
-  describe("renewalDate", () => {
-    it("should return array of errors without renewalDate", () => {
-      const badDoc = omit(cloneDeep(sampleDocJson), "renewalDate");
-      expect(validator(badDoc)).toBe(false);
-      expect(validator.errors).toStrictEqual([
-        {
-          keyword: "required",
-          dataPath: "",
-          schemaPath: "#/required",
-          params: { missingProperty: "renewalDate" },
-          message: "should have required property 'renewalDate'"
         }
       ]);
     });
@@ -113,38 +98,6 @@ describe("businessProfileSchema", () => {
           schemaPath: "#/required",
           params: { missingProperty: "businessConstitution" },
           message: "should have required property 'businessConstitution'"
-        }
-      ]);
-    });
-  });
-
-  describe("representatives", () => {
-    it("should return array of errors without representatives", () => {
-      const badDoc = omit(cloneDeep(sampleDocJson), "representatives");
-      expect(validator(badDoc)).toBe(false);
-      expect(validator.errors).toStrictEqual([
-        {
-          keyword: "required",
-          dataPath: "",
-          schemaPath: "#/required",
-          params: { missingProperty: "representatives" },
-          message: "should have required property 'representatives'"
-        }
-      ]);
-    });
-  });
-
-  describe("partners", () => {
-    it("should return array of errors without partners", () => {
-      const badDoc = omit(cloneDeep(sampleDocJson), "partners");
-      expect(validator(badDoc)).toBe(false);
-      expect(validator.errors).toStrictEqual([
-        {
-          keyword: "required",
-          dataPath: "",
-          schemaPath: "#/required",
-          params: { missingProperty: "partners" },
-          message: "should have required property 'partners'"
         }
       ]);
     });

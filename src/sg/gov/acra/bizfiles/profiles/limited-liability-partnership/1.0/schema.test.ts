@@ -38,22 +38,6 @@ describe("limitedLiabilityPartnershipProfileSchema", () => {
     });
   });
 
-  describe("annualDeclarationDate", () => {
-    it("should return array of errors without annualDeclarationDate", () => {
-      const badDoc = omit(cloneDeep(sampleDocJson), "annualDeclarationDate");
-      expect(validator(badDoc)).toBe(false);
-      expect(validator.errors).toStrictEqual([
-        {
-          keyword: "required",
-          dataPath: "",
-          schemaPath: "#/required",
-          params: { missingProperty: "annualDeclarationDate" },
-          message: "should have required property 'annualDeclarationDate'"
-        }
-      ]);
-    });
-  });
-
   describe("partners", () => {
     it("should return array of errors without partners", () => {
       const badDoc = omit(cloneDeep(sampleDocJson), "partners");
@@ -81,22 +65,6 @@ describe("limitedLiabilityPartnershipProfileSchema", () => {
           schemaPath: "#/required",
           params: { missingProperty: "managers" },
           message: "should have required property 'managers'"
-        }
-      ]);
-    });
-  });
-
-  describe("employees", () => {
-    it("should return array of errors without employees", () => {
-      const badDoc = omit(cloneDeep(sampleDocJson), "employees");
-      expect(validator(badDoc)).toBe(false);
-      expect(validator.errors).toStrictEqual([
-        {
-          keyword: "required",
-          dataPath: "",
-          schemaPath: "#/required",
-          params: { missingProperty: "employees" },
-          message: "should have required property 'employees'"
         }
       ]);
     });

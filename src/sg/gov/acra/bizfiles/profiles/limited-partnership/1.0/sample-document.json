@@ -1,176 +1,103 @@
 {
-  "entityName": "FUSZFUFZSU",
-  "formerNames": [
-    "dcba lp"
-  ],
-  "changeOfNameDate": "2009-11-01",
-  "uen": "T17LP0140J",
-  "registrationDate": "2017-06-13",
-  "commencementDate": "2017-06-13",
-  "status": "LiDissolvedve",
-  "statusDate": "2017-08-28",
-  "renewalDate": "2017-08-28",
-  "expiryDate": "2018-06-12",
+  "productCode": "I025",
+  "entityName": "MJAKHDBC LP",
+  "uen": "T22LP0016A",
+  "registrationDate": "26/04/2022",
+  "commencementDate": "26/04/2022",
+  "status": "Live",
+  "statusDate": "26/04/2022",
+  "expiryDate": "25/04/2023",
   "giroRenewal": "NO",
-  "lpCompliance": "YES",
+  "lpCompliance": "NO",
   "address": {
     "type": "local",
-    "streetName": "sea avenue",
-    "postalCode": "424242",
-    "houseNumber": "20B",
-    "invalidReason": "ACRA mail to this address was returned undelivered on 22/12/2017."
+    "streetName": "SPRINGLEAF WALK",
+    "floor": "01",
+    "unit": "02",
+    "postalCode": "787878",
+    "houseNumber": "26",
+    "buildingName": "SPRINGLEAF GARDEN",
+    "formattedAddress": "26 SPRINGLEAF WALK\n#01-02\nSPRINGLEAF GARDEN\nSINGAPORE (787878)"
   },
-  "changeOfAddressDate": "2009-11-01",
   "activities": [
     {
-      "name": "CAPTIVE MANAGERS (66292)",
-      "description": "HEDGE FUND"
+      "name": "SALES AND SERVICES – PREPACKAGED SOFTWARE(59112)",
+      "description": "SALES"
     },
     {
-      "name": "",
-      "description": ""
+      "name": "RENTING AND LEASING OF PRIVATE CARS WITHOUT DRIVER (EXCLUDING ONLINE MARKETPLACES)(77101)",
+      "description": "CARS"
     }
   ],
   "managers": [
     {
-      "name": "SPIIZXVIIZx",
-      "id": "S1234567Z",
-      "nationality": "AMERICAN SAMOA",
+      "name": "PARUGU",
+      "id": "G9652329M",
+      "nationality": "AMERICAN",
       "address": {
         "type": "local",
-        "streetName": "abc street",
-        "floor": "01",
-        "unit": "01",
-        "postalCode": "123456",
-        "houseNumber": "123",
-        "buildingName": "cde plaza",
-        "invalidReason": "ACRA mail to this address was returned undelivered on 14/01/2018."
-      },
-      "addressSource": "ACRA",
-      "appointmentDate": "2017-06-13"
-    },
-    {
-      "name": "SPIIZXVIIZXEXXV",
-      "id": "S7068561B",
-      "nationality": "SINGAPORE CITIZEN",
-      "address": {
-        "type": "local",
-        "streetName": "sea avenue",
-        "floor": "02",
-        "unit": "03",
+        "streetName": "SEA AVENUE",
+        "floor": "8U",
+        "unit": "9I",
         "postalCode": "424242",
-        "houseNumber": "20b"
+        "houseNumber": "20B",
+        "formattedAddress": "20B SEA AVENUE\n#8U-9I\nSINGAPORE (424242)"
       },
-      "addressSource": "ACRA",
-      "appointmentDate": "2017-06-15"
+      "addressSource": "Acra",
+      "appointmentDate": "26/04/2022"
     }
   ],
   "partners": [
     {
-      "name": "SPIIZXVIIZx",
-      "id": "S2014916G",
-      "nationality": "SINGAPORE CITIZEN",
-      "address": {
-        "type": "local",
-        "streetName": "aNG MO KIO AVENUE 10",
-        "postalCode": "560464",
-        "houseNumber": "464",
-        "buildingName": "teck GHEE HORIZON",
-        "invalidReason": "ACRA mail to this address was returned undelivered on 07/07/2018."
-      },
-      "addressSource": "ACRA",
-      "appointmentDate": "2017-06-13",
-      "position": "Limited Partner"
-    },
-    {
-      "name": "SPIIZXVIIZX",
-      "id": "S1122334Z",
-      "nationality": "AMERICAN SAMOA",
-      "address": {
-        "type": "local",
-        "streetName": "fed avenue",
-        "floor": "33",
-        "unit": "33",
-        "postalCode": "321321",
-        "houseNumber": "168",
-        "buildingName": "abc condo"
-      },
-      "addressSource": "ACRA",
-      "appointmentDate": "2017-06-13",
-      "position": "General Partner"
-    },
-    {
-      "name": "SIHHTHIX JZJTSHy",
-      "id": "S0176696A",
-      "nationality": "BAHRAINI",
-      "address": {
-        "type": "local",
-        "streetName": "bishan STREET 21",
-        "floor": "06",
-        "unit": "09",
-        "postalCode": "574045",
-        "houseNumber": "63",
-        "buildingName": "bishan 8"
-      },
-      "addressSource": "ACRA",
-      "appointmentDate": "2017-07-27",
-      "position": "General Partner"
-    },
-    {
-      "name": "SHYE YZUTYHY",
-      "id": "S2015402J",
-      "nationality": "SINGAPORE CITIZEN",
-      "address": {
-        "type": "local",
-        "streetName": "springleaf walk",
-        "floor": "10",
-        "unit": "10",
-        "postalCode": "787878",
-        "houseNumber": "26",
-        "buildingName": "springleaf garden",
-        "invalidReason": "ACRA mail to this address was returned undelivered on 21/10/2018."
-      },
-      "addressSource": "ACRA",
-      "appointmentDate": "2018-02-01",
-      "withdrawalDate": "2018-07-03",
-      "position": "General Partner"
-    },
-    {
-      "name": "YTIIHT J",
-      "id": "G0667361P",
-      "nationality": "CHINESE",
+      "name": "MALAKALA",
+      "id": "82828282",
+      "nationality": "AMERICAN",
       "address": {
         "type": "foreign",
-        "address1": "5804,CHURCHILL",
-        "address2": "LVD MISSISSAUGA,",
-        "country": "ONTARIO, CANANDA"
+        "address1": "KAT1",
+        "address2": "KAT2",
+        "country": "AMERICAN",
+        "formattedAddress": "KAT1\nKAT2"
       },
-      "addressSource": "ACRA",
-      "appointmentDate": "2018-01-30",
-      "withdrawalDate": "2018-07-03",
-      "position": "General Partner"
+      "addressSource": "Acra",
+      "entryDate": "26/04/2022",
+      "position": "Limited Partner"
     },
     {
-      "name": "HTYZTIIS IZYZPIHXU",
-      "id": "S7964287H",
-      "nationality": "ALGERIAN",
+      "name": "BOMBAAT",
+      "id": "G8645290T",
+      "nationality": "AMERICAN",
       "address": {
         "type": "local",
-        "streetName": "sea avenue",
-        "floor": "01",
-        "unit": "02",
-        "postalCode": "424242",
-        "houseNumber": "20b"
+        "streetName": "SERENADE WALK",
+        "floor": "9I",
+        "unit": "7Y",
+        "postalCode": "575757",
+        "houseNumber": "8",
+        "buildingName": "THOMSON HILLS ESTATE",
+        "formattedAddress": "8 SERENADE WALK\n#9I-7Y\nTHOMSON HILLS ESTATE\nSINGAPORE (575757)"
       },
-      "addressSource": "ACRA",
-      "appointmentDate": "2018-01-30",
-      "withdrawalDate": "2018-07-03",
-      "position": "Limited Partner"
+      "addressSource": "Acra",
+      "entryDate": "26/04/2022",
+      "position": "General Partner as Nominee / Trustee"
+    },
+    {
+      "name": "UDDANTI",
+      "id": "911119191",
+      "nationality": "AMERICAN",
+      "address": {
+        "type": "foreign",
+        "address1": "BOMB1",
+        "address2": "BOMB2",
+        "country": "AMERICAN",
+        "formattedAddress": "BOMB1\nBOMB2"
+      },
+      "addressSource": "Acra",
+      "entryDate": "26/04/2022",
+      "position": "General Partner"
     }
   ],
-  "receiptDate": "2019-10-22",
-  "receiptNumber": "ACRAXXXXXXXXXX06",
-  "signatureName": "Lee Tze Ming",
-  "qrCode": "",
-  "authenticationNumber": "IXXXXXXX49"
+  "receiptDate": "23/10/2014",
+  "receiptNumber": "ACRA220426101742",
+  "signatureName": "TAN YONG TAT"
 }
