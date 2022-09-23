@@ -461,7 +461,8 @@
             "Liquidator",
             "Provisional Liquidator",
             "Receiver",
-            "Judicial Manager"
+            "Judicial Manager",
+            "Manager"
           ]
         }
       },
