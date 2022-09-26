@@ -10,9 +10,12 @@
       "$ref": "../../../common/definitions/1.0/schema.json#/definitions/entityName"
     },
     "gazettedIndicator": {
-        "type": "string",
-        "description": "Indication if the company is gazetted",
-        "enum": ["Y", "N"]
+      "type": "string",
+      "description": "Indication if the company is gazetted",
+      "enum": [
+        "Y",
+        "N"
+      ]
     },
     "formerName": {
       "$ref": "../../../common/definitions/1.0/schema.json#/definitions/formerNames"
@@ -44,45 +47,47 @@
     "asredomDtls": {
       "type": "array",
       "items": {
-            "countryOfOriginalIncorporation": {
-              "$ref": "../../../common/definitions/1.0/schema.json#/definitions/country"
-            },
-            "dateOfOriginalIncorporation": {
-              "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
-            },
-            "nameOnDeregistration": {
-              "$ref": "../../../common/definitions/1.0/schema.json#/definitions/entityName"
-            },
-            "registrationHistory": {
-              "type": "array",
-              "items": {
-                "type": "object",
-                "additionalProperties": false,
-                "properties": {
-                  "countryOfRegistration": {
-                    "$ref": "../../../common/definitions/1.0/schema.json#/definitions/country"
-                  },
-                  "registrationDateistration": {
-                    "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
-                  },
-                  "registeredNameOnDeregistration": {
-                    "$ref": "../../../common/definitions/1.0/schema.json#/definitions/entityName"
-                  }
+        "type": "object",
+        "properties": {
+          "countryOfOriginalIncorporation": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/country"
+          },
+          "dateOfOriginalIncorporation": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+          },
+          "nameOnDeregistration": {
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/entityName"
+          },
+          "registrationHistory": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "countryOfRegistration": {
+                  "$ref": "../../../common/definitions/1.0/schema.json#/definitions/country"
                 },
-                "required": [
-                  "countryOfRegistration",
-                  "registeredNameOnDeregistration",
-                  "registrationDateistration"
-                ],
-                "title": "RegistrationHistory"
-              }
-            },
-        "conditionOfRegistration": {
+                "registrationDateistration": {
+                  "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+                },
+                "registeredNameOnDeregistration": {
+                  "$ref": "../../../common/definitions/1.0/schema.json#/definitions/entityName"
+                }
+              },
+              "required": [
+                "countryOfRegistration",
+                "registeredNameOnDeregistration",
+                "registrationDateistration"
+              ],
+              "title": "RegistrationHistory"
+            }
+          },
+          "conditionOfRegistration": {
             "type": "string"
+          }
         }
       }
     },
-
     "registrationCountry": {
       "$ref": "../../../common/definitions/1.0/schema.json#/definitions/country"
     },
