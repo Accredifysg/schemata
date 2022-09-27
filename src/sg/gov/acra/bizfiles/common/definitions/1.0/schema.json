@@ -421,16 +421,13 @@
             "allOf": [
               {
                 "$ref": "#/definitions/person"
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "addressChanged": {
-                    "$ref": "#/definitions/date"
-                  }
-                }
               }
-            ]
+            ],
+            "properties": {
+              "addressChanged": {
+                "$ref": "#/definitions/date"
+              }
+            }
           }
         }
       },
