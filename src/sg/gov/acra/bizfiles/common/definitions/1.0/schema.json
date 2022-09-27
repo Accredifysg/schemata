@@ -421,6 +421,14 @@
             "allOf": [
               {
                 "$ref": "#/definitions/person"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "addressChanged": {
+                    "$ref": "#/definitions/date"
+                  }
+                }
               }
             ]
           }
@@ -442,7 +450,7 @@
       ],
       "properties": {
         "addressChanged": {
-          "type": "string"
+          "$ref": "#/definitions/date"
         }
       }
     },
