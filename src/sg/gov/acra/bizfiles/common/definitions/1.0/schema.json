@@ -537,8 +537,21 @@
     },
     "formerNames": {
       "type": "array",
+      "description": "Former names that the company/business was known by",
       "items": {
-        "type": "string"
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string",
+            "examples": [
+              "CEITO PTE. LTD."
+            ]
+          }
+        },
+        "required": [
+          "name"
+        ]
       }
     },
     "uen": {
