@@ -119,8 +119,6 @@
     "businessConstitution",
     "address",
     "activities",
-    "receiptNumber",
-    "receiptDate",
     "signatureName"
   ]
 }

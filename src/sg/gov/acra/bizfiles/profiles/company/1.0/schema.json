@@ -232,8 +232,6 @@
     "address",
     "activities",
     "representatives",
-    "receiptNumber",
-    "receiptDate",
     "signatureName"
   ]
 }
