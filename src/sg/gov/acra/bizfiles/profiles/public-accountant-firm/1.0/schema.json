@@ -94,8 +94,6 @@
     "address",
     "activities",
     "partners",
-    "receiptDate",
-    "receiptNumber",
     "signatureName"
   ]
 }

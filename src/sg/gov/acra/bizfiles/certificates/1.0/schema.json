@@ -154,8 +154,6 @@
     "productCode",
     "entityName",
     "uen",
-    "receiptDate",
-    "receiptNumber",
     "signatureName"
   ]
 }
