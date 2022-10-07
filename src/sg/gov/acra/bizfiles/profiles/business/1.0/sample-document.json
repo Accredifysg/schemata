@@ -2,7 +2,9 @@
   "productCode": "I003",
   "companyType": "PUBLIC COMPANY LIMITED BY GUARANTEE",
   "entityName": "COMPUTERS LIMITED",
-  "formerNames": ["FASGGDGFGSDF"],
+  "formerNames": [{
+    "name": "FASGGDGFGSDF"
+  }],
   "changeOfNameDate": "18/04/2022",
   "uen": "202200025R",
   "registrationDate": "18/04/2022",

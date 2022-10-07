@@ -52,39 +52,6 @@ export function testCommon(schema: object, sampleDocJson: object) {
       });
     });
 
-
-    describe("receiptNumber", () => {
-      it("should return array of errors without receiptNumber", () => {
-        const badDoc = omit(cloneDeep(sampleDocJson), "receiptNumber");
-        expect(validator(badDoc)).toBe(false);
-        expect(validator.errors).toStrictEqual([
-          {
-            keyword: "required",
-            dataPath: "",
-            schemaPath: "#/required",
-            params: { missingProperty: "receiptNumber" },
-            message: "should have required property 'receiptNumber'"
-          }
-        ]);
-      });
-    });
-
-    describe("receiptDate", () => {
-      it("should return array of errors without receiptDate", () => {
-        const badDoc = omit(cloneDeep(sampleDocJson), "receiptDate");
-        expect(validator(badDoc)).toBe(false);
-        expect(validator.errors).toStrictEqual([
-          {
-            keyword: "required",
-            dataPath: "",
-            schemaPath: "#/required",
-            params: { missingProperty: "receiptDate" },
-            message: "should have required property 'receiptDate'"
-          }
-        ]);
-      });
-    });
-
     describe("signatureName", () => {
       it("should return array of errors without signatureName", () => {
         const badDoc = omit(cloneDeep(sampleDocJson), "signatureName");
