@@ -53,7 +53,7 @@
         "type": "object",
         "additionalProperties": false,
         "properties": {
-          "sNo": {
+          "sno": {
             "type": "string",
             "description": "Sequence number of former name change",
             "examples": [
@@ -72,7 +72,7 @@
           }
         },
         "required": [
-          "sNo",
+          "sno",
           "name",
           "effectiveFrom"
         ]
