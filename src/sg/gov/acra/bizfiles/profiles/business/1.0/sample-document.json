@@ -4,7 +4,8 @@
   "entityName": "COMPUTERS LIMITED",
   "formerNames": [{
     "name": "FASGGDGFGSDF"
-  }],
+  }
+  ],
   "changeOfNameDate": "18/04/2022",
   "uen": "202200025R",
   "registrationDate": "18/04/2022",
@@ -14,7 +15,7 @@
   "renewalDate": "18/04/2022",
   "expiryDate": "18/04/2022",
   "giroRenewal": "YES",
-  "businessConstitution": "Partnership",
+  "businessConstitution": "PARTNERSHIP",
   "address": {
     "type": "local",
     "streetName": "WEST COAST ROAD",

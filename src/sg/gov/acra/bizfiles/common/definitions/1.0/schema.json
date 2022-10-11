@@ -372,8 +372,7 @@
         },
         "additionalProperties": false,
         "required": [
-          "name",
-          "description"
+          "name"
         ]
       },
       "additionalItems": false
@@ -609,8 +608,8 @@
     "businessConstitution": {
       "type": "string",
       "enum": [
-        "Sole-Proprietor",
-        "Partnership"
+        "SOLE-PROPRIETOR",
+        "PARTNERSHIP"
       ]
     },
     "share": {
