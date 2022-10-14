@@ -39,9 +39,6 @@
         "invalidReason": {
           "type": "string"
         },
-        "invalidReasonIndicator": {
-          "type": "string"
-        },
         "address1": {
           "type": "string"
         },
@@ -90,11 +87,6 @@
           ]
         }
       ],
-      "dependentRequired": {
-        "invalidReasonIndicator": [
-          "invalidReason"
-        ]
-      },
       "additionalProperties": false
     },
     "country": {
