@@ -1,6 +1,6 @@
 ﻿{
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://cdn.uat.accredify.io/schema/acra/bizfiles/definitions/1.0/schema.json",
+  "$id": "https://cdn.uat.accredify.io/schema/acra/bizfiles/common/definitions/1.0/schema.json",
   "title": "Schema definitions for BizFile schemas",
   "description": "Schema definitions for BizFile schemas",
   "definitions": {
