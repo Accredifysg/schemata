@@ -638,7 +638,7 @@
           "type": "string"
         },
         "dateRegistered": {
-          "type": "string"
+          "$ref": "#/definitions/date"
         },
         "amountSecured": {
           "type": "string"
