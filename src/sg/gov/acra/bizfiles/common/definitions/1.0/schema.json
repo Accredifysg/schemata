@@ -86,8 +86,7 @@
             "invalidReason"
           ]
         }
-      ],
-      "additionalProperties": false
+      ]
     },
     "country": {
       "type": "string",
