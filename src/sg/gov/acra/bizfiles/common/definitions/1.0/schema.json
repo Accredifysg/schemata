@@ -585,13 +585,40 @@
       ]
     },
     "amalgamatedFrom": {
-      "type": "string"
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "amalgamatedFrom": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
     },
     "amalgamatedWith": {
-      "type": "string"
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "amalgamatedWith": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
     },
     "amalgamatedToFrom": {
-      "type": "string"
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "amalgamatedToFrom": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
     },
     "conditions": {
       "type": "string"
