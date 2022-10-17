@@ -630,6 +630,13 @@
         "PARTNERSHIP"
       ]
     },
+    "constitution": {
+      "type": "string",
+      "enum": [
+        "SOLE-PROPRIETORSHIP",
+        "PARTNERSHIP"
+      ]
+    },
     "share": {
       "type": "object",
       "properties": {
