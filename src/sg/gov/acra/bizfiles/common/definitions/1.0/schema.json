@@ -59,7 +59,6 @@
           "required": [
             "type",
             "address1",
-            "country",
             "formattedAddress"
           ]
         },
