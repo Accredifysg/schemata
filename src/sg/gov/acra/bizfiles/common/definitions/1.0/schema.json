@@ -390,8 +390,7 @@
         "name",
         "id",
         "nationality",
-        "address",
-        "addressSource"
+        "address"
       ]
     },
     "shareholderGroup": {
