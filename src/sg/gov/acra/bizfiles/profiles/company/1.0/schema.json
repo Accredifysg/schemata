@@ -70,7 +70,7 @@
                 "countryOfRegistration": {
                   "$ref": "../../../common/definitions/1.0/schema.json#/definitions/country"
                 },
-                "registrationDateistration": {
+                "dateOfRegistration": {
                   "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
                 },
                 "registeredNameOnDeregistration": {
@@ -80,7 +80,7 @@
               "required": [
                 "countryOfRegistration",
                 "registeredNameOnDeregistration",
-                "registrationDateistration"
+                "dateOfRegistration"
               ],
               "title": "RegistrationHistory"
             }
