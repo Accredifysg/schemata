@@ -386,12 +386,7 @@
           "type": "string"
         }
       },
-      "required": [
-        "name",
-        "id",
-        "nationality",
-        "address"
-      ]
+      "minProperties": 1
     },
     "shareholderGroup": {
       "allOf": [
