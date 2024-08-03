@@ -643,12 +643,9 @@
       "type": "object",
       "properties": {
         "shares": {
-          "type": "string"
+          "type": "number"
         },
         "currency": {
-          "type": "string"
-        },
-        "amount": {
           "type": "string"
         },
         "sharesType": {
@@ -676,7 +673,7 @@
           "$ref": "#/definitions/date"
         },
         "amountSecured": {
-          "type": "string"
+          "type": "number"
         },
         "chargees": {
           "type": "string"
