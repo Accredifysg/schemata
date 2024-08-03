@@ -71,22 +71,6 @@ describe("limitedPartnershipProfileSchema", () => {
         });
     });
 
-    describe("giroRenewal", () => {
-        it("should return array of errors without giroRenewal", () => {
-            const badDoc = omit(cloneDeep(sampleDocJson), "giroRenewal");
-            expect(validator(badDoc)).toBe(false);
-            expect(validator.errors).toStrictEqual([
-                {
-                    keyword: "required",
-                    dataPath: "",
-                    schemaPath: "#/required",
-                    params: {missingProperty: "giroRenewal"},
-                    message: "should have required property 'giroRenewal'"
-                }
-            ]);
-        });
-    });
-
     describe("lpCompliance", () => {
         it("should return array of errors without lpCompliance", () => {
             const badDoc = omit(cloneDeep(sampleDocJson), "lpCompliance");

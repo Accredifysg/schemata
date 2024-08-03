@@ -566,13 +566,6 @@
     "entityStatus": {
       "type": "string"
     },
-    "giroRenewal": {
-      "type": "string",
-      "enum": [
-        "YES",
-        "NO"
-      ]
-    },
     "lpCompliance": {
       "type": "string",
       "enum": [

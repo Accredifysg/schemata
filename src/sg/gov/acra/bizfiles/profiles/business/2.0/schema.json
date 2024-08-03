@@ -33,9 +33,6 @@
     "expiryDate": {
       "$ref": "../../../common/definitions/2.0/schema.json#/definitions/date"
     },
-    "giroRenewal": {
-      "$ref": "../../../common/definitions/2.0/schema.json#/definitions/giroRenewal"
-    },
     "businessConstitution": {
       "$ref": "../../../common/definitions/2.0/schema.json#/definitions/businessConstitution"
     },
