@@ -2,7 +2,7 @@ import Ajv from "ajv";
 import { cloneDeep, omit } from "lodash";
 import schema from "./schema.json";
 import axios from "axios";
-import { testCommon } from "../../common/tests/certificates-schema";
+import {testCommon} from "../../common/1.0/tests/certificates-schema";
 
 import businessSampleDocJson from "./sample-document-business.json";
 import companySampleDocJson from "./sample-document-company.json";

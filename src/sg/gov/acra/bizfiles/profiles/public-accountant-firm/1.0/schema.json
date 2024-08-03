@@ -4,47 +4,47 @@
   "type": "object",
   "properties": {
     "entityName": {
-      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/entityName"
+      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/entityName"
     },
     "formerNames": {
-      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/formerNames"
+      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/formerNames"
     },
     "uen": {
-      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/uen"
+      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/uen"
     },
     "registrationDate": {
-      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
     },
     "commencementDate": {
-      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
     },
     "status": {
       "type": "string"
     },
     "statusDate": {
-      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
     },
     "constitution": {
-      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/constitution"
+      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/constitution"
     },
     "address": {
-      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/address"
+      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/address"
     },
     "changeOfAddressDate": {
-      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
     },
     "changeOfNameDate": {
-      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
     },
     "activities": {
-      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/activities"
+      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/activities"
     },
     "partners": {
       "type": "array",
       "items": {
         "allOf": [
           {
-            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/person"
+            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/person"
           }
         ],
         "properties": {
@@ -52,35 +52,35 @@
             "type": "string"
           },
           "partnerEntryDate": {
-            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
           },
           "partnerWithdrawalDate": {
-            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
           },
           "accountantsActEntryDate": {
-            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
           },
           "accountantActWithdrawalDate": {
-            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
+            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
           }
         }
       }
     },
     "receiptNumber": {
-      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/receiptNumber"
+      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/receiptNumber"
     },
     "receiptDate": {
-      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date",
+      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date",
       "description": "The date at which this certificate was purchased in DD/MM/YYYY format"
     },
     "signatureName": {
-      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/signatureName"
+      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/signatureName"
     },
     "qrCode": {
-      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/qrCode"
+      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/qrCode"
     },
     "authenticationNumber": {
-      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/authenticationNumber"
+      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/authenticationNumber"
     }
   },
   "required": [
