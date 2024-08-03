@@ -381,9 +381,6 @@
         },
         "address": {
           "$ref": "#/definitions/address"
-        },
-        "addressSource": {
-          "type": "string"
         }
       },
       "minProperties": 1
