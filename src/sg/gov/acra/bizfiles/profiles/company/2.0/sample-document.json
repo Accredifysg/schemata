@@ -137,6 +137,63 @@
         "formattedAddress": "26 SPRINGLEAF WALK\n#1A-12345\nSPRINGLEAF GARDEN\nSINGAPORE (787878)"
       },
       "appointmentDate": "18/04/2022"
+    },
+    {
+      "name": "Chen Tan",
+      "id": "S6149922F",
+      "nationality": "SINGAPORE CITIZEN",
+      "position": "Director",
+      "address": {
+        "type": "local",
+        "streetName": "SPRINGLEAF WALK",
+        "floor": "2A",
+        "unit": "123",
+        "postalCode": "787878",
+        "houseNumber": "26",
+        "buildingName": "SPRINGLEAF GARDEN",
+        "formattedAddress": "26 SPRINGLEAF WALK\n#1A-12345\nSPRINGLEAF GARDEN\nSINGAPORE (787878)"
+      },
+      "appointmentDate": "18/04/2022",
+      "disqualificationText": "DQ – This individual has been disqualified from acting as a director of this company from 01 JAN 2024.",
+      "debarredText": "DB- This individual has been debarred/prohibited from being appointed as a director of any new company from 01 JAN 2024."
+    },
+    {
+      "name": "Mike Chen",
+      "id": "S7144422F",
+      "nationality": "SINGAPORE CITIZEN",
+      "position": "Director",
+      "address": {
+        "type": "local",
+        "streetName": "SPRINGLEAF WALK",
+        "floor": "3A",
+        "unit": "13",
+        "postalCode": "787878",
+        "houseNumber": "26",
+        "buildingName": "SPRINGLEAF GARDEN",
+        "formattedAddress": "26 SPRINGLEAF WALK\n#1A-12345\nSPRINGLEAF GARDEN\nSINGAPORE (787878)"
+      },
+      "appointmentDate": "18/04/2022",
+      "altDirectors": [
+        {
+          "name": "Andy Chen",
+          "id": "S7155522F",
+          "nationality": "SINGAPORE CITIZEN",
+          "position": "Director",
+          "address": {
+            "type": "local",
+            "streetName": "SPRINGLEAF WALK",
+            "floor": "3A",
+            "unit": "13",
+            "postalCode": "787878",
+            "houseNumber": "26",
+            "buildingName": "SPRINGLEAF GARDEN",
+            "formattedAddress": "26 SPRINGLEAF WALK\n#1A-12345\nSPRINGLEAF GARDEN\nSINGAPORE (787878)"
+          },
+          "appointmentDate": "18/04/2023",
+          "disqualificationText": "DQ – This individual has been disqualified from acting as a director of this company from 01 JAN 2024.",
+          "debarredText": "DB- This individual has been debarred/prohibited from being appointed as a director of any new company from 01 JAN 2024."
+        }
+      ]
     }
   ],
   "receiptNumber": "ACRA220418101407",
