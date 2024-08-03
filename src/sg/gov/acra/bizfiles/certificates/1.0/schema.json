@@ -4,10 +4,10 @@
   "type": "object",
   "properties": {
     "productCode": {
-      "$ref": "../../common/1.0/definitions/schema.json#/definitions/productCode"
+      "$ref": "../../common/definitions/1.0/schema.json#/definitions/productCode"
     },
     "entityName": {
-      "$ref": "../../common/1.0/definitions/schema.json#/definitions/entityName"
+      "$ref": "../../common/definitions/1.0/schema.json#/definitions/entityName"
     },
     "companyName": {
       "type": "string",
@@ -17,34 +17,34 @@
       ]
     },
     "changeOfNameDate": {
-      "$ref": "../../common/1.0/definitions/schema.json#/definitions/date",
+      "$ref": "../../common/definitions/1.0/schema.json#/definitions/date",
       "description": "The date at which the name was changed"
     },
     "incorporationDate": {
-      "$ref": "../../common/1.0/definitions/schema.json#/definitions/date",
+      "$ref": "../../common/definitions/1.0/schema.json#/definitions/date",
       "description": "The incorporation date of the company/business in DD/MM/YYYY format"
     },
     "registrationDate": {
-      "$ref": "../../common/1.0/definitions/schema.json#/definitions/date",
+      "$ref": "../../common/definitions/1.0/schema.json#/definitions/date",
       "description": "The registration date of the company/business in DD/MM/YYYY format"
     },
     "expiryDate": {
-      "$ref": "../../common/1.0/definitions/schema.json#/definitions/date",
+      "$ref": "../../common/definitions/1.0/schema.json#/definitions/date",
       "description": "The expiry date for this certificate in DD/MM/YYYY format"
     },
     "receiptDate": {
-      "$ref": "../../common/1.0/definitions/schema.json#/definitions/date",
+      "$ref": "../../common/definitions/1.0/schema.json#/definitions/date",
       "description": "The date at which this certificate was purchased in DD/MM/YYYY format"
     },
     "nameHistoryDate": {
-      "$ref": "../../common/1.0/definitions/schema.json#/definitions/date",
+      "$ref": "../../common/definitions/1.0/schema.json#/definitions/date",
       "description": "The date at which the entity name changes are recorded after"
     },
     "uen": {
-      "$ref": "../../common/1.0/definitions/schema.json#/definitions/uen"
+      "$ref": "../../common/definitions/1.0/schema.json#/definitions/uen"
     },
     "companyType": {
-      "$ref": "../../common/1.0/definitions/schema.json#/definitions/companyType"
+      "$ref": "../../common/definitions/1.0/schema.json#/definitions/companyType"
     },
     "formerNames": {
       "type": "array",
@@ -68,7 +68,7 @@
             ]
           },
           "effectiveFrom": {
-            "$ref": "../../common/1.0/definitions/schema.json#/definitions/date"
+            "$ref": "../../common/definitions/1.0/schema.json#/definitions/date"
           }
         },
         "required": [
@@ -79,16 +79,16 @@
       }
     },
     "signatureName": {
-      "$ref": "../../common/1.0/definitions/schema.json#/definitions/signatureName"
+      "$ref": "../../common/definitions/1.0/schema.json#/definitions/signatureName"
     },
     "country": {
-      "$ref": "../../common/1.0/definitions/schema.json#/definitions/country"
+      "$ref": "../../common/definitions/1.0/schema.json#/definitions/country"
     },
     "receiptNumber": {
-      "$ref": "../../common/1.0/definitions/schema.json#/definitions/receiptNumber"
+      "$ref": "../../common/definitions/1.0/schema.json#/definitions/receiptNumber"
     },
     "qrCode": {
-      "$ref": "../../common/1.0/definitions/schema.json#/definitions/qrCode"
+      "$ref": "../../common/definitions/1.0/schema.json#/definitions/qrCode"
     }
   },
   "anyOf": [

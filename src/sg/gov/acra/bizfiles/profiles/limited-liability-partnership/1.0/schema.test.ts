@@ -3,7 +3,7 @@ import { cloneDeep, omit } from "lodash";
 import schema from "./schema.json";
 import sampleDocJson from "./sample-document.json";
 import axios from "axios";
-import {testCommon} from "../../../common/1.0/tests/profile-schema";
+import {testCommon} from "../../../common/tests/1.0/profile-schema";
 
 function loadSchema(uri: string) {
   return axios.get(uri).then(res => {

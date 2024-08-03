@@ -4,61 +4,61 @@
   "type": "object",
   "properties": {
     "entityName": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/entityName"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/entityName"
     },
     "formerNames": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/formerNames"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/formerNames"
     },
     "changeOfNameDate": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
     },
     "uen": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/uen"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/uen"
     },
     "registrationDate": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
     },
     "commencementDate": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
     },
     "status": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/entityStatus"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/entityStatus"
     },
     "statusDate": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
     },
     "renewalDate": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
     },
     "expiryDate": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
     },
     "giroRenewal": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/giroRenewal"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/giroRenewal"
     },
     "businessConstitution": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/businessConstitution"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/businessConstitution"
     },
     "address": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/address"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/address"
     },
     "changeOfAddressDate": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
     },
     "activities": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/activities"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/activities"
     },
     "representatives": {
       "type": "array",
       "items": {
         "allOf": [
           {
-            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/person"
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/person"
           }
         ],
         "properties": {
           "appointmentDate": {
-            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
           }
         },
         "required": [
@@ -71,18 +71,18 @@
       "items": {
         "allOf": [
           {
-            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/person"
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/person"
           }
         ],
         "properties": {
           "entryDate": {
-            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
           },
           "position": {
             "type": "string"
           },
           "withdrawalDate": {
-            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
           }
         },
         "required": [
@@ -91,20 +91,20 @@
       }
     },
     "receiptNumber": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/receiptNumber"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/receiptNumber"
     },
     "receiptDate": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date",
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date",
       "description": "The date at which this certificate was purchased in DD/MM/YYYY format"
     },
     "signatureName": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/signatureName"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/signatureName"
     },
     "qrCode": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/qrCode"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/qrCode"
     },
     "authenticationNumber": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/authenticationNumber"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/authenticationNumber"
     }
   },
   "required": [

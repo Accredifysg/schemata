@@ -4,37 +4,37 @@
   "type": "object",
   "properties": {
     "entityName": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/entityName"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/entityName"
     },
     "formerNames": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/formerNames"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/formerNames"
     },
     "uen": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/uen"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/uen"
     },
     "registrationDate": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
     },
     "status": {
       "type": "string"
     },
     "statusDate": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
     },
     "address": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/address"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/address"
     },
     "changeOfNameDate": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
     },
     "changeOfAddressDate": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
     },
     "annualDeclarationDate": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
     },
     "activities": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/activities"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/activities"
     },
     "conversionMessage": {
       "type": "string"
@@ -44,15 +44,15 @@
       "items": {
         "allOf": [
           {
-            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/person"
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/person"
           }
         ],
         "properties": {
           "appointmentDate": {
-            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
           },
           "withdrawalDate": {
-            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
           }
         },
         "required": [
@@ -65,15 +65,15 @@
       "items": {
         "allOf": [
           {
-            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/person"
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/person"
           }
         ],
         "properties": {
           "appointmentDate": {
-            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
           },
           "withdrawalDate": {
-            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
           }
         },
         "required": [
@@ -86,15 +86,15 @@
       "items": {
         "allOf": [
           {
-            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/person"
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/person"
           }
         ],
         "properties": {
           "appointmentDate": {
-            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
           },
           "withdrawalDate": {
-            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
           }
         },
         "required": [
@@ -105,13 +105,13 @@
     "liquidators": {
       "type": "array",
       "items": {
-        "$ref": "../../../common/1.0/definitions/schema.json#/definitions/otherMembers"
+        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/otherMembers"
       }
     },
     "provisionalLiquidators": {
       "type": "array",
       "items": {
-        "$ref": "../../../common/1.0/definitions/schema.json#/definitions/otherMembers"
+        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/otherMembers"
       }
     },
     "employees": {
@@ -119,15 +119,15 @@
       "items": {
         "allOf": [
           {
-            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/person"
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/person"
           }
         ],
         "properties": {
           "appointmentDate": {
-            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
           },
           "withdrawalDate": {
-            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
           }
         },
         "required": [
@@ -136,20 +136,20 @@
       }
     },
     "receiptNumber": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/receiptNumber"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/receiptNumber"
     },
     "receiptDate": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date",
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date",
       "description": "The date at which this certificate was purchased in DD/MM/YYYY format"
     },
     "signatureName": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/signatureName"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/signatureName"
     },
     "qrCode": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/qrCode"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/qrCode"
     },
     "authenticationNumber": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/authenticationNumber"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/authenticationNumber"
     }
   },
   "required": [

@@ -4,13 +4,13 @@
   "type": "object",
   "properties": {
     "uen": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/uen"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/uen"
     },
     "entityName": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/entityName"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/entityName"
     },
     "changeOfNameDate": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
     },
     "gazettedIndicator": {
       "type": "string",
@@ -21,31 +21,31 @@
       ]
     },
     "formerNames": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/formerNames"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/formerNames"
     },
     "incorporationDate": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
     },
     "companyType": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/companyType"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/companyType"
     },
     "status": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/entityStatus"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/entityStatus"
     },
     "statusDate": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
     },
     "amalgamatedFrom": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/amalgamatedFrom"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/amalgamatedFrom"
     },
     "amalgamatedWith": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/amalgamatedWith"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/amalgamatedWith"
     },
     "amalgamatedToFrom": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/amalgamatedToFrom"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/amalgamatedToFrom"
     },
     "dateOfTransfer": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
     },
     "redomDtls": {
       "type": "array",
@@ -53,13 +53,13 @@
         "type": "object",
         "properties": {
           "countryOfOriginalIncorporation": {
-            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/country"
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/country"
           },
           "dateOfOriginalIncorporation": {
-            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
           },
           "nameOnDeregistration": {
-            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/entityName"
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/entityName"
           },
           "registrationHistory": {
             "type": "array",
@@ -68,13 +68,13 @@
               "additionalProperties": false,
               "properties": {
                 "countryOfRegistration": {
-                  "$ref": "../../../common/1.0/definitions/schema.json#/definitions/country"
+                  "$ref": "../../../common/definitions/1.0/schema.json#/definitions/country"
                 },
                 "dateOfRegistration": {
-                  "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+                  "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
                 },
                 "registeredNameOnDeregistration": {
-                  "$ref": "../../../common/1.0/definitions/schema.json#/definitions/entityName"
+                  "$ref": "../../../common/definitions/1.0/schema.json#/definitions/entityName"
                 }
               },
               "required": [
@@ -92,37 +92,37 @@
       }
     },
     "registrationCountry": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/country"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/country"
     },
     "registrationDate": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
     },
     "deregistrationRegisteredName": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/entityName"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/entityName"
     },
     "conditions": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/conditions"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/conditions"
     },
     "activities": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/activities"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/activities"
     },
     "capitals": {
       "type": "array",
       "items": {
-        "$ref": "../../../common/1.0/definitions/schema.json#/definitions/capitals"
+        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/capitals"
       }
     },
     "treasuryShares": {
       "type": "array",
       "items": {
-        "$ref": "../../../common/1.0/definitions/schema.json#/definitions/capitals"
+        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/capitals"
       }
     },
     "address": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/address"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/address"
     },
     "changeOfAddressDate": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
     },
     "agm": {
       "type": "array",
@@ -131,13 +131,13 @@
         "type": "object",
         "properties": {
           "lastAgmDate": {
-            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
           },
           "lastArDate": {
-            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
           },
           "lastArDateFye": {
-            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
           }
         }
       }
@@ -145,13 +145,13 @@
     "auditFirms": {
       "type": "array",
       "items": {
-        "$ref": "../../../common/1.0/definitions/schema.json#/definitions/auditFirms"
+        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/auditFirms"
       }
     },
     "charges": {
       "type": "array",
       "items": {
-        "$ref": "../../../common/1.0/definitions/schema.json#/definitions/charges"
+        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/charges"
       }
     },
     "representatives": {
@@ -159,12 +159,12 @@
       "items": {
         "allOf": [
           {
-            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/person"
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/person"
           }
         ],
         "properties": {
           "appointmentDate": {
-            "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+            "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
           },
           "position": {
             "type": "string"
@@ -177,12 +177,12 @@
             "items": {
               "allOf": [
                 {
-                  "$ref": "../../../common/1.0/definitions/schema.json#/definitions/person"
+                  "$ref": "../../../common/definitions/1.0/schema.json#/definitions/person"
                 }
               ],
               "properties": {
                 "appointmentDate": {
-                  "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date"
+                  "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date"
                 }
               },
               "required": [
@@ -200,54 +200,54 @@
     "shareholders": {
       "type": "array",
       "items": {
-        "$ref": "../../../common/1.0/definitions/schema.json#/definitions/shareholder"
+        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/shareholder"
       }
     },
     "shareholderGroups": {
       "type": "array",
       "items": {
-        "$ref": "../../../common/1.0/definitions/schema.json#/definitions/shareholderGroup"
+        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/shareholderGroup"
       }
     },
     "judicialManagers": {
       "type": "array",
       "items": {
-        "$ref": "../../../common/1.0/definitions/schema.json#/definitions/otherMembers"
+        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/otherMembers"
       }
     },
     "liquidators": {
       "type": "array",
       "items": {
-        "$ref": "../../../common/1.0/definitions/schema.json#/definitions/otherMembers"
+        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/otherMembers"
       }
     },
     "provisionalLiquidators": {
       "type": "array",
       "items": {
-        "$ref": "../../../common/1.0/definitions/schema.json#/definitions/otherMembers"
+        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/otherMembers"
       }
     },
     "receivers": {
       "type": "array",
       "items": {
-        "$ref": "../../../common/1.0/definitions/schema.json#/definitions/otherMembers"
+        "$ref": "../../../common/definitions/1.0/schema.json#/definitions/otherMembers"
       }
     },
     "receiptNumber": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/receiptNumber"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/receiptNumber"
     },
     "receiptDate": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/date",
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/date",
       "description": "The date at which this certificate was purchased in DD/MM/YYYY format"
     },
     "signatureName": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/signatureName"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/signatureName"
     },
     "qrCode": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/qrCode"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/qrCode"
     },
     "authenticationNumber": {
-      "$ref": "../../../common/1.0/definitions/schema.json#/definitions/authenticationNumber"
+      "$ref": "../../../common/definitions/1.0/schema.json#/definitions/authenticationNumber"
     }
   },
   "required": [
