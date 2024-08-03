@@ -1,0 +1,720 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://cdn.uat.accredify.io/schema/acra/bizfiles/common/definitions/2.0/schema.json",
+  "title": "Schema definitions for BizFile schemas",
+  "description": "Schema definitions for BizFile schemas",
+  "definitions": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "local",
+            "foreign",
+            "invalid"
+          ]
+        },
+        "streetName": {
+          "type": "string"
+        },
+        "floor": {
+          "type": "string"
+        },
+        "unit": {
+          "type": "string"
+        },
+        "postalCode": {
+          "type": "string"
+        },
+        "houseNumber": {
+          "type": "string"
+        },
+        "buildingName": {
+          "type": "string"
+        },
+        "formattedAddress": {
+          "type": "string"
+        },
+        "invalidReason": {
+          "type": "string"
+        },
+        "address1": {
+          "type": "string"
+        },
+        "address2": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        }
+      },
+      "anyOf": [
+        {
+          "properties": {
+            "type": {
+              "const": "foreign"
+            }
+          },
+          "required": [
+            "type",
+            "address1",
+            "formattedAddress"
+          ]
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "local"
+            }
+          },
+          "required": [
+            "type",
+            "streetName",
+            "postalCode",
+            "formattedAddress"
+          ]
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "invalid"
+            }
+          },
+          "required": [
+            "invalidReason"
+          ]
+        }
+      ]
+    },
+    "country": {
+      "type": "string",
+      "examples": [
+        "SG"
+      ],
+      "enum": [
+        "ANDORRA",
+        "UNITED ARAB EMIRATES",
+        "AFGHANISTAN",
+        "ANTIGUA AND BARBUDA",
+        "ANGUILLA",
+        "ALBANIA",
+        "ARMENIA",
+        "NETHERLANDS ANTILLES",
+        "ANGOLA",
+        "ANTARCTICA",
+        "ARGENTINA",
+        "AMERICAN SAMOA",
+        "AUSTRIA",
+        "AUSTRALIA",
+        "ARUBA",
+        "ALAND ISLANDS",
+        "AZERBAIJAN",
+        "BOSNIA AND HERZEGOVINA",
+        "BARBADOS",
+        "BANGLADESH",
+        "BELGIUM",
+        "BURKINA FASO",
+        "BULGARIA",
+        "BAHRAIN",
+        "BURUNDI",
+        "BENIN",
+        "SAINT BARTHELEMY",
+        "BERMUDA",
+        "BRUNEI DARUSSALAM",
+        "BOLIVIA,PLURINATIONAL STATE OF",
+        "BONAIRE SINT EUSTATIUS AND SABA",
+        "BRAZIL",
+        "BAHAMAS",
+        "BHUTAN",
+        "BOUVET ISLAND",
+        "BOTSWANA",
+        "BELARUS",
+        "BELIZE",
+        "CANADA",
+        "COCOS (KEELING) ISLANDS",
+        "CONGO, THE  DEMOCRATIC REPUBLIC OF THE",
+        "CENTRAL AFRICAN REPUBLIC",
+        "CONGO",
+        "SWITZERLAND",
+        "COTE D'IVOIRE",
+        "COOK ISLANDS",
+        "CHILE",
+        "CAMEROON",
+        "CHINA",
+        "COLOMBIA",
+        "COSTA RICA",
+        "SERBIA AND MONTENEGRO",
+        "CUBA",
+        "CABO VERDE",
+        "CURACAO",
+        "CHRISTMAS ISLAND",
+        "CYPRUS",
+        "CZECHIA",
+        "GERMANY",
+        "DJIBOUTI",
+        "DENMARK",
+        "DOMINICA",
+        "DOMINICAN REPUBLIC",
+        "ALGERIA",
+        "ECUADOR",
+        "ESTONIA",
+        "EGYPT",
+        "WESTERN SAHARA",
+        "ERITREA",
+        "SPAIN",
+        "ETHIOPIA",
+        "FINLAND",
+        "FIJI",
+        "FALKLAND ISLANDS (MALVINAS)",
+        "MICRONESIA, FEDERATED STATES OF",
+        "FAROE ISLANDS",
+        "FRANCE",
+        "GABON",
+        "UNITED KINGDOM OF",
+        "GREAT BRITAIN AND NORTHERN IRELAND ",
+        "GRENADA",
+        "GEORGIA",
+        "FRENCH GUIANA",
+        "GUERNSEY",
+        "GHANA",
+        "GIBRALTAR",
+        "GREENLAND",
+        "GAMBIA",
+        "GUINEA",
+        "GUADELOUPE",
+        "EQUATORIAL GUINEA",
+        "GREECE",
+        "SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS",
+        "GUATEMALA",
+        "GUAM",
+        "GUINEA-BISSAU",
+        "GUYANA",
+        "HONG KONG",
+        "HEARD ISLAND AND MCDONALD ISLANDS",
+        "HONDURAS",
+        "CROATIA",
+        "HAITI",
+        "HUNGARY",
+        "INDONESIA",
+        "IRELAND",
+        "ISRAEL",
+        "ISLE OF MAN",
+        "INDIA",
+        "BRITISH INDIAN OCEAN TERRITORY",
+        "IRAQ",
+        "IRAN, ISLAMIC REPUBLIC OF",
+        "ICELAND",
+        "ITALY",
+        "JERSEY",
+        "JAMAICA",
+        "JORDAN",
+        "JAPAN",
+        "KENYA",
+        "KYRGYZSTAN",
+        "CAMBODIA",
+        "KIRIBATI",
+        "COMOROS",
+        "SAINT KITTS AND NEVIS",
+        "KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF",
+        "KOREA, REPUBLIC OF",
+        "KUWAIT",
+        "CAYMAN ISLANDS",
+        "KAZAKHSTAN",
+        "LAO PEOPLE'S DEMOCRATIC REPUBLIC",
+        "LEBANON",
+        "SAINT LUCIA",
+        "LIECHTENSTEIN",
+        "SRI LANKA",
+        "LIBERIA",
+        "LESOTHO",
+        "LITHUANIA",
+        "LUXEMBOURG",
+        "LATVIA",
+        "LIBYA ",
+        "MOROCCO",
+        "MONACO",
+        "MOLDOVA, REPUBLIC OF",
+        "MONTENEGRO ",
+        "SAINT MARTIN (FRENCH PART)",
+        "MADAGASCAR",
+        "MARSHALL ISLANDS",
+        "NORTH MACEDONIA",
+        "MALI",
+        "MYANMAR",
+        "MONGOLIA",
+        "MACAO",
+        "NORTHERN MARIANA ISLANDS",
+        "MARTINIQUE",
+        "MAURITANIA",
+        "MONTSERRAT",
+        "MALTA",
+        "MAURITIUS",
+        "MALDIVES",
+        "MALAWI",
+        "MEXICO",
+        "MALAYSIA",
+        "MOZAMBIQUE",
+        "NAMIBIA",
+        "NEW CALEDONIA",
+        "NIGER",
+        "NORFOLK ISLAND",
+        "NIGERIA",
+        "NICARAGUA",
+        "NETHERLANDS",
+        "NORWAY",
+        "NEPAL",
+        "NAURU",
+        "NIUE",
+        "NEW ZEALAND",
+        "OMAN",
+        "OTHERS",
+        "PANAMA",
+        "PERU",
+        "FRENCH POLYNESIA",
+        "PAPUA NEW GUINEA",
+        "PHILIPPINES",
+        "PAKISTAN",
+        "POLAND",
+        "SAINT PIERRE AND MIQUELON",
+        "PITCAIRN",
+        "PUERTO RICO",
+        "PALESTINE,STATE OF",
+        "PORTUGAL",
+        "PALAU",
+        "PARAGUAY",
+        "QATAR",
+        "REUNION",
+        "ROMANIA",
+        "SERBIA",
+        "RUSSIAN FEDERATION",
+        "RWANDA",
+        "SAUDI ARABIA",
+        "SOLOMON ISLANDS",
+        "SEYCHELLES",
+        "SUDAN",
+        "SWEDEN",
+        "SINGAPORE",
+        "SAINT HELENA ASCENSION AND TRISTAN DA CUNHA",
+        "SLOVENIA",
+        "SVALBARD AND JAN MAYEN",
+        "SLOVAKIA",
+        "SIERRA LEONE",
+        "SAN MARINO",
+        "SENEGAL",
+        "SOMALIA",
+        "SURINAME",
+        "SOUTH SUDAN",
+        "SAO TOME AND PRINCIPE",
+        "EL SALVADOR",
+        "SINT MAARTEN (DUTCH PART)",
+        "SYRIAN ARAB REPUBLIC",
+        "ESWATINI",
+        "TURKS AND CAICOS ISLANDS",
+        "CHAD",
+        "FRENCH SOUTHERN TERRITORIES",
+        "TOGO",
+        "THAILAND",
+        "TAJIKISTAN",
+        "TOKELAU",
+        "TIMOR-LESTE",
+        "TURKMENISTAN",
+        "TUNISIA",
+        "TONGA",
+        "TURKEY",
+        "TRINIDAD AND TOBAGO",
+        "TUVALU",
+        "TAIWAN",
+        "TANZANIA, UNITED REPUBLIC OF",
+        "UKRAINE",
+        "UGANDA",
+        "UNITED STATES MINOR OUTLYING ISLANDS",
+        "UNITED STATES OF AMERICA",
+        "URUGUAY",
+        "UZBEKISTAN",
+        "HOLY SEE",
+        "SAINT VINCENT AND THE GRENADINES",
+        "VENEZUELA BOLIVARIAN REPUBLIC OF",
+        "VIRGIN ISLANDS, BRITISH",
+        "VIRGIN ISLANDS, U.S.",
+        "VIET NAM",
+        "VANUATU",
+        "WALLIS AND FUTUNA",
+        "SAMOA",
+        "YEMEN",
+        "MAYOTTE",
+        "SOUTH AFRICA",
+        "ZAMBIA",
+        "ZIMBABWE"
+      ]
+    },
+    "activities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "name"
+        ]
+      },
+      "additionalItems": false
+    },
+    "person": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "nationality": {
+          "type": "string"
+        },
+        "address": {
+          "$ref": "#/definitions/address"
+        },
+        "addressSource": {
+          "type": "string"
+        }
+      },
+      "minProperties": 1
+    },
+    "shareholderGroup": {
+      "allOf": [
+        {
+          "$ref": "#/definitions/share"
+        }
+      ],
+      "properties": {
+        "groupName": {
+          "type": "string"
+        },
+        "shareholders": {
+          "type": "array",
+          "items": {
+            "allOf": [
+              {
+                "$ref": "#/definitions/person"
+              }
+            ],
+            "properties": {
+              "addressChanged": {
+                "$ref": "#/definitions/date"
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "groupName",
+        "shareholders"
+      ]
+    },
+    "shareholder": {
+      "allOf": [
+        {
+          "$ref": "#/definitions/person"
+        },
+        {
+          "$ref": "#/definitions/share"
+        }
+      ],
+      "properties": {
+        "addressChanged": {
+          "$ref": "#/definitions/date"
+        }
+      }
+    },
+    "otherMembers": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "address": {
+          "$ref": "#/definitions/address"
+        },
+        "memberType": {
+          "type": "string",
+          "enum": [
+            "Liquidator",
+            "Provisional Liquidator",
+            "Receiver",
+            "Judicial Manager",
+            "Manager"
+          ]
+        }
+      },
+      "required": [
+        "name",
+        "address",
+        "memberType"
+      ]
+    },
+    "receiptNumber": {
+      "type": "string",
+      "description": "The receipt number used in the purchase of this certificate",
+      "examples": [
+        "ACRAXXXXXXXXXX06"
+      ]
+    },
+    "signatureName": {
+      "type": "string",
+      "description": "The name of the signatory",
+      "examples": [
+        "LEE TZE MING"
+      ]
+    },
+    "qrCode": {
+      "type": "string",
+      "description": "base64 encoded image"
+    },
+    "authenticationNumber": {
+      "type": "string",
+      "description": "The number used to verify the authenticity of this certificate",
+      "examples": [
+        "IXXXXXXX49"
+      ]
+    },
+    "entityName": {
+      "type": "string",
+      "description": "The name of the business or company",
+      "examples": [
+        "ACCREDIFY PTE. LTD."
+      ]
+    },
+    "productName": {
+      "type": "string",
+      "description": "The name of the generated product",
+      "examples": [
+        "CERTIFICATE CONFIRMING REGISTRATION OF BUSINESS NAME",
+        "CERTIFICATE CONFIRMING INCORPORATION OF COMPANY"
+      ]
+    },
+    "productCode": {
+      "type": "string",
+      "examples": [
+        "I001"
+      ],
+      "enum": [
+        "I001",
+        "I003",
+        "I014",
+        "I023",
+        "I025",
+        "I030",
+        "I031",
+        "I032",
+        "I033",
+        "I034"
+      ]
+    },
+    "formerNames": {
+      "type": "array",
+      "description": "Former names that the company/business was known by",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string",
+            "examples": [
+              "CEITO PTE. LTD."
+            ]
+          }
+        },
+        "required": [
+          "name"
+        ]
+      }
+    },
+    "uen": {
+      "type": "string",
+      "maxLength": 10,
+      "description": "The Unique Entity Number of the entity",
+      "examples": [
+        "201807660K"
+      ]
+    },
+    "date": {
+      "type": "string",
+      "description": "Date in dd/mm/yyyy format",
+      "examples": [
+        "24/07/2022"
+      ],
+      "pattern": "^([0-2][0-9]|(3)[0-1])(/)(((0)[0-9])|((1)[0-2]))(/)\\d{4}$"
+    },
+    "entityStatus": {
+      "type": "string"
+    },
+    "giroRenewal": {
+      "type": "string",
+      "enum": [
+        "YES",
+        "NO"
+      ]
+    },
+    "lpCompliance": {
+      "type": "string",
+      "enum": [
+        "YES",
+        "NO"
+      ]
+    },
+    "companyType": {
+      "type": "string",
+      "description": "The type of company",
+      "examples": [
+        "EXEMPT PRIVATE COMPANY LIMITED BY SHARES"
+      ]
+    },
+    "amalgamatedFrom": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "amalgamatedFrom": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "amalgamatedWith": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "amalgamatedWith": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "amalgamatedToFrom": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "amalgamatedToFrom": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "conditions": {
+      "type": "string"
+    },
+    "businessConstitution": {
+      "type": "string",
+      "enum": [
+        "SOLE-PROPRIETOR",
+        "PARTNERSHIP"
+      ]
+    },
+    "constitution": {
+      "type": "string",
+      "enum": [
+        "SOLE-PROPRIETORSHIP",
+        "PARTNERSHIP"
+      ]
+    },
+    "share": {
+      "type": "object",
+      "properties": {
+        "shares": {
+          "type": "string"
+        },
+        "currency": {
+          "type": "string"
+        },
+        "amount": {
+          "type": "string"
+        },
+        "sharesType": {
+          "type": "string",
+          "enum": [
+            "ORDINARY",
+            "PREFERENCE",
+            "OTHERS",
+            "TREASURY"
+          ]
+        }
+      },
+      "required": [
+        "currency",
+        "sharesType"
+      ]
+    },
+    "charges": {
+      "type": "object",
+      "properties": {
+        "chargeNumber": {
+          "type": "string"
+        },
+        "dateRegistered": {
+          "$ref": "#/definitions/date"
+        },
+        "amountSecured": {
+          "type": "string"
+        },
+        "chargees": {
+          "type": "string"
+        },
+        "currency": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "chargeNumber",
+        "dateRegistered",
+        "amountSecured",
+        "chargees"
+      ]
+    },
+    "auditFirms": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "$ref": "#/definitions/entityName"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "name"
+      ]
+    },
+    "capitals": {
+      "allOf": [
+        {
+          "$ref": "#/definitions/share"
+        }
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "Issued Share Capital",
+            "Paid Up Share Capital",
+            "Treasury Shares"
+          ]
+        }
+      },
+      "required": [
+        "type"
+      ]
+    }
+  }
+}
