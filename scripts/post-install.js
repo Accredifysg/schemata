@@ -36,6 +36,20 @@ if (fs.existsSync(quicktype) && process.env.npm_config_production !== "true") {
     path: "sg/gov/acra/bizfiles/profiles/public-accountant-firm/1.0",
     rootTypeName: "AcraPublicAccountantFirmProfile"
   });
+  generate({path: "sg/gov/acra/bizfiles/profiles/business/2.0", rootTypeName: "AcraBusinessProfileV2"});
+  generate({path: "sg/gov/acra/bizfiles/profiles/company/2.0", rootTypeName: "AcraCompanyProfileV2"});
+  generate({
+    path: "sg/gov/acra/bizfiles/profiles/limited-liability-partnership/2.0",
+    rootTypeName: "AcraLimitedLiabilityPartnershipProfileV2"
+  });
+  generate({
+    path: "sg/gov/acra/bizfiles/profiles/limited-partnership/2.0",
+    rootTypeName: "AcraLimitedPartnershipProfileV2"
+  });
+  generate({
+    path: "sg/gov/acra/bizfiles/profiles/public-accountant-firm/2.0",
+    rootTypeName: "AcraPublicAccountantFirmProfileV2"
+  });
 } else {
   console.log("Not running quicktype");
 }

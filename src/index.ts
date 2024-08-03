@@ -15,6 +15,15 @@ import * as acraLimitedLiabilityPartnershipProfile from "./__generated__/sg/gov/
 import * as acraLimitedPartnershipProfile from "./__generated__/sg/gov/acra/bizfiles/profiles/limited-partnership/1.0/schema";
 import * as acraPublicAccountantFirmProfile from "./__generated__/sg/gov/acra/bizfiles/profiles/public-accountant-firm/1.0/schema";
 
+import * as acraBusinessProfileV2 from "./__generated__/sg/gov/acra/bizfiles/profiles/business/2.0/schema";
+import * as acraCompanyProfileV2 from "./__generated__/sg/gov/acra/bizfiles/profiles/company/2.0/schema";
+import * as acraLimitedLiabilityPartnershipProfileV2
+  from "./__generated__/sg/gov/acra/bizfiles/profiles/limited-liability-partnership/2.0/schema";
+import * as acraLimitedPartnershipProfileV2
+  from "./__generated__/sg/gov/acra/bizfiles/profiles/limited-partnership/2.0/schema";
+import * as acraPublicAccountantFirmProfileV2
+  from "./__generated__/sg/gov/acra/bizfiles/profiles/public-accountant-firm/2.0/schema";
+
 export {
   geekout,
   notarise,
@@ -29,5 +38,10 @@ export {
   acraCompanyProfile,
   acraLimitedLiabilityPartnershipProfile,
   acraLimitedPartnershipProfile,
-  acraPublicAccountantFirmProfile
+  acraPublicAccountantFirmProfile,
+  acraBusinessProfileV2,
+  acraCompanyProfileV2,
+  acraLimitedLiabilityPartnershipProfileV2,
+  acraLimitedPartnershipProfileV2,
+  acraPublicAccountantFirmProfileV2
 };
