@@ -206,6 +206,66 @@
       "isNominee": true
     }
   ],
+  "shareholders": [
+    {
+      "name": "JOHN DOH",
+      "id": "S1111608D",
+      "nationality": "SINGAPORE CITIZEN",
+      "addressChanged": "12/07/2021",
+      "address": {
+        "type": "local",
+        "streetName": "WOODLANDS STREET 11",
+        "floor": "11",
+        "unit": "11",
+        "postalCode": "521222",
+        "houseNumber": "131",
+        "buildingName": " ",
+        "formattedAddress": "131 WOODLANDS STREET 11\n#11-11\nSINGAPORE (521222)"
+      },
+      "shares": "1",
+      "sharesType": "ORDINARY",
+      "currency": "CAPE VERDE, ESCUDOS"
+    },
+    {
+      "name": "JOHN LOH",
+      "id": "S1111608D",
+      "nationality": "SINGAPORE CITIZEN",
+      "addressChanged": "12/07/2021",
+      "address": {
+        "type": "local",
+        "streetName": "WOODLANDS STREET 11",
+        "floor": "11",
+        "unit": "11",
+        "postalCode": "521222",
+        "houseNumber": "131",
+        "buildingName": " ",
+        "formattedAddress": "131 WOODLANDS STREET 11\n#11-11\nSINGAPORE (521222)"
+      },
+      "shares": "1",
+      "sharesType": "PREFERENCE",
+      "currency": "CAPE VERDE, ESCUDOS"
+    },
+    {
+      "name": "JOHN TAN",
+      "id": "S2222608D",
+      "nationality": "SINGAPORE CITIZEN",
+      "addressChanged": "12/07/2021",
+      "address": {
+        "type": "local",
+        "streetName": "MARSLING STREET 11",
+        "floor": "11",
+        "unit": "11",
+        "postalCode": "521223",
+        "houseNumber": "131",
+        "buildingName": " ",
+        "formattedAddress": "131 MARSLING STREET 11\n#11-11\nSINGAPORE (521223)"
+      },
+      "shares": "1",
+      "sharesType": "OTHERS",
+      "currency": "CAPE VERDE, ESCUDOS",
+      "isNominee": true
+    }
+  ],
   "receiptNumber": "ACRA220418101407",
   "receiptDate": "23/10/2014",
   "signatureName": "TAN YONG TAT"
