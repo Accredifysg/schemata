@@ -573,6 +573,9 @@
         "NO"
       ]
     },
+    "isNominee": {
+      "type": "boolean"
+    },
     "companyType": {
       "type": "string",
       "description": "The type of company",

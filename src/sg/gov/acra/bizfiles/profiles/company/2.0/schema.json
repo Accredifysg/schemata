@@ -170,9 +170,11 @@
             "type": "string",
             "enum": [
               "Director",
-              "Nominee Director",
               "Secretary"
             ]
+          },
+          "isNominee": {
+            "$ref": "../../../common/definitions/2.0/schema.json#/definitions/isNominee"
           },
           "disqualificationText": {
             "$ref": "../../../common/definitions/2.0/schema.json#/definitions/disqualificationText"

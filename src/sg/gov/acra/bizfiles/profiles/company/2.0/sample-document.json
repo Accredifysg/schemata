@@ -197,12 +197,13 @@
       "name": "CHUA PEI YI",
       "id": "T0001102C",
       "nationality": "SINGAPORE CITIZEN",
-      "position": "Nominee Director",
+      "position": "Director",
       "address": {
         "type": "invalid",
         "invalidReason": "Address is unavailable"
       },
-      "appointmentDate": "26/04/2022"
+      "appointmentDate": "26/04/2022",
+      "isNominee": true
     }
   ],
   "receiptNumber": "ACRA220418101407",
