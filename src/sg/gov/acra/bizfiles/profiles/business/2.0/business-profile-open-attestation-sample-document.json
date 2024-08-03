@@ -47,7 +47,6 @@
         "type": "invalid",
         "invalidReason": "Address is unavailable"
       },
-      "addressSource": "Acra",
       "appointmentDate": "26/04/2022"
     },
     {
@@ -64,7 +63,6 @@
         "houseNumber": "747D",
         "formattedAddress": "747D BEDOK RESERVOIR CRESCENT\n#1W-W2\nSINGAPORE (474747)"
       },
-      "addressSource": "Acra",
       "appointmentDate": "18/04/2022"
     },
     {
@@ -82,7 +80,6 @@
         "buildingName": "SPRINGLEAF GARDEN",
         "formattedAddress": "26 SPRINGLEAF WALK\n#1A-12345\nSPRINGLEAF GARDEN\nSINGAPORE (787878)"
       },
-      "addressSource": "Acra",
       "appointmentDate": "18/04/2022"
     }
   ],
@@ -101,7 +98,6 @@
         "buildingName": "THOMSON HILLS ESTATE",
         "formattedAddress": "8 SERENADE WALK\n#23U-ER44R\nTHOMSON HILLS ESTATE\nSINGAPORE (575757)"
       },
-      "addressSource": "Acra",
       "entryDate": "22/04/2022",
       "position": "Owner"
     },
@@ -116,7 +112,6 @@
         "country": "AUSTRALIAN",
         "formattedAddress": "QQQQ1\nQQQQ2"
       },
-      "addressSource": "Acra",
       "entryDate": "22/04/2022",
       "position": "Nominee/Trustee",
       "withdrawalDate": "24/04/2022"

@@ -103,7 +103,6 @@
         "type": "invalid",
         "invalidReason": "Address is unavailable"
       },
-      "addressSource": "Acra",
       "appointmentDate": "26/04/2022"
     },
     {
@@ -120,7 +119,6 @@
         "houseNumber": "747D",
         "formattedAddress": "747D BEDOK RESERVOIR CRESCENT\n#1W-W2\nSINGAPORE (474747)"
       },
-      "addressSource": "Acra",
       "appointmentDate": "18/04/2022"
     },
     {
@@ -138,7 +136,6 @@
         "buildingName": "SPRINGLEAF GARDEN",
         "formattedAddress": "26 SPRINGLEAF WALK\n#1A-12345\nSPRINGLEAF GARDEN\nSINGAPORE (787878)"
       },
-      "addressSource": "Acra",
       "appointmentDate": "18/04/2022"
     }
   ],

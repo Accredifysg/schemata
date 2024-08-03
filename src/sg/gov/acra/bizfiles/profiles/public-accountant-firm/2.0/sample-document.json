@@ -35,7 +35,6 @@
         "country": "BHUTAN",
         "formattedAddress": "CAP1\nCAP2"
       },
-      "addressSource": "ACRA",
       "partnerEntryDate": "25/04/2022"
     },
     {
@@ -52,7 +51,6 @@
         "buildingName": "SPRINGLEAF GARDEN",
         "formattedAddress": "26 SPR0013\n#12A-5GHJJ\nSPRINGLEAF GARDEN\nSINGAPORE (787878)"
       },
-      "addressSource": "ACRA",
       "partnerEntryDate": "03/06/2022"
     },
     {
@@ -69,7 +67,6 @@
         "buildingName": "INTERNATIONAL PLAZA",
         "formattedAddress": "10 ANS0001\n#12-12\nINTERNATIONAL PLAZA\nSINGAPORE (79903)"
       },
-      "addressSource": "ACRA",
       "partnerEntryDate": "25/04/2022",
       "accountantsActEntryDate": "25/04/2022"
     },
@@ -84,7 +81,6 @@
         "country": "ALGERIAN",
         "formattedAddress": "YTRF\nLINE2"
       },
-      "addressSource": "ACRA",
       "publicAccountantRegnNo": "88947",
       "accountantsActEntryDate": "25/04/2022",
       "accountantActWithdrawalDate": "25/04/2022"
@@ -103,7 +99,6 @@
         "buildingName": "SPRINGLEAF GARDEN",
         "formattedAddress": "26 SPRINGLEAF WALK\n#06-06\nSPRINGLEAF GARDEN\nSINGAPORE (787878)"
       },
-      "addressSource": "N/A",
       "partnerEntryDate": "25/04/2022",
       "partnerWithdrawalDate": "25/04/2022"
     }

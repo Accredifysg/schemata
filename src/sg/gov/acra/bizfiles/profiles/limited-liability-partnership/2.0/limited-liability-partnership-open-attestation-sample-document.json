@@ -36,7 +36,6 @@
         "country": "ANGOLAN",
         "formattedAddress": "FOR1\nFOR2"
       },
-      "addressSource": "ACRA",
       "appointmentDate": "07/07/2022"
     },
     {
@@ -53,7 +52,6 @@
         "buildingName": "SPRINGLEAF GARDEN",
         "formattedAddress": "26 SPRINGLEAF WALK\n#7V-9F\nSPRINGLEAF GARDEN\nSINGAPORE (787878)"
       },
-      "addressSource": "ACRA",
       "appointmentDate": "07/07/2022"
     },
     {
@@ -70,7 +68,6 @@
         "buildingName": "INTERNATIONAL PLAZA",
         "formattedAddress": "10 ANSON ROAD\n#10-10\nINTERNATIONAL PLAZA\nSINGAPORE (079903)"
       },
-      "addressSource": "ACRA",
       "appointmentDate": "22/04/2022"
     },
     {
@@ -84,7 +81,6 @@
         "country": "BELIZEAN",
         "formattedAddress": "CHG ALT1\nCHG ALT2"
       },
-      "addressSource": "ACRA",
       "appointmentDate": "07/07/2022"
     },
     {
@@ -98,7 +94,6 @@
         "country": "BELIZEAN",
         "formattedAddress": "CHG ALT1\nCHG ALT2"
       },
-      "addressSource": "ACRA",
       "appointmentDate": "04/06/2022",
       "withdrawalDate": "07/07/2022"
     },
@@ -116,7 +111,6 @@
         "buildingName": "THOMSON HILLS ESTATE",
         "formattedAddress": "8 SERENADE WALK\n#02-02\nTHOMSON HILLS ESTATE\nSINGAPORE (575757)"
       },
-      "addressSource": "ACRA",
       "appointmentDate": "22/04/2022",
       "withdrawalDate": "24/04/2022"
     },
@@ -134,7 +128,6 @@
         "buildingName": "SPRINGLEAF GARDEN",
         "formattedAddress": "26 SPRINGLEAF WALK\n#08-08\nSPRINGLEAF GARDEN\nSINGAPORE (787878)"
       },
-      "addressSource": "ACRA",
       "appointmentDate": "23/04/2022",
       "withdrawalDate": "24/04/2022"
     }
@@ -154,7 +147,6 @@
         "buildingName": "SPRINGLEAF GARDEN",
         "formattedAddress": "26 SPRINGLEAF WALK\n#7V-9F\nSPRINGLEAF GARDEN\nSINGAPORE (787878)"
       },
-      "addressSource": "ACRA",
       "appointmentDate": "07/07/2022"
     },
     {
@@ -168,7 +160,6 @@
         "country": "ANGOLAN",
         "formattedAddress": "FOR1\nFOR2"
       },
-      "addressSource": "ACRA",
       "appointmentDate": "07/07/2022"
     }
   ],
@@ -187,7 +178,6 @@
         "buildingName": "INTERNATIONAL PLAZA",
         "formattedAddress": "10 ANSON ROAD\n#10-10\nINTERNATIONAL PLAZA\nSINGAPORE (079903)"
       },
-      "addressSource": "ACRA",
       "appointmentDate": "22/04/2022"
     },
     {
@@ -201,7 +191,6 @@
         "country": "ALGERIAN",
         "formattedAddress": "STREET1\nSTREET2"
       },
-      "addressSource": "ACRA",
       "appointmentDate": "07/07/2022",
       "withdrawalDate": "07/07/2022"
     },
@@ -219,7 +208,6 @@
         "buildingName": "SPRINGLEAF GARDEN",
         "formattedAddress": "26 SPRINGLEAF WALK\n#08-08\nSPRINGLEAF GARDEN\nSINGAPORE (787878)"
       },
-      "addressSource": "ACRA",
       "appointmentDate": "24/04/2022",
       "withdrawalDate": "24/04/2022"
     }
