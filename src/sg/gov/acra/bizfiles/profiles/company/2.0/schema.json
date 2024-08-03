@@ -167,7 +167,12 @@
             "$ref": "../../../common/definitions/2.0/schema.json#/definitions/date"
           },
           "position": {
-            "type": "string"
+            "type": "string",
+            "enum": [
+              "Director",
+              "Nominee Director",
+              "Secretary"
+            ]
           },
           "disqualificationText": {
             "$ref": "../../../common/definitions/2.0/schema.json#/definitions/disqualificationText"
