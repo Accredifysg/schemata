@@ -39,7 +39,7 @@
     "activities": {
       "$ref": "../../../common/definitions/2.0/schema.json#/definitions/activities"
     },
-    "partners": {
+    "representatives": {
       "type": "array",
       "items": {
         "allOf": [
@@ -48,22 +48,28 @@
           }
         ],
         "properties": {
-          "publicAccountantRegnNo": {
+          "position": {
+            "type": "string",
+            "enum": [
+              "Partner",
+              "Partner under section 18(3)(c) of the Accountants Act",
+              "Public Accountant Employee"
+            ]
+          },
+          "publicAccountantRegistrationNo": {
             "type": "string"
           },
-          "partnerEntryDate": {
+          "appointmentDate": {
             "$ref": "../../../common/definitions/2.0/schema.json#/definitions/date"
           },
-          "partnerWithdrawalDate": {
-            "$ref": "../../../common/definitions/2.0/schema.json#/definitions/date"
-          },
-          "accountantsActEntryDate": {
-            "$ref": "../../../common/definitions/2.0/schema.json#/definitions/date"
-          },
-          "accountantActWithdrawalDate": {
+          "resignationDate": {
             "$ref": "../../../common/definitions/2.0/schema.json#/definitions/date"
           }
-        }
+        },
+        "required": [
+          "appointmentDate",
+          "position"
+        ]
       }
     },
     "receiptNumber": {
@@ -93,7 +99,7 @@
     "constitution",
     "address",
     "activities",
-    "partners",
+    "representatives",
     "signatureName"
   ]
 }

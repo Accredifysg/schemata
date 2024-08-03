@@ -22,7 +22,7 @@
       "name": "ACCOUNTING AND AUDITING SERVICES (EXCLUDING ONLINE MARKETPLACES)(69201)"
     }
   ],
-  "partners": [
+  "representatives": [
     {
       "name": "FLOW CHECK MUMMY",
       "id": "2N79BK",
@@ -34,7 +34,8 @@
         "country": "BHUTAN",
         "formattedAddress": "CAP1\nCAP2"
       },
-      "partnerEntryDate": "25/04/2022"
+      "appointmentDate": "25/04/2022",
+      "position": "Partner"
     },
     {
       "name": "PRIYA REDDY",
@@ -50,7 +51,8 @@
         "buildingName": "SPRINGLEAF GARDEN",
         "formattedAddress": "26 SPR0013\n#12A-5GHJJ\nSPRINGLEAF GARDEN\nSINGAPORE (787878)"
       },
-      "partnerEntryDate": "03/06/2022"
+      "appointmentDate": "25/04/2022",
+      "position": "Partner under section 18(3)(c) of the Accountants Act"
     },
     {
       "name": "ALBERT TAN",
@@ -66,8 +68,8 @@
         "buildingName": "INTERNATIONAL PLAZA",
         "formattedAddress": "10 ANS0001\n#12-12\nINTERNATIONAL PLAZA\nSINGAPORE (79903)"
       },
-      "partnerEntryDate": "25/04/2022",
-      "accountantsActEntryDate": "25/04/2022"
+      "appointmentDate": "25/04/2022",
+      "position": "Public Accountant Employee"
     },
     {
       "name": "PA EXAM CODE PAF",
@@ -80,9 +82,10 @@
         "country": "ALGERIAN",
         "formattedAddress": "YTRF\nLINE2"
       },
-      "publicAccountantRegnNo": "88947",
-      "accountantsActEntryDate": "25/04/2022",
-      "accountantActWithdrawalDate": "25/04/2022"
+      "publicAccountantRegistrationNo": "88947",
+      "appointmentDate": "25/04/2022",
+      "resignationDate": "26/04/2022",
+      "position": "Partner"
     },
     {
       "name": "PADFFF",
@@ -98,8 +101,10 @@
         "buildingName": "SPRINGLEAF GARDEN",
         "formattedAddress": "26 SPRINGLEAF WALK\n#06-06\nSPRINGLEAF GARDEN\nSINGAPORE (787878)"
       },
-      "partnerEntryDate": "25/04/2022",
-      "partnerWithdrawalDate": "25/04/2022"
+      "publicAccountantRegistrationNo": "88947",
+      "appointmentDate": "25/04/2022",
+      "resignationDate": "26/04/2022",
+      "position": "Public Accountant Employee"
     }
   ],
   "receiptDate": "23/10/2014",

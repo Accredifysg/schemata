@@ -71,17 +71,17 @@ describe("publicAccountantFirmProfileSchema", () => {
         });
     });
 
-    describe("partners", () => {
+    describe("representatives", () => {
         it("should return array of errors without partners", () => {
-            const badDoc = omit(cloneDeep(sampleDocJson), "partners");
+            const badDoc = omit(cloneDeep(sampleDocJson), "representatives");
             expect(validator(badDoc)).toBe(false);
             expect(validator.errors).toStrictEqual([
                 {
                     keyword: "required",
                     dataPath: "",
                     schemaPath: "#/required",
-                    params: {missingProperty: "partners"},
-                    message: "should have required property 'partners'"
+                    params: {missingProperty: "representatives"},
+                    message: "should have required property 'representatives'"
                 }
             ]);
         });
