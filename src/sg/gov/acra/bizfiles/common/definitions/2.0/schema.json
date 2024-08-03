@@ -464,6 +464,22 @@
         "ACRAXXXXXXXXXX06"
       ]
     },
+    "debarredText": {
+      "type": "string",
+      "description": "Indicates if the director, alternate director, or secretary has been debarred (DB)",
+      "examples": [
+        "DB- This individual has been debarred/prohibited from being appointed as a director of any new company from DD MMM YYYY",
+        "DB – This individual has been debarred/prohibited from being appointed as a secretary of any new company from DD MMM YYYY"
+      ]
+    },
+    "disqualificationText": {
+      "type": "string",
+      "description": "Indicates if the director, alternate director, or secretary has been disqualified (DQ)",
+      "examples": [
+        "DQ – This individual has been disqualified from acting as a director of this company from DD MMM YYYY.",
+        "DQ – This individual has been disqualified from acting as a director of this company from DD MMM YYYY. However, he/she has obtained Leave of Court/Approval from the Official Assignee to act as a director of this company from DD MMM YYYY to DD MMM YYYY."
+      ]
+    },
     "signatureName": {
       "type": "string",
       "description": "The name of the signatory",
