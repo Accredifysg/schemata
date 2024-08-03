@@ -1,0 +1,132 @@
+﻿{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://cdn.uat.accredify.io/schema/acra/bizfiles/profiles/limited-partnership/2.0/schema.json",
+  "type": "object",
+  "properties": {
+    "entityName": {
+      "$ref": "../../../common/definitions/2.0/schema.json#/definitions/entityName"
+    },
+    "formerNames": {
+      "$ref": "../../../common/definitions/2.0/schema.json#/definitions/formerNames"
+    },
+    "changeOfNameDate": {
+      "$ref": "../../../common/definitions/2.0/schema.json#/definitions/date"
+    },
+    "uen": {
+      "$ref": "../../../common/definitions/2.0/schema.json#/definitions/uen"
+    },
+    "registrationDate": {
+      "$ref": "../../../common/definitions/2.0/schema.json#/definitions/date"
+    },
+    "commencementDate": {
+      "$ref": "../../../common/definitions/2.0/schema.json#/definitions/date"
+    },
+    "status": {
+      "type": "string"
+    },
+    "statusDate": {
+      "$ref": "../../../common/definitions/2.0/schema.json#/definitions/date"
+    },
+    "renewalDate": {
+      "$ref": "../../../common/definitions/2.0/schema.json#/definitions/date"
+    },
+    "expiryDate": {
+      "$ref": "../../../common/definitions/2.0/schema.json#/definitions/date"
+    },
+    "giroRenewal": {
+      "$ref": "../../../common/definitions/2.0/schema.json#/definitions/giroRenewal"
+    },
+    "lpCompliance": {
+      "$ref": "../../../common/definitions/2.0/schema.json#/definitions/lpCompliance"
+    },
+    "address": {
+      "$ref": "../../../common/definitions/2.0/schema.json#/definitions/address"
+    },
+    "changeOfAddressDate": {
+      "$ref": "../../../common/definitions/2.0/schema.json#/definitions/date"
+    },
+    "activities": {
+      "$ref": "../../../common/definitions/2.0/schema.json#/definitions/activities"
+    },
+    "managers": {
+      "type": "array",
+      "items": {
+        "allOf": [
+          {
+            "$ref": "../../../common/definitions/2.0/schema.json#/definitions/person"
+          }
+        ],
+        "properties": {
+          "appointmentDate": {
+            "$ref": "../../../common/definitions/2.0/schema.json#/definitions/date"
+          }
+        },
+        "required": [
+          "appointmentDate"
+        ]
+      }
+    },
+    "partners": {
+      "type": "array",
+      "items": {
+        "allOf": [
+          {
+            "$ref": "../../../common/definitions/2.0/schema.json#/definitions/person"
+          }
+        ],
+        "properties": {
+          "position": {
+            "enum": [
+              "Owner",
+              "General Partner",
+              "Limited Partner",
+              "Nominee/Trustee",
+              "General Partner as Nominee / Trustee"
+            ]
+          },
+          "entryDate": {
+            "$ref": "../../../common/definitions/2.0/schema.json#/definitions/date"
+          },
+          "withdrawalDate": {
+            "$ref": "../../../common/definitions/2.0/schema.json#/definitions/date"
+          }
+        },
+        "required": [
+          "position",
+          "entryDate"
+        ]
+      }
+    },
+    "receiptNumber": {
+      "$ref": "../../../common/definitions/2.0/schema.json#/definitions/receiptNumber"
+    },
+    "receiptDate": {
+      "$ref": "../../../common/definitions/2.0/schema.json#/definitions/date",
+      "description": "The date at which this certificate was purchased in DD/MM/YYYY format"
+    },
+    "signatureName": {
+      "$ref": "../../../common/definitions/2.0/schema.json#/definitions/signatureName"
+    },
+    "qrCode": {
+      "$ref": "../../../common/definitions/2.0/schema.json#/definitions/qrCode"
+    },
+    "authenticationNumber": {
+      "$ref": "../../../common/definitions/2.0/schema.json#/definitions/authenticationNumber"
+    }
+  },
+  "required": [
+    "entityName",
+    "uen",
+    "registrationDate",
+    "commencementDate",
+    "status",
+    "statusDate",
+    "expiryDate",
+    "giroRenewal",
+    "lpCompliance",
+    "address",
+    "activities",
+    "partners",
+    "signatureName"
+  ]
+}

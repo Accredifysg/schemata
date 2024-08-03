@@ -1,0 +1,245 @@
+{
+  "productCode": "I014",
+  "entityName": "BARHALALA LIMITED LIABILITY PARTNERSHIP",
+  "uen": "T22LL0018G",
+  "registrationDate": "22/04/2022",
+  "status": "Live",
+  "statusDate": "07/07/2022",
+  "address": {
+    "type": "local",
+    "streetName": "SEA AVENUE",
+    "floor": "08",
+    "unit": "08",
+    "postalCode": "424242",
+    "houseNumber": "20B",
+    "formattedAddress": "20B SEA AVENUE\n#08-08\nSINGAPORE (424242)"
+  },
+  "activities": [
+    {
+      "name": "ACCOUNTING AND AUDITING SERVICES (EXCLUDING ONLINE MARKETPLACES)(69201)",
+      "description": ""
+    },
+    {
+      "name": "BOOK-KEEPING SERVICES (EXCLUDING ONLINE MARKETPLACES)(69202)",
+      "description": ""
+    }
+  ],
+  "partners": [
+    {
+      "name": "PATCH",
+      "id": "TELE",
+      "nationality": "ANGOLAN",
+      "address": {
+        "type": "foreign",
+        "address1": "FOR1",
+        "address2": "FOR2",
+        "country": "ANGOLAN",
+        "formattedAddress": "FOR1\nFOR2"
+      },
+      "addressSource": "ACRA",
+      "appointmentDate": "07/07/2022"
+    },
+    {
+      "name": "JHJHJK",
+      "id": "G6446327L",
+      "nationality": "AUSTRIAN",
+      "address": {
+        "type": "local",
+        "streetName": "SPRINGLEAF WALK",
+        "floor": "7V",
+        "unit": "9F",
+        "postalCode": "787878",
+        "houseNumber": "26",
+        "buildingName": "SPRINGLEAF GARDEN",
+        "formattedAddress": "26 SPRINGLEAF WALK\n#7V-9F\nSPRINGLEAF GARDEN\nSINGAPORE (787878)"
+      },
+      "addressSource": "ACRA",
+      "appointmentDate": "07/07/2022"
+    },
+    {
+      "name": "HELANA",
+      "id": "F1110998P",
+      "nationality": "BELGIAN",
+      "address": {
+        "type": "local",
+        "streetName": "ANSON ROAD",
+        "floor": "10",
+        "unit": "10",
+        "postalCode": "079903",
+        "houseNumber": "10",
+        "buildingName": "INTERNATIONAL PLAZA",
+        "formattedAddress": "10 ANSON ROAD\n#10-10\nINTERNATIONAL PLAZA\nSINGAPORE (079903)"
+      },
+      "addressSource": "ACRA",
+      "appointmentDate": "22/04/2022"
+    },
+    {
+      "name": "SCE THREE CHG",
+      "id": "SCE3CHG",
+      "nationality": "BELIZEAN",
+      "address": {
+        "type": "foreign",
+        "address1": "CHG ALT1",
+        "address2": "CHG ALT2",
+        "country": "BELIZEAN",
+        "formattedAddress": "CHG ALT1\nCHG ALT2"
+      },
+      "addressSource": "ACRA",
+      "appointmentDate": "07/07/2022"
+    },
+    {
+      "name": "SCE THREE CHG",
+      "id": "SCE3CHG",
+      "nationality": "BELIZEAN",
+      "address": {
+        "type": "foreign",
+        "address1": "CHG ALT1",
+        "address2": "CHG ALT2",
+        "country": "BELIZEAN",
+        "formattedAddress": "CHG ALT1\nCHG ALT2"
+      },
+      "addressSource": "ACRA",
+      "appointmentDate": "04/06/2022",
+      "withdrawalDate": "07/07/2022"
+    },
+    {
+      "name": "MASKED",
+      "id": "F9502807K",
+      "nationality": "ALBANIAN",
+      "address": {
+        "type": "local",
+        "streetName": "SERENADE WALK",
+        "floor": "02",
+        "unit": "02",
+        "postalCode": "575757",
+        "houseNumber": "8",
+        "buildingName": "THOMSON HILLS ESTATE",
+        "formattedAddress": "8 SERENADE WALK\n#02-02\nTHOMSON HILLS ESTATE\nSINGAPORE (575757)"
+      },
+      "addressSource": "ACRA",
+      "appointmentDate": "22/04/2022",
+      "withdrawalDate": "24/04/2022"
+    },
+    {
+      "name": "HVJ",
+      "id": "G7391181N",
+      "nationality": "ANDORRAN",
+      "address": {
+        "type": "local",
+        "streetName": "SPRINGLEAF WALK",
+        "floor": "08",
+        "unit": "08",
+        "postalCode": "787878",
+        "houseNumber": "26",
+        "buildingName": "SPRINGLEAF GARDEN",
+        "formattedAddress": "26 SPRINGLEAF WALK\n#08-08\nSPRINGLEAF GARDEN\nSINGAPORE (787878)"
+      },
+      "addressSource": "ACRA",
+      "appointmentDate": "23/04/2022",
+      "withdrawalDate": "24/04/2022"
+    }
+  ],
+  "partnersUnder18A": [
+    {
+      "name": "JHJHJK",
+      "id": "G6446327L",
+      "nationality": "AUSTRIAN",
+      "address": {
+        "type": "local",
+        "streetName": "SPRINGLEAF WALK",
+        "floor": "7V",
+        "unit": "9F",
+        "postalCode": "787878",
+        "houseNumber": "26",
+        "buildingName": "SPRINGLEAF GARDEN",
+        "formattedAddress": "26 SPRINGLEAF WALK\n#7V-9F\nSPRINGLEAF GARDEN\nSINGAPORE (787878)"
+      },
+      "addressSource": "ACRA",
+      "appointmentDate": "07/07/2022"
+    },
+    {
+      "name": "PATCH",
+      "id": "TELE",
+      "nationality": "ANGOLAN",
+      "address": {
+        "type": "foreign",
+        "address1": "FOR1",
+        "address2": "FOR2",
+        "country": "ANGOLAN",
+        "formattedAddress": "FOR1\nFOR2"
+      },
+      "addressSource": "ACRA",
+      "appointmentDate": "07/07/2022"
+    }
+  ],
+  "managers": [
+    {
+      "name": "HELANA",
+      "id": "F1110998P",
+      "nationality": "BELGIAN",
+      "address": {
+        "type": "local",
+        "streetName": "ANSON ROAD",
+        "floor": "10",
+        "unit": "10",
+        "postalCode": "079903",
+        "houseNumber": "10",
+        "buildingName": "INTERNATIONAL PLAZA",
+        "formattedAddress": "10 ANSON ROAD\n#10-10\nINTERNATIONAL PLAZA\nSINGAPORE (079903)"
+      },
+      "addressSource": "ACRA",
+      "appointmentDate": "22/04/2022"
+    },
+    {
+      "name": "UNMASKED",
+      "id": "G2935555Q",
+      "nationality": "ALGERIAN",
+      "address": {
+        "type": "foreign",
+        "address1": "STREET1",
+        "address2": "STREET2",
+        "country": "ALGERIAN",
+        "formattedAddress": "STREET1\nSTREET2"
+      },
+      "addressSource": "ACRA",
+      "appointmentDate": "07/07/2022",
+      "withdrawalDate": "07/07/2022"
+    },
+    {
+      "name": "HVJ",
+      "id": "G7391181N",
+      "nationality": "ANDORRAN",
+      "address": {
+        "type": "local",
+        "streetName": "SPRINGLEAF WALK",
+        "floor": "08",
+        "unit": "08",
+        "postalCode": "787878",
+        "houseNumber": "26",
+        "buildingName": "SPRINGLEAF GARDEN",
+        "formattedAddress": "26 SPRINGLEAF WALK\n#08-08\nSPRINGLEAF GARDEN\nSINGAPORE (787878)"
+      },
+      "addressSource": "ACRA",
+      "appointmentDate": "24/04/2022",
+      "withdrawalDate": "24/04/2022"
+    }
+  ],
+  "receiptDate": "23/10/2014",
+  "receiptNumber": "ACRA220422101422",
+  "signatureName": "TAN YONG TAT",
+  "issuers": [
+    {
+      "name": "GovTech",
+      "documentStore": "0x8Fc57204c35fb9317D91285eF52D6b892EC08cD3",
+      "identityProof": {
+        "type": "DNS-TXT",
+        "location": "example.openattestation.com"
+      }
+    }
+  ],
+  "$template": {
+    "name": "GEEK_OUT_2020",
+    "type": "EMBEDDED_RENDERER",
+    "url": "https://stoic-lumiere-531096.netlify.app"
+  }
+}

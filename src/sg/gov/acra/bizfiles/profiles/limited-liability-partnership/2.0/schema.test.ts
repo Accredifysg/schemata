@@ -18,38 +18,45 @@ describe("testCommonRequired", () => {
     testCommon(schema, sampleDocJson);
 });
 
-describe("companyProfileSchema", () => {
+describe("limitedLiabilityPartnershipProfileSchema", () => {
     beforeAll(async () => {
         validator = await ajv.compileAsync(schema);
     });
 
-    describe("companyType", () => {
-        it("should return array of errors without companyType", () => {
-            const badDoc = omit(cloneDeep(sampleDocJson), "companyType");
+    describe("registrationDate", () => {
+        it("should return array of errors without registrationDate", () => {
+            const badDoc = omit(cloneDeep(sampleDocJson), "registrationDate");
             expect(validator(badDoc)).toBe(false);
             expect(validator.errors).toStrictEqual([
                 {
                     keyword: "required",
                     dataPath: "",
                     schemaPath: "#/required",
-                    params: {missingProperty: "companyType"},
-                    message: "should have required property 'companyType'"
+                    params: {missingProperty: "registrationDate"},
+                    message: "should have required property 'registrationDate'"
                 }
             ]);
         });
     });
 
-    describe("representatives", () => {
-        it("should return array of errors without representatives", () => {
-            const badDoc = omit(cloneDeep(sampleDocJson), "representatives");
+    describe("partners", () => {
+        it("should not return array of errors without partners", () => {
+            const badDoc = omit(cloneDeep(sampleDocJson), "partners");
+            expect(validator(badDoc)).toBe(true);
+        });
+    });
+
+    describe("managers", () => {
+        it("should return array of errors without managers", () => {
+            const badDoc = omit(cloneDeep(sampleDocJson), "managers");
             expect(validator(badDoc)).toBe(false);
             expect(validator.errors).toStrictEqual([
                 {
                     keyword: "required",
                     dataPath: "",
                     schemaPath: "#/required",
-                    params: {missingProperty: "representatives"},
-                    message: "should have required property 'representatives'"
+                    params: {missingProperty: "managers"},
+                    message: "should have required property 'managers'"
                 }
             ]);
         });

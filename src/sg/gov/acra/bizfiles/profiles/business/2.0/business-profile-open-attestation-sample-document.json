@@ -1,0 +1,145 @@
+{
+  "productCode": "I003",
+  "companyType": "PUBLIC COMPANY LIMITED BY GUARANTEE",
+  "entityName": "COMPUTERS LIMITED",
+  "formerNames": [
+    {
+      "name": "FASGGDGFGSDF"
+    }
+  ],
+  "changeOfNameDate": "18/04/2022",
+  "uen": "202200025R",
+  "registrationDate": "18/04/2022",
+  "commencementDate": "18/04/2022",
+  "status": "Live Company",
+  "statusDate": "18/04/2022",
+  "renewalDate": "18/04/2022",
+  "expiryDate": "18/04/2022",
+  "giroRenewal": "YES",
+  "businessConstitution": "PARTNERSHIP",
+  "address": {
+    "type": "local",
+    "streetName": "WEST COAST ROAD",
+    "floor": "01",
+    "unit": "01",
+    "postalCode": "120701",
+    "houseNumber": "701",
+    "formattedAddress": "701 WEST COAST ROAD\n#01-01\nSINGAPORE (120701)"
+  },
+  "changeOfAddressDate": "19/05/2022",
+  "activities": [
+    {
+      "name": "SALES AND SERVICES – PREPACKAGED SOFTWARE(59112)",
+      "description": "SGTHE"
+    },
+    {
+      "name": "PRODUCTION OF DRAMAS, VARIETY SHOWS AND DOCUMENTARIES (INCLUDING PRODUCTION OF TELEVISION PROGRAMME) (59113)",
+      "description": "SHTE"
+    }
+  ],
+  "representatives": [
+    {
+      "name": "CHAI PEI YI",
+      "id": "T0000002C",
+      "nationality": "SINGAPORE CITIZEN",
+      "position": "Director",
+      "address": {
+        "type": "invalid",
+        "invalidReason": "Address is unavailable"
+      },
+      "addressSource": "Acra",
+      "appointmentDate": "26/04/2022"
+    },
+    {
+      "name": "DCV",
+      "id": "G6700706P",
+      "nationality": "AUSTRALIAN",
+      "position": "Director",
+      "address": {
+        "type": "local",
+        "streetName": "BEDOK RESERVOIR CRESCENT",
+        "floor": "1W",
+        "unit": "W2",
+        "postalCode": "474747",
+        "houseNumber": "747D",
+        "formattedAddress": "747D BEDOK RESERVOIR CRESCENT\n#1W-W2\nSINGAPORE (474747)"
+      },
+      "addressSource": "Acra",
+      "appointmentDate": "18/04/2022"
+    },
+    {
+      "name": "SWATHI",
+      "id": "S5149933F",
+      "nationality": "SINGAPORE CITIZEN",
+      "position": "Director",
+      "address": {
+        "type": "local",
+        "streetName": "SPRINGLEAF WALK",
+        "floor": "1A",
+        "unit": "12345",
+        "postalCode": "787878",
+        "houseNumber": "26",
+        "buildingName": "SPRINGLEAF GARDEN",
+        "formattedAddress": "26 SPRINGLEAF WALK\n#1A-12345\nSPRINGLEAF GARDEN\nSINGAPORE (787878)"
+      },
+      "addressSource": "Acra",
+      "appointmentDate": "18/04/2022"
+    }
+  ],
+  "partners": [
+    {
+      "name": "RAJ",
+      "id": "F5280666Q",
+      "nationality": "AFGHAN",
+      "address": {
+        "type": "local",
+        "streetName": "SERENADE WALK",
+        "floor": "23U",
+        "unit": "ER44R",
+        "postalCode": "575757",
+        "houseNumber": "8",
+        "buildingName": "THOMSON HILLS ESTATE",
+        "formattedAddress": "8 SERENADE WALK\n#23U-ER44R\nTHOMSON HILLS ESTATE\nSINGAPORE (575757)"
+      },
+      "addressSource": "Acra",
+      "entryDate": "22/04/2022",
+      "position": "Owner"
+    },
+    {
+      "name": "WAR",
+      "id": "23WER456745",
+      "nationality": "AUSTRALIAN",
+      "address": {
+        "type": "foreign",
+        "address1": "QQQQ1",
+        "address2": "QQQQ2",
+        "country": "AUSTRALIAN",
+        "formattedAddress": "QQQQ1\nQQQQ2"
+      },
+      "addressSource": "Acra",
+      "entryDate": "22/04/2022",
+      "position": "Nominee/Trustee",
+      "withdrawalDate": "24/04/2022"
+    }
+  ],
+  "receiptNumber": "ACRA220418101407",
+  "receiptDate": "23/10/2014",
+  "signatureName": "TAN YONG TAT",
+  "qrCode": "BASE64",
+  "authenticationNumber": "IXXXXXXX49",
+  "issuers": [
+    {
+      "name": "GovTech",
+      "documentStore": "0x8Fc57204c35fb9317D91285eF52D6b892EC08cD3",
+      "identityProof": {
+        "type": "DNS-TXT",
+        "location": "example.openattestation.com"
+      }
+    }
+  ],
+  "$template": {
+    "name": "GEEK_OUT_2020",
+    "type": "EMBEDDED_RENDERER",
+    "url": "https://stoic-lumiere-531096.netlify.app"
+  }
+}

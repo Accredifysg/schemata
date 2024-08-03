@@ -1,0 +1,118 @@
+{
+  "productCode": "I025",
+  "entityName": "MJAKHDBC LP",
+  "uen": "T22LP0016A",
+  "registrationDate": "26/04/2022",
+  "commencementDate": "26/04/2022",
+  "status": "Live",
+  "statusDate": "26/04/2022",
+  "expiryDate": "25/04/2023",
+  "giroRenewal": "NO",
+  "lpCompliance": "NO",
+  "address": {
+    "type": "local",
+    "streetName": "SPRINGLEAF WALK",
+    "floor": "01",
+    "unit": "02",
+    "postalCode": "787878",
+    "houseNumber": "26",
+    "buildingName": "SPRINGLEAF GARDEN",
+    "formattedAddress": "26 SPRINGLEAF WALK\n#01-02\nSPRINGLEAF GARDEN\nSINGAPORE (787878)"
+  },
+  "activities": [
+    {
+      "name": "SALES AND SERVICES – PREPACKAGED SOFTWARE(59112)",
+      "description": "SALES"
+    },
+    {
+      "name": "RENTING AND LEASING OF PRIVATE CARS WITHOUT DRIVER (EXCLUDING ONLINE MARKETPLACES)(77101)",
+      "description": "CARS"
+    }
+  ],
+  "managers": [
+    {
+      "name": "PARUGU",
+      "id": "G9652329M",
+      "nationality": "AMERICAN",
+      "address": {
+        "type": "local",
+        "streetName": "SEA AVENUE",
+        "floor": "8U",
+        "unit": "9I",
+        "postalCode": "424242",
+        "houseNumber": "20B",
+        "formattedAddress": "20B SEA AVENUE\n#8U-9I\nSINGAPORE (424242)"
+      },
+      "addressSource": "Acra",
+      "appointmentDate": "26/04/2022"
+    }
+  ],
+  "partners": [
+    {
+      "name": "MALAKALA",
+      "id": "82828282",
+      "nationality": "AMERICAN",
+      "address": {
+        "type": "foreign",
+        "address1": "KAT1",
+        "address2": "KAT2",
+        "country": "AMERICAN",
+        "formattedAddress": "KAT1\nKAT2"
+      },
+      "addressSource": "Acra",
+      "entryDate": "26/04/2022",
+      "position": "Limited Partner"
+    },
+    {
+      "name": "BOMBAAT",
+      "id": "G8645290T",
+      "nationality": "AMERICAN",
+      "address": {
+        "type": "local",
+        "streetName": "SERENADE WALK",
+        "floor": "9I",
+        "unit": "7Y",
+        "postalCode": "575757",
+        "houseNumber": "8",
+        "buildingName": "THOMSON HILLS ESTATE",
+        "formattedAddress": "8 SERENADE WALK\n#9I-7Y\nTHOMSON HILLS ESTATE\nSINGAPORE (575757)"
+      },
+      "addressSource": "Acra",
+      "entryDate": "26/04/2022",
+      "position": "General Partner as Nominee / Trustee"
+    },
+    {
+      "name": "UDDANTI",
+      "id": "911119191",
+      "nationality": "AMERICAN",
+      "address": {
+        "type": "foreign",
+        "address1": "BOMB1",
+        "address2": "BOMB2",
+        "country": "AMERICAN",
+        "formattedAddress": "BOMB1\nBOMB2"
+      },
+      "addressSource": "Acra",
+      "entryDate": "26/04/2022",
+      "position": "General Partner"
+    }
+  ],
+  "receiptDate": "23/10/2014",
+  "receiptNumber": "ACRA220426101742",
+  "signatureName": "TAN YONG TAT",
+  "issuers": [
+    {
+      "name": "GovTech",
+      "documentStore": "0x8Fc57204c35fb9317D91285eF52D6b892EC08cD3",
+      "identityProof": {
+        "type": "DNS-TXT",
+        "location": "example.openattestation.com"
+      }
+    }
+  ],
+  "$template": {
+    "name": "GEEK_OUT_2020",
+    "type": "EMBEDDED_RENDERER",
+    "url": "https://stoic-lumiere-531096.netlify.app"
+  }
+}
