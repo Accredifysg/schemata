@@ -29,65 +29,65 @@
       "chargeNumber": "C202200037",
       "dateRegistered": "22/04/2022",
       "currency": "BELARUSIAN RUBLE",
-      "amountSecured": "90000000000000",
+      "amountSecured": 90000000000000,
       "chargees": "YUHBJDHNJ FHJNFH FNHJFJ FHNKJFJKN FBHJFHB FBHHNF FBHHJFNHF"
     },
     {
       "chargeNumber": "C202200037",
       "dateRegistered": "22/04/2022",
-      "amountSecured": "All Monies",
+      "amountSecured": 100000,
       "chargees": "MADHU REDDY"
     },
     {
       "chargeNumber": "C202200037",
       "dateRegistered": "22/04/2022",
-      "amountSecured": "All Monies",
+      "amountSecured": 100000,
       "chargees": "HBDHBF FBHFNBFN FJNHDJNNJHF FJHNFNHJNBF FJNHFHBBHF FBHFHBBFH FHBFH"
     },
     {
       "chargeNumber": "C202200053",
       "dateRegistered": "16/05/2022",
-      "amountSecured": "All Monies",
+      "amountSecured": 100000,
       "chargees": "DFFDFD"
     },
     {
       "chargeNumber": "C202200052",
       "dateRegistered": "17/05/2022",
-      "amountSecured": "All Monies",
+      "amountSecured": 100000,
       "chargees": "JOKEE"
     },
     {
       "chargeNumber": "C202200058",
       "dateRegistered": "23/05/2022",
-      "amountSecured": "All Monies",
+      "amountSecured": 100000,
       "chargees": "TEST ONE"
     },
     {
       "chargeNumber": "C202200066",
       "dateRegistered": "26/05/2022",
       "currency": "BOSNIA AND HERZEGOVINA, CONVERTIBLE MARKS",
-      "amountSecured": "88888888",
+      "amountSecured": 88888888,
       "chargees": "HHHHHH GGGGGGG CCCCCCC BBBBBBBBBB NNNNNNN VVVVV"
     },
     {
       "chargeNumber": "C202200066",
       "dateRegistered": "26/05/2022",
       "currency": "BOSNIA AND HERZEGOVINA, CONVERTIBLE MARKS",
-      "amountSecured": "7777777777",
+      "amountSecured": 7777777777,
       "chargees": "DD V NNNNNNNNN MMMMMMMMMMM CCCCCCCCCC XXXXXXXXXXXXXXXXXXX VVVVVVVV"
     },
     {
       "chargeNumber": "C202200066",
       "dateRegistered": "26/05/2022",
       "currency": "COMMUNAUTE FINANCIERE AFRICAINE BEAC, FRANCS",
-      "amountSecured": "777777",
+      "amountSecured": 777777,
       "chargees": "DD V NNNNNNNNN MMMMMMMMMMM CCCCCCCCCC XXXXXXXXXXXXXXXXXXX VVVVVVVV"
     },
     {
       "chargeNumber": "C202200066",
       "dateRegistered": "26/05/2022",
       "currency": "COMMUNAUTE FINANCIERE AFRICAINE FRANCS BCEAO, FRANCS",
-      "amountSecured": "8888888",
+      "amountSecured": 8888888,
       "chargees": "GGG VVVVV CCCCC NNNNN XXXXX GGGGGGG HHHHH JJJJJJJJ DDDDDDDDD MMMMM"
     }
   ],
@@ -222,7 +222,7 @@
         "buildingName": " ",
         "formattedAddress": "131 WOODLANDS STREET 11\n#11-11\nSINGAPORE (521222)"
       },
-      "shares": "1",
+      "shares": 1,
       "sharesType": "ORDINARY",
       "currency": "CAPE VERDE, ESCUDOS"
     },
@@ -241,7 +241,7 @@
         "buildingName": " ",
         "formattedAddress": "131 WOODLANDS STREET 11\n#11-11\nSINGAPORE (521222)"
       },
-      "shares": "1",
+      "shares": 200,
       "sharesType": "PREFERENCE",
       "currency": "CAPE VERDE, ESCUDOS"
     },
@@ -260,7 +260,7 @@
         "buildingName": " ",
         "formattedAddress": "131 MARSLING STREET 11\n#11-11\nSINGAPORE (521223)"
       },
-      "shares": "1",
+      "shares": 200000,
       "sharesType": "OTHERS",
       "currency": "CAPE VERDE, ESCUDOS",
       "isNominee": true
