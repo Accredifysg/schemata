@@ -601,12 +601,12 @@
         "additionalProperties": false
       }
     },
-    "amalgamatedToFrom": {
+    "amalgamatedToForm": {
       "type": "array",
       "items": {
         "type": "object",
         "properties": {
-          "amalgamatedToFrom": {
+          "amalgamatedToForm": {
             "type": "string"
           }
         },
