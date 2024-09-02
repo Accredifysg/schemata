@@ -446,8 +446,10 @@
             "Liquidator",
             "Provisional Liquidator",
             "Receiver",
+            "Interim Judicial Manager",
             "Judicial Manager",
-            "Manager"
+            "Manager",
+            "Receiver and Manager"
           ]
         }
       },
