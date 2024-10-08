@@ -210,6 +210,12 @@
       "withdrawalDate": "24/04/2022"
     }
   ],
+  "professionalFirm": {
+    "firmType": "PUBLIC ACCOUNTING FIRM",
+    "firmName": "ABCD PAV",
+    "formerRegistrationOrIncorporationDate": "24/04/2022",
+    "uen": "T22LL0018G"
+  },
   "receiptDate": "23/10/2014",
   "receiptNumber": "ACRA220422101422",
   "signatureName": "TAN YONG TAT"

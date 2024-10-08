@@ -135,6 +135,35 @@
         ]
       }
     },
+    "professionalFirm": {
+      "type": "object",
+      "properties": {
+        "firmType": {
+          "type": "string",
+          "enum": [
+            "PUBLIC ACCOUNTING FIRM",
+            "PUBLIC ACCOUNTING CORPORATION"
+          ]
+        },
+        "firmName": {
+          "$ref": "../../../common/definitions/2.0/schema.json#/definitions/entityName"
+        },
+        "formerRegistrationOrIncorporationDate": {
+          "$ref": "../../../common/definitions/2.0/schema.json#/definitions/date",
+          "description": "The former registration date of the PAF, or the former incorporation date of the PAC"
+        },
+        "uen": {
+          "$ref": "../../../common/definitions/2.0/schema.json#/definitions/uen"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "firmType",
+        "firmName",
+        "formerRegistrationOrIncorporationDate",
+        "uen"
+      ]
+    },
     "receiptNumber": {
       "$ref": "../../../common/definitions/2.0/schema.json#/definitions/receiptNumber"
     },
