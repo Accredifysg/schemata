@@ -439,24 +439,11 @@
         },
         "address": {
           "$ref": "#/definitions/address"
-        },
-        "memberType": {
-          "type": "string",
-          "enum": [
-            "Liquidator",
-            "Provisional Liquidator",
-            "Receiver",
-            "Interim Judicial Manager",
-            "Judicial Manager",
-            "Manager",
-            "Receiver and Manager"
-          ]
         }
       },
       "required": [
         "name",
-        "address",
-        "memberType"
+        "address"
       ]
     },
     "receiptNumber": {
@@ -562,11 +549,15 @@
     },
     "date": {
       "type": "string",
-      "description": "Date in dd/mm/yyyy format",
+      "description": "Date in dd MMM yyyy format",
       "examples": [
-        "24/07/2022"
+        "01 Jan 2021",
+        "11 Feb 2022",
+        "21 Mar 2023",
+        "30 Apr 2024",
+        "31 May 2025"
       ],
-      "pattern": "^([0-2][0-9]|(3)[0-1])(/)(((0)[0-9])|((1)[0-2]))(/)\\d{4}$"
+      "pattern": "^(0[1-9]|[12][0-9]|3[01])\\s(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\\s(19|20)\\d{2}$"
     },
     "entityStatus": {
       "type": "string"

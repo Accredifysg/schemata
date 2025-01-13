@@ -108,7 +108,25 @@
         "$ref": "../../../common/definitions/2.0/schema.json#/definitions/otherMembers"
       }
     },
+    "liquidationManagers": {
+      "type": "array",
+      "items": {
+        "$ref": "../../../common/definitions/2.0/schema.json#/definitions/otherMembers"
+      }
+    },
     "provisionalLiquidators": {
+      "type": "array",
+      "items": {
+        "$ref": "../../../common/definitions/2.0/schema.json#/definitions/otherMembers"
+      }
+    },
+    "receivers": {
+      "type": "array",
+      "items": {
+        "$ref": "../../../common/definitions/2.0/schema.json#/definitions/otherMembers"
+      }
+    },
+    "receiverAndManagers": {
       "type": "array",
       "items": {
         "$ref": "../../../common/definitions/2.0/schema.json#/definitions/otherMembers"

@@ -2,10 +2,11 @@
   "productCode": "I003",
   "uen": "202200025R",
   "entityName": "COMPUTERS LIMITED",
-  "registrationDate": "18/04/2022",
+  "registrationDate": "18 Apr 2022",
   "companyType": "PUBLIC COMPANY LIMITED BY GUARANTEE",
   "status": "Live Company",
-  "statusDate": "18/04/2022",
+  "statusDate": "18 Apr 2022",
+  "gazettedIndicator": "N",
   "activities": [
     {
       "name": "SALES AND SERVICES – PREPACKAGED SOFTWARE(59112)"
@@ -23,69 +24,69 @@
     "houseNumber": "701",
     "formattedAddress": "701 WEST COAST ROAD\n#01-01\nSINGAPORE (120701)"
   },
-  "changeOfAddressDate": "19/05/2022",
+  "changeOfAddressDate": "19 May 2022",
   "charges": [
     {
       "chargeNumber": "C202200037",
-      "dateRegistered": "22/04/2022",
+      "dateRegistered": "22 Apr 2022",
       "currency": "BELARUSIAN RUBLE",
       "amountSecured": 90000000000000,
       "chargees": "YUHBJDHNJ FHJNFH FNHJFJ FHNKJFJKN FBHJFHB FBHHNF FBHHJFNHF"
     },
     {
       "chargeNumber": "C202200037",
-      "dateRegistered": "22/04/2022",
+      "dateRegistered": "22 Apr 2022",
       "amountSecured": 100000,
       "chargees": "MADHU REDDY"
     },
     {
       "chargeNumber": "C202200037",
-      "dateRegistered": "22/04/2022",
+      "dateRegistered": "22 Apr 2022",
       "amountSecured": 100000,
       "chargees": "HBDHBF FBHFNBFN FJNHDJNNJHF FJHNFNHJNBF FJNHFHBBHF FBHFHBBFH FHBFH"
     },
     {
       "chargeNumber": "C202200053",
-      "dateRegistered": "16/05/2022",
+      "dateRegistered": "16 May 2022",
       "amountSecured": 100000,
       "chargees": "DFFDFD"
     },
     {
       "chargeNumber": "C202200052",
-      "dateRegistered": "17/05/2022",
+      "dateRegistered": "17 May 2022",
       "amountSecured": 100000,
       "chargees": "JOKEE"
     },
     {
       "chargeNumber": "C202200058",
-      "dateRegistered": "23/05/2022",
+      "dateRegistered": "23 May 2022",
       "amountSecured": 100000,
       "chargees": "TEST ONE"
     },
     {
       "chargeNumber": "C202200066",
-      "dateRegistered": "26/05/2022",
+      "dateRegistered": "26 May 2022",
       "currency": "BOSNIA AND HERZEGOVINA, CONVERTIBLE MARKS",
       "amountSecured": 88888888,
       "chargees": "HHHHHH GGGGGGG CCCCCCC BBBBBBBBBB NNNNNNN VVVVV"
     },
     {
       "chargeNumber": "C202200066",
-      "dateRegistered": "26/05/2022",
+      "dateRegistered": "26 May 2022",
       "currency": "BOSNIA AND HERZEGOVINA, CONVERTIBLE MARKS",
       "amountSecured": 7777777777,
       "chargees": "DD V NNNNNNNNN MMMMMMMMMMM CCCCCCCCCC XXXXXXXXXXXXXXXXXXX VVVVVVVV"
     },
     {
       "chargeNumber": "C202200066",
-      "dateRegistered": "26/05/2022",
+      "dateRegistered": "26 May 2022",
       "currency": "COMMUNAUTE FINANCIERE AFRICAINE BEAC, FRANCS",
       "amountSecured": 777777,
       "chargees": "DD V NNNNNNNNN MMMMMMMMMMM CCCCCCCCCC XXXXXXXXXXXXXXXXXXX VVVVVVVV"
     },
     {
       "chargeNumber": "C202200066",
-      "dateRegistered": "26/05/2022",
+      "dateRegistered": "26 May 2022",
       "currency": "COMMUNAUTE FINANCIERE AFRICAINE FRANCS BCEAO, FRANCS",
       "amountSecured": 8888888,
       "chargees": "GGG VVVVV CCCCC NNNNN XXXXX GGGGGGG HHHHH JJJJJJJJ DDDDDDDDD MMMMM"
@@ -101,7 +102,7 @@
         "type": "invalid",
         "invalidReason": "Address is unavailable"
       },
-      "appointmentDate": "26/04/2022"
+      "appointmentDate": "26 Apr 2022"
     },
     {
       "name": "DCV",
@@ -117,7 +118,7 @@
         "houseNumber": "747D",
         "formattedAddress": "747D BEDOK RESERVOIR CRESCENT\n#1W-W2\nSINGAPORE (474747)"
       },
-      "appointmentDate": "18/04/2022"
+      "appointmentDate": "18 Apr 2022"
     },
     {
       "name": "SWATHI",
@@ -134,7 +135,7 @@
         "buildingName": "SPRINGLEAF GARDEN",
         "formattedAddress": "26 SPRINGLEAF WALK\n#1A-12345\nSPRINGLEAF GARDEN\nSINGAPORE (787878)"
       },
-      "appointmentDate": "18/04/2022"
+      "appointmentDate": "18 Apr 2022"
     },
     {
       "name": "Chen Tan",
@@ -151,7 +152,7 @@
         "buildingName": "SPRINGLEAF GARDEN",
         "formattedAddress": "26 SPRINGLEAF WALK\n#1A-12345\nSPRINGLEAF GARDEN\nSINGAPORE (787878)"
       },
-      "appointmentDate": "18/04/2022",
+      "appointmentDate": "18 Apr 2022",
       "disqualificationText": "DQ – This individual has been disqualified from acting as a director of this company from 01 JAN 2024.",
       "debarredText": "DB- This individual has been debarred/prohibited from being appointed as a director of any new company from 01 JAN 2024."
     },
@@ -170,7 +171,7 @@
         "buildingName": "SPRINGLEAF GARDEN",
         "formattedAddress": "26 SPRINGLEAF WALK\n#1A-12345\nSPRINGLEAF GARDEN\nSINGAPORE (787878)"
       },
-      "appointmentDate": "18/04/2022",
+      "appointmentDate": "18 Apr 2022",
       "altDirectors": [
         {
           "name": "Andy Chen",
@@ -187,7 +188,7 @@
             "buildingName": "SPRINGLEAF GARDEN",
             "formattedAddress": "26 SPRINGLEAF WALK\n#1A-12345\nSPRINGLEAF GARDEN\nSINGAPORE (787878)"
           },
-          "appointmentDate": "18/04/2023",
+          "appointmentDate": "18 Apr 2023",
           "disqualificationText": "DQ – This individual has been disqualified from acting as a director of this company from 01 JAN 2024.",
           "debarredText": "DB- This individual has been debarred/prohibited from being appointed as a director of any new company from 01 JAN 2024."
         }
@@ -202,7 +203,7 @@
         "type": "invalid",
         "invalidReason": "Address is unavailable"
       },
-      "appointmentDate": "26/04/2022",
+      "appointmentDate": "26 Apr 2022",
       "isNominee": true
     }
   ],
@@ -211,7 +212,7 @@
       "name": "JOHN DOH",
       "id": "S1111608D",
       "nationality": "SINGAPORE CITIZEN",
-      "addressChanged": "12/07/2021",
+      "addressChanged": "12 Jul 2021",
       "address": {
         "type": "local",
         "streetName": "WOODLANDS STREET 11",
@@ -230,7 +231,7 @@
       "name": "JOHN LOH",
       "id": "S1111608D",
       "nationality": "SINGAPORE CITIZEN",
-      "addressChanged": "12/07/2021",
+      "addressChanged": "12 Jul 2021",
       "address": {
         "type": "local",
         "streetName": "WOODLANDS STREET 11",
@@ -249,7 +250,7 @@
       "name": "JOHN TAN",
       "id": "S2222608D",
       "nationality": "SINGAPORE CITIZEN",
-      "addressChanged": "12/07/2021",
+      "addressChanged": "12 Jul 2021",
       "address": {
         "type": "local",
         "streetName": "MARSLING STREET 11",
@@ -266,7 +267,75 @@
       "isNominee": true
     }
   ],
+  "liquidators": [
+    {
+      "name": "HELANA",
+      "id": "F1110998P",
+      "nationality": "BELGIAN",
+      "address": {
+        "type": "local",
+        "streetName": "ANSON ROAD",
+        "floor": "10",
+        "unit": "10",
+        "postalCode": "079903",
+        "houseNumber": "10",
+        "buildingName": "INTERNATIONAL PLAZA",
+        "formattedAddress": "10 ANSON ROAD\n#10-10\nINTERNATIONAL PLAZA\nSINGAPORE (079903)"
+      }
+    }
+  ],
+  "provisionalLiquidators": [
+    {
+      "name": "HELANA",
+      "id": "F1110998P",
+      "nationality": "BELGIAN",
+      "address": {
+        "type": "local",
+        "streetName": "ANSON ROAD",
+        "floor": "10",
+        "unit": "10",
+        "postalCode": "079903",
+        "houseNumber": "10",
+        "buildingName": "INTERNATIONAL PLAZA",
+        "formattedAddress": "10 ANSON ROAD\n#10-10\nINTERNATIONAL PLAZA\nSINGAPORE (079903)"
+      }
+    }
+  ],
+  "receivers": [
+    {
+      "name": "HELANA",
+      "id": "F1110998P",
+      "nationality": "BELGIAN",
+      "address": {
+        "type": "local",
+        "streetName": "ANSON ROAD",
+        "floor": "10",
+        "unit": "10",
+        "postalCode": "079903",
+        "houseNumber": "10",
+        "buildingName": "INTERNATIONAL PLAZA",
+        "formattedAddress": "10 ANSON ROAD\n#10-10\nINTERNATIONAL PLAZA\nSINGAPORE (079903)"
+      }
+    }
+  ],
+  "judicialManagers": [
+    {
+      "name": "HELANA",
+      "id": "F1110998P",
+      "nationality": "BELGIAN",
+      "address": {
+        "type": "local",
+        "streetName": "ANSON ROAD",
+        "floor": "10",
+        "unit": "10",
+        "postalCode": "079903",
+        "houseNumber": "10",
+        "buildingName": "INTERNATIONAL PLAZA",
+        "formattedAddress": "10 ANSON ROAD\n#10-10\nINTERNATIONAL PLAZA\nSINGAPORE (079903)"
+      }
+    }
+  ],
   "receiptNumber": "ACRA220418101407",
-  "receiptDate": "23/10/2014",
+  "receiptDate": "23 Oct 2014",
   "signatureName": "TAN YONG TAT"
 }
