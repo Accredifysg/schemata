@@ -403,6 +403,9 @@
             "properties": {
               "addressChanged": {
                 "$ref": "#/definitions/date"
+              },
+              "isNominee": {
+                "$ref": "#/definitions/isNominee"
               }
             }
           }
