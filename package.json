@@ -43,7 +43,7 @@
     "eslint-plugin-svelte": "^2.35.1",
     "git-cz": "^3.3.0",
     "husky": "^9.0.11",
-    "jest": "^24.9.0",
+    "jest": "^30.3.0",
     "jsonld": "^5.2.0",
     "lodash": "^4.17.21",
     "mkdirp": "^1.0.4",
