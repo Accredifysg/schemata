@@ -43,7 +43,7 @@
     "eslint-plugin-svelte": "^2.35.1",
     "git-cz": "^3.3.0",
     "husky": "^9.0.11",
-    "jest": "^24.9.0",
+    "jest": "^30.4.2",
     "jsonld": "^5.2.0",
     "lodash": "^4.17.21",
     "mkdirp": "^1.0.4",
@@ -54,7 +54,7 @@
     "rollup-plugin-commonjs": "^10.1.0",
     "semantic-release": "^22.0.12",
     "svelte": "^4.2.12",
-    "ts-jest": "^24.3.0",
+    "ts-jest": "^29.4.11",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.2"
   },
